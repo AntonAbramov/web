@@ -1,0 +1,25 @@
+.table {
+	display:table;
+	width:100%;
+	margin:0 0 20px;
+}
+.thead{
+	display:table-header-group;
+}
+.tfoot {
+	display:table-footer-group;
+}
+.tbody {
+	display:table-row-group;
+}
+.tr {
+	display: table-row;
+}
+.td {
+	display: table-cell;
+}
+.th {
+	font-weight:bold;
+	display:table-cell;
+	text-align:center;
+}

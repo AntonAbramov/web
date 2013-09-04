@@ -1,0 +1,209 @@
+#slides {
+	display: none;
+	position:relative;
+	> div span{
+		display:block;
+		width:100%;
+		background:rgba(0,0,0,.6);
+		position:absolute;
+		bottom:45px;
+		left:0;
+		padding:1% 6%;
+		color:#fff;
+		font-size:14px;
+		line-height:18px;
+		font-weight:300;
+		font-style:italic;
+		font-family: 'Roboto';
+	}
+}
+
+#slides .slidesjs-navigation {
+	margin-top: 3px;
+}
+
+#slides .slidesjs-previous {
+	margin-right: 5px;
+	float: left;
+}
+
+#slides .slidesjs-next {
+	margin-right: 5px;
+	float: left;
+}
+
+.slidesjs-pagination {
+	 bottom: 10px;
+    position: absolute;
+    text-align: center;
+    z-index: 10;
+	left:50%;
+	height:12px;
+}
+
+.slidesjs-pagination li {
+	display:inline-block;
+	margin: 0 3px;
+}
+
+.slidesjs-pagination li a {
+	display: block;
+	width: 9px;
+	height: 9px;
+	background:#fff;
+	border-radius:10px;
+	@include transition(none);
+	text-indent:-9999em;
+	outline: none;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+	background:#646155;
+}
+
+.slidesjs-pagination li a:hover {
+	background:#646155;
+}
+
+.navbar {
+	overflow: hidden
+}
+
+#slides {
+	display: none
+}
+
+.container {
+	margin: 0 auto
+}
+
+/* For tablets & smart phones */
+@media (max-width: 767px) {
+	.container {
+		width: auto
+	}
+}
+
+/* For smartphones */
+@media (max-width: 480px) {
+	.container {
+		width: auto
+	}
+}
+
+/* For smaller displays like laptops */
+@media (min-width: 768px) and (max-width: 979px) {
+	.container {
+		width: 724px
+	}
+}
+
+/* For larger displays */
+@media (min-width: 1200px) {
+	.container {
+		width: 1170px
+	}
+}
+
+
+
+
+/* CARUSEL */
+.jcarousel-skin-tango {margin:0 0 30px;overflow:hidden; /* тут поставь высоту что бы при отключенных скриптах не плыло  */}
+.jcarousel-skin-tango li {float:left;}
+.jcarousel-skin-tango .jcarousel-container {
+
+}
+.jcarousel-skin-tango .jcarousel-direction-rtl {
+    direction: rtl;
+}
+.jcarousel-skin-tango .jcarousel-container-horizontal {
+    padding: 0px 40px;
+}
+.jcarousel-skin-tango .jcarousel-clip {
+    overflow: hidden;
+}
+.jcarousel-skin-tango .jcarousel-clip-horizontal {
+    height: 100px;
+}
+.jcarousel-skin-tango .jcarousel-item {
+    width: 100px;
+    height: 100px;
+}
+.jcarousel-skin-tango .jcarousel-item-horizontal {
+    margin-left: 0;
+}
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-item-horizontal {
+    margin-right: 0;
+}
+.jcarousel-skin-tango .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-tango .jcarousel-next-horizontal {
+    position: absolute;
+    top: 28px;
+    right: 15px;
+    width: 20px;
+    height: 43px;
+    cursor: pointer;
+    background: url(../img/arrow-right.png) no-repeat;
+}
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-next-horizontal {
+    left: 5px;
+    right: auto;
+    background-image: url(../img/arrow-right.png);
+}
+
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 28px;
+    left: 5px;
+    width: 20px;
+    height: 43px;
+    cursor: pointer;
+    background:url(../img/arrow-left.png) no-repeat;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-prev-horizontal {
+    left: auto;
+    right: 5px;
+    background-image: url(../img/arrow-right.png);
+}
+
+
+
+ /* CARUSEL */
+
+.content-galery-small {
+	display:none;
+	.big-pic {
+		float:left;
+		width:48%;
+	}
+	.photo-galery {
+		float:right;
+		width:48%;
+		li{
+			position:relative;
+			height:170px;
+			overflow:hidden;
+			padding:0;
+			a {
+				width:70px;
+				height:70px;
+				margin-top:5px;
+				&:last-child {
+					bottom: -10px;
+					left: 95px;
+					position: absolute;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,29 @@
+/*========================================
+  Global variables
+==========================================*/
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,700,300&subset=latin,cyrillic-ext,cyrillic);
+//@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,700,500italic,700italic,100&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300italic,300,100,100italic,400italic,500,700,700italic&subset=latin,cyrillic-ext,cyrillic,latin-ext);
+$font-size: 87.5%; /* 14px=1em=87.5% */
+$line-height:  1.428em; /* 18px */
+$bg: #fff;
+$text-color: #656c77;
+$font-family: 'Roboto', Arial, Helvetica, sans-serif;
+$color-link: #272e37;
+$color-link-hover: #87191a;
+$page-width: 960;
+
+
+
+
+
+
+
+
+
+@mixin transition($prp:all, $time:.3s) {
+	-webkit-transition: $prp $time ease-in-out;
+	-moz-transition: $prp $time ease-in-out;
+	-o-transition: $prp $time ease-in-out;
+	transition: $prp $time ease-in-out;
+}

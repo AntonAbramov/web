@@ -394,3 +394,40 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+
+@font-face {
+	font-family: 'helvetica-thin';
+	src: url('font/helveticaneuecyr-thin.otf-webfont.eot');
+	src: url('font/helveticaneuecyr-thin.otf-webfont.eot?#iefix') format('embedded-opentype'), url('font/helveticaneuecyr-thin.otf-webfont.woff') format('woff'), url('font/helveticaneuecyr-thin.otf-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'helvetica-medium';
+	src: url('font/helveticaneuecyr-medium.otf-webfont.eot');
+	src: url('font/helveticaneuecyr-medium.otf-webfont.eot?#iefix') format('embedded-opentype'), url('font/helveticaneuecyr-medium.otf-webfont.woff') format('woff'), url('font/helveticaneuecyr-medium.otf-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'helvetica-bold';
+	src: url('font/helveticaneuecyr-bold.otf-webfont.eot');
+	src: url('font/helveticaneuecyr-bold.otf-webfont.eot?#iefix') format('embedded-opentype'), url('font/helveticaneuecyr-bold.otf-webfont.woff') format('woff'), url('font/helveticaneuecyr-bold.otf-webfont.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'helvetica-light';
+	src: url('font/helveticaneuecyr-light.otf-webfont.eot');
+	src: url('font/helveticaneuecyr-light.otf-webfont.eot?#iefix') format('embedded-opentype'), url('font/helveticaneuecyr-light.otf-webfont.woff') format('woff'), url('font/helveticaneuecyr-light.otf-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+
+}

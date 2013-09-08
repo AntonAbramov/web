@@ -10,15 +10,19 @@
 //Layout
 @import "layouts/layout";
 @import "layouts/grid";
-@import "layouts/adaptive";
+//elements
 @import "elements/header";
 @import "elements/footer";
+@import "elements/sidebar";
 @import "elements/nav";
-
-//elements
+@import "elements/tabs";
 @import "elements/tables";
 @import "elements/slider";
+@import "elements/buttons";
+@import "elements/form";
+
+@import "elements/filter-catalog";
 //main
 @import "main";
-
+@import "layouts/adaptive";
 

@@ -1,12 +1,15 @@
 #sv-header {
-
+	min-width: 960px;
+	margin:0 auto;
+	position: relative;
+	z-index: 2;
 	.header-top {
-		height:35px;
+		height: 35px;
 		line-height: 35px;
 		max-width: 1280px;
-		margin:0 auto;
+		margin: 0 auto;
 		min-width: 960px;
-		padding:0 10px;
+		padding: 0 10px;
 		overflow: hidden;
 		.wellcome {
 			a {
@@ -15,134 +18,315 @@
 		}
 		.header-inteactive {
 			li {
-				float:left;
-				margin-left:25px;
+				float: left;
+				margin-left: 25px;
 				a {
-					color:#000;
+					color: #000;
 				}
 				&.cart {
 					a {
 						.icons {
 							position: relative;
-							top:9px;
-							margin-right:7px;
+							top: 9px;
+							margin-right: 7px;
 						}
 					}
 				}
 			}
 		}
 		.currency {
-			margin-left:50px;
+			margin-left: 50px;
 			a {
-				width:50px;
-				text-align:center;
+				width: 50px;
+				text-align: center;
 				font-weight: bold;
 				display: inline-block;
-				color:#000;
+				color: #000;
 				&:hover {
 					text-decoration: none;
 				}
 				&:first-child {
-					border-right:1px solid #fff;
+					border-right: 1px solid #fff;
 				}
 				&.active {
 					background: #ebebeb;
 					font-weight: normal;
-					border-bottom:1px solid #ff5400;
+					border-bottom: 1px solid #ff5400;
+					cursor: default;
 				}
 			}
 		}
 	}
 	.header-mid {
-		height:100px;
-		background:#fff;
+		height: 100px;
+		background: #fff;
+		min-width: 960px;
 		.header-mid-inn {
 			min-width: 960px;
-			padding:0 10px;
+			padding: 0 10px;
 			max-width: 1280px;
-			margin:0 auto;
+			margin: 0 auto;
 			.logo {
-				float:left;
-				width:300px;
+				float: left;
+				width: 300px;
 				text-align: center;
 				a {
-					display:inline-block;
-					margin:25px auto 0;
+					display: inline-block;
+					margin: 25px auto 0;
 					img {
 						display: block;
 					}
 				}
 			}
 			.search {
-				float:left;
+				margin:0 340px 0 300px;
+				.search-top-block {
+					height: 39px;
+					line-height: 39px;
+					font-size: 15px;
+					overflow: hidden;
+					margin-right:-100px;
+					.tel {
+						color: #065481;
+						font-weight: bold;
+						span {
+							color: #000;
+							font-weight: normal;
+						}
+					}
+				}
+				.search-mid-block {
+					overflow:hidden;
+					.search-container {
+						height:35px;
+						position:relative;
+						.search-input {
+							height: 35px;
+							border: 1px solid #c3c3c3;
+							background: #f7f7f7;
+							input[type='search'] {
+								height: 100%;
+								padding: 0;
+								border: none;
+								background: #f7f7f7;
+								width: 87%;
+								text-indent: 15px;
+								font-size: 14px;
+								padding-right: 15px;
+							}
+							input[type='submit'] {
+								border: medium none;
+								color: #000000;
+								display: block;
+								float: right;
+								font-size: 11px;
+								height: 100%;
+								text-shadow: 0 1px 0 #fff;
+								width: 13%;
+								border-left: 1px solid #c3c3c3;
+
+								background: #e9e9e9; /* Old browsers */
+								background: -moz-linear-gradient(top, #e9e9e9 0%, #acacac 100%); /* FF3.6+ */
+								background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e9e9e9), color-stop(100%, #acacac)); /* Chrome,Safari4+ */
+								background: -webkit-linear-gradient(top, #e9e9e9 0%, #acacac 100%); /* Chrome10+,Safari5.1+ */
+								background: -o-linear-gradient(top, #e9e9e9 0%, #acacac 100%); /* Opera 11.10+ */
+								background: -ms-linear-gradient(top, #e9e9e9 0%, #acacac 100%); /* IE10+ */
+								background: linear-gradient(to bottom, #e9e9e9 0%, #acacac 100%); /* W3C */
+								filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9e9e9', endColorstr='#acacac', GradientType=0); /* IE6-9 */
+								&:hover, &:focus {
+									background: #acacac; /* Old browsers */
+									background: -moz-linear-gradient(top, #acacac 0%, #e9e9e9 100%); /* FF3.6+ */
+									background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #acacac), color-stop(100%, #e9e9e9)); /* Chrome,Safari4+ */
+									background: -webkit-linear-gradient(top, #acacac 0%, #e9e9e9 100%); /* Chrome10+,Safari5.1+ */
+									background: -o-linear-gradient(top, #acacac 0%, #e9e9e9 100%); /* Opera 11.10+ */
+									background: -ms-linear-gradient(top, #acacac 0%, #e9e9e9 100%); /* IE10+ */
+									background: linear-gradient(to bottom, #acacac 0%, #e9e9e9 100%); /* W3C */
+									filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#acacac', endColorstr='#e9e9e9', GradientType=0); /* IE6-9 */
+
+								}
+							}
+						}
+					}
+
+					.search-discription {
+						font-size: 12px;
+					}
+				}
+
+
+
 			}
 			.cart-section {
-				float:right;
-				width:330px;
-				position:relative;
-				margin-top:35px;
-				padding-left:30px;
+				float: right;
+				width: 310px;
+				position: relative;
+				margin-top: 35px;
+				padding-left: 30px;
+
 				&:after {
-					content:"";
-					background:#c9c9c9;
-					width:1px;
+					content: "";
+					background: #c9c9c9;
+					width: 1px;
 					position: absolute;
-					left:0;
-					top:2px;
-					height:45px;
+					left: 0;
+					top: 0;
+					height: 45px;
 				}
 
 				.request {
-					width:150px;
-					float:left;
-					margin-right:20px;
-					a{
-						display:block;
-						height:28px;
-						line-height:26px;
-						border:1px solid #095f90;
-						text-align:center;
-						color:#fff;
+					width: 140px;
+					float: left;
+					margin-right: 20px;
+					a {
+						display: block;
+						height: 28px;
+						line-height: 26px;
+						border: 1px solid #095f90;
+						text-align: center;
+						color: #fff;
 						background: #0d75b0; /* Old browsers */
-						background: -moz-linear-gradient(top,  #0d75b0 0%, #0d75b0 100%); /* FF3.6+ */
-						background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0d75b0), color-stop(100%,#0d75b0)); /* Chrome,Safari4+ */
-						background: -webkit-linear-gradient(top,  #0d75b0 0%,#0d75b0 100%); /* Chrome10+,Safari5.1+ */
-						background: -o-linear-gradient(top,  #0d75b0 0%,#0d75b0 100%); /* Opera 11.10+ */
-						background: -ms-linear-gradient(top,  #0d75b0 0%,#0d75b0 100%); /* IE10+ */
-						background: linear-gradient(to bottom,  #0d75b0 0%,#0d75b0 100%); /* W3C */
-						filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d75b0', endColorstr='#0d75b0',GradientType=0 ); /* IE6-9 */
+						background: -moz-linear-gradient(top, #0d75b0 0%, #0d75b0 100%); /* FF3.6+ */
+						background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0d75b0), color-stop(100%, #0d75b0)); /* Chrome,Safari4+ */
+						background: -webkit-linear-gradient(top, #0d75b0 0%, #0d75b0 100%); /* Chrome10+,Safari5.1+ */
+						background: -o-linear-gradient(top, #0d75b0 0%, #0d75b0 100%); /* Opera 11.10+ */
+						background: -ms-linear-gradient(top, #0d75b0 0%, #0d75b0 100%); /* IE10+ */
+						background: linear-gradient(to bottom, #0d75b0 0%, #0d75b0 100%); /* W3C */
+						filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0d75b0', endColorstr='#0d75b0', GradientType=0); /* IE6-9 */
 
 					}
 
 				}
 				.cart {
-					height:45px;
-					border:1px solid #e6e6e6;
-					float:left;
-					width:120px;
-					position:relative;
-					//padding:8px;
+					height: 45px;
+					border: 1px solid #e6e6e6;
+					float: left;
+					width: 120px;
+					position: relative;
 					.cart-title {
 						cursor: pointer;
-						padding-left:5px;
+						padding-left: 5px;
+						&.opened {
+							> div {
+								strong {
+									.icons {
+										@include icons-sprite(arrow-closed);
+									}
+								}
+							}
+						}
 						> div {
-							padding:8px 0;
-							margin:0 auto;
-							width:70px;
-							line-height:14px;
-							height:43px;
+							padding: 8px 0;
+							margin: 0 auto;
+							width: 70px;
+							line-height: 14px;
+							height: 43px;
 							strong {
-								display:block;
-								color:#000;
+								display: block;
+								color: #000;
 								position: relative;
 								.icons {
 									position: absolute;
-									left:-15px;
-									top:4px;
+									left: -15px;
+									top: 2px;
 								}
 							}
 						}
 
+					}
+					.cart-content {
+						width:308px;
+						box-shadow:0 5px 10px 0 rgba(0,0,0, .7);
+						position: absolute;
+						top:44px;
+						right:0;
+						display: none;
+						.icons-delete-button {
+							position: absolute;
+							left:-19px;
+							top:-19px;
+							cursor: pointer;
+							z-index: 2;
+						}
+						.item-holder {
+							padding:10px 0 10px 15px;
+							background: #f5f6f7;
+							border-top:1px solid #dfe5eb;
+							&:first-child {
+								border-top:none;
+							}
+							&.color2 {
+								background: #fff;
+							}
+						}
+						.item-section {
+							display:table;
+							width:100%;
+						}
+						.item {
+							display:table-row;
+							height:50px;
+
+
+							.item-pic {
+								display:table-cell;
+								height:50px;
+								width:50px;
+								background: #fff;
+								border:1px solid #c0c0c0;
+								text-align:center;
+								line-height:50px;
+								margin-right:10px;
+								vertical-align: middle;
+								text-align:center;
+								a {
+									img {
+										vertical-align: middle;
+									}
+								}
+							}
+							.item-name {
+								display:table-cell;
+								line-height: 20px;
+								color:#212121;
+								width:135px;
+								padding:5px 10px;
+								margin-right:10px;vertical-align: middle;
+							}
+							.item-price {
+								display:table-cell;
+								font-weight: bold;
+								line-height: 20px;
+								font-size: 13px;
+								color:#000;vertical-align: middle;
+								width:50px;
+							}
+							.item-delete {
+								display:table-cell;
+								vertical-align: middle;
+								width:30px;
+								span {
+									cursor: pointer;
+								}
+							}
+						}
+						.cart-bottom {
+							background: none repeat scroll 0 0 #0D6A9F;
+							border-bottom-left-radius: 5px;
+							border-bottom-right-radius: 5px;
+							border-top: 2px solid #0A557F;
+							margin-top: -5px;
+							padding: 3px 15px 5px;
+							position: relative;
+							top: 5px;
+							.total {
+								color:#fff;
+								float:right;
+								font-weight:bold;
+								font-size:15px;
+								line-height:30px;
+								height:30px;
+							}
+						}
 					}
 				}
 

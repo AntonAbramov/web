@@ -1,0 +1,175 @@
+.white-block {
+	position:relative;
+	padding:20px 15px 15px;
+	background: #fff;
+	margin-bottom:10px;
+}
+.blue-bullet {
+	margin-bottom:20px;
+	li {
+		padding-left:20px;
+		position: relative;
+		margin-bottom:5px;
+		&:before {
+			content:"";
+			@include icons-sprite(list-arrow);
+			height:10px;
+			width:10px;
+			position: absolute;
+			left:0;
+			top:3px;
+		}
+	}
+}
+.helvetica-tin  {
+	font-family: helvetica-thin;
+}
+.helvetica-mid  {
+	font-family: helvetica-medium;
+}
+.helvetica-bold  {
+	font-family: helvetica-bold;
+}
+.s20 {
+	font-size:20px;
+	line-height:1;
+}
+.s21 {
+	font-size:21px;
+	line-height:1;
+}
+.s22 {
+	font-size:22px;
+	line-height:1;
+}
+.s23 {
+	font-size:23px;
+	line-height:1;
+}
+.s24 {
+	font-size:24px;
+	line-height:1;
+}
+.s25 {
+	font-size:25px;
+	line-height:1;
+}
+.s26 {
+	font-size:26px;
+	line-height:1;
+}
+.s27 {
+	font-size:27px;
+	line-height:1;
+}
+
+.white-block {
+	.s27.helvetica-tin {
+		color:#0e709d;
+	}
+	.s22.helvetica-mid {
+		color:#000;
+	}
+	.s24.helvetica-mid {
+		color:#000;
+	}
+}
+
+.partners-section {
+	text-align: center;
+	img {
+		display:inline-block;
+		margin:0 10px 5px 0
+	}
+}
+.title {
+	font-size:20px;
+	font-family: helvetica-bold;
+	&.orange {
+		color:#ff5400;
+	}
+}
+
+.brand-parts {
+	background: #fff;
+	border:1px solid #d6d6d6;
+	border-top:none;
+	padding:20px 20px 5px;
+	margin:0 0 10px;
+
+	.brand-section {
+		table {
+			width:100%;
+			tr {
+				td {
+					padding:5px 0;
+					text-align:center;
+					img {
+						max-width: 100%;
+						max-height: 100%;
+					}
+				}
+			}
+		}
+	}
+	&.closed {
+		.icons {
+			@include icons-sprite(arrow-closed);
+		}
+		.brand-section {
+			display:none;
+		}
+	}
+}
+.triger-brand {
+	cursor: pointer;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-o-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	.icons {
+		top:-4px;
+		position: relative;
+	}
+}
+.popular-shop {
+	background: #fff;
+	border:1px solid #d6d6d6;
+	padding:20px;
+	margin:0 0 10px;
+	.shop-section {
+		margin:0 -10px;
+		.shop {
+			float: left;
+			margin: 0 10px 20px;
+			width: 294px;
+			.logo-holder {
+				margin:0 0 10px;
+				img {
+					display:block;
+					width:100%;
+				}
+			}
+			.shop-discription {
+				.icons {
+					float:right;
+					position: relative;
+					top:3px;
+				}
+				strong {
+					display:block;
+				}
+				a {
+					display:block;
+				}
+			}
+		}
+	}
+}
+
+.white-section {
+	padding:20px;
+	background: #fff;
+}

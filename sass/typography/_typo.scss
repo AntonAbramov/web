@@ -14,7 +14,7 @@ h4 { font-size: 1.2em; margin-bottom: 1.25em; }
 h5 { font-size: 1em; font-weight: bold; margin-bottom: 1.5em; }
 h6 { font-size: 1em; font-weight: bold; }
 
-p { margin: 0 0 1em; font-family: 'Roboto'; }
+p { margin: 0 0 15px;  }
 
 a {
 	color: $color-link;
@@ -22,10 +22,6 @@ a {
 	text-decoration:none;
 	&:hover, &:focus {
 		color: $color-link-hover;
-		text-decoration:underline;
-	}
-	&:focus {
-		text-decoration:underline;
 	}
 }
 ul, ol { margin: 0; padding-left: 0; }

@@ -1,20 +1,9 @@
 #slides {
 	display: none;
 	position:relative;
-	> div span{
-		display:block;
+	img {
 		width:100%;
-		background:rgba(0,0,0,.6);
-		position:absolute;
-		bottom:45px;
-		left:0;
-		padding:1% 6%;
-		color:#fff;
-		font-size:14px;
-		line-height:18px;
-		font-weight:300;
-		font-style:italic;
-		font-family: 'Roboto';
+		display:block;
 	}
 }
 
@@ -33,12 +22,13 @@
 }
 
 .slidesjs-pagination {
-	 bottom: 10px;
+	bottom: 10px;
     position: absolute;
     text-align: center;
     z-index: 10;
-	left:50%;
-	height:12px;
+	right:0;
+	height:10px;
+	margin-right:15px;
 }
 
 .slidesjs-pagination li {
@@ -48,22 +38,38 @@
 
 .slidesjs-pagination li a {
 	display: block;
-	width: 9px;
-	height: 9px;
+	width: 10px;
+	height: 10px;
 	background:#fff;
 	border-radius:10px;
 	@include transition(none);
 	text-indent:-9999em;
 	outline: none;
+	border:1px solid #43a6c7;
+	background: #287a9f; /* Old browsers */
+	background: -moz-linear-gradient(top,  #287a9f 0%, #13688d 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#287a9f), color-stop(100%,#13688d)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #287a9f 0%,#13688d 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #287a9f 0%,#13688d 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #287a9f 0%,#13688d 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #287a9f 0%,#13688d 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#287a9f', endColorstr='#13688d',GradientType=0 ); /* IE6-9 */
+
 }
 
 .slidesjs-pagination li a.active,
-.slidesjs-pagination li a:hover.active {
-	background:#646155;
-}
-
+.slidesjs-pagination li a:hover.active,
 .slidesjs-pagination li a:hover {
-	background:#646155;
+	border-color:#ff7835;
+	background: #ff5400; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ff5400 0%, #bc3e00 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff5400), color-stop(100%,#bc3e00)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ff5400 0%,#bc3e00 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ff5400 0%,#bc3e00 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ff5400 0%,#bc3e00 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ff5400 0%,#bc3e00 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5400', endColorstr='#bc3e00',GradientType=0 ); /* IE6-9 */
+
 }
 
 .navbar {

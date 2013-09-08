@@ -1,0 +1,28 @@
+// header
+
+@media (max-width: 1300px)  {
+	#sv-header {
+		.header-mid {
+			.header-mid-inn {
+				.search {
+					.search-mid-block {
+						.search-discription {
+							line-height: 14px;
+							margin-top: 2px;
+						}
+					}
+				}
+
+			}
+		}
+	} //end #sv-header
+	.right-side-bar {
+		position: static;
+		width:auto;
+		margin-left:300px;
+		width:650px;
+	}
+}
+@media (min-width: 1300px)  {
+
+}

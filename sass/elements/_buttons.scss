@@ -1,0 +1,25 @@
+.btn {
+	display:inline-block;
+	&.medium {
+		height:35px;
+		line-height:33px;
+		font-size:14px;
+		padding:0 15px;
+	}
+	&.small {
+		line-height:28px;
+		height:30px;
+		padding:0 10px;
+		font-size:14px;
+	}
+	&.orange {
+		background:#ff5400;
+		border:1px solid #c84200;
+		color:#fff;
+	}
+	&.blue {
+		background:#44a4d5;
+		border:1px solid #2a85b4;
+		color:#fff;
+	}
+}

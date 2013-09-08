@@ -1,0 +1,53 @@
+.right-side-bar  {
+	.shop-catalog {
+		padding:30px 30px 20px;
+		background: #3a98c7;
+	}
+
+	.side-container {
+		background: #fff;
+		padding:20px 30px;
+		.btn.blue.medium {
+			.icons {
+				position: relative;
+				top:12px;
+				margin-right:5px;
+			}
+		}
+		.popupal-brands {
+			margin:0 -20px 0 -5px;
+			.tr {
+				> .td {
+					padding:5px;
+					height:74px;
+					width:74px;
+					border-radius:5px;
+					vertical-align: top;
+					.td {
+						padding:8px;
+						border:1px solid #b8d1db;
+						height:64px;
+						width:64px;
+						vertical-align: middle;
+						text-align: center;
+						border-radius: 5px;
+						line-height:1;
+						background: #ffffff; /* Old browsers */
+						background: -moz-linear-gradient(top,  #ffffff 0%, #cfcfcf 100%); /* FF3.6+ */
+						background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#cfcfcf)); /* Chrome,Safari4+ */
+						background: -webkit-linear-gradient(top,  #ffffff 0%,#cfcfcf 100%); /* Chrome10+,Safari5.1+ */
+						background: -o-linear-gradient(top,  #ffffff 0%,#cfcfcf 100%); /* Opera 11.10+ */
+						background: -ms-linear-gradient(top,  #ffffff 0%,#cfcfcf 100%); /* IE10+ */
+						background: linear-gradient(to bottom,  #ffffff 0%,#cfcfcf 100%); /* W3C */
+						filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cfcfcf',GradientType=0 ); /* IE6-9 */
+
+						img {
+							max-width:48px;
+						}
+					}
+				}
+			}
+
+		}
+	}
+}

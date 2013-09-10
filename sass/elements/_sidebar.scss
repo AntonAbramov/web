@@ -10,8 +10,9 @@
 		.btn.blue.medium {
 			.icons {
 				position: relative;
-				top:12px;
 				margin-right:5px;
+				vertical-align: middle;
+				top:-1px;
 			}
 		}
 		.popupal-brands {
@@ -50,4 +51,5 @@
 
 		}
 	}
+
 }

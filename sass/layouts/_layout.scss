@@ -35,6 +35,8 @@ html, body {
 #sv-container {
 	width: 100%;
 	float: left;
+	position: relative;
+	z-index: 1;
 }
 
 #sv-content {
@@ -64,6 +66,8 @@ html, body {
 	float: left;
 	width: 290px;
 	margin-left: -100%;
+	position: relative;
+	z-index: 2;
 }
 
 /*

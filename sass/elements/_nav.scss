@@ -1,12 +1,13 @@
 .side-nav {
-	li {
+	> li {
+		position:relative;
 		&:first-child {
-			a {
+			> a {
 				border-top:none;
 			}
 		}
 		&.active {
-			a {
+			> a {
 				color:#de4900;
 				font-weight:bold;
 				.icons {
@@ -14,7 +15,7 @@
 				}
 			}
 		}
-		a {
+		> a {
 			padding:9px 0 8px;
 			display:block;
 			border-top:1px solid #e0e0e0;
@@ -34,6 +35,42 @@
 				right:12px;
 				top:50%;
 				margin-top:-5px;
+			}
+
+		}
+		&:hover ul {
+			display:block;
+		}
+
+		ul {
+			display:none;
+			position: absolute;
+			left:270px;
+			top:0;
+			background: #fff;
+			padding-left:20px;
+			border:1px solid #e0e0e0;
+			&:hover {
+				display:block;
+			}
+			li {
+				&:first-child {
+					a {
+						border-top:none;
+					}
+				}
+				a {
+					color:#000;
+					padding:9px 20px 8px 0;
+					display:block;
+					border-top:1px solid #e0e0e0;
+					width:250px;
+
+					&:hover {
+						color:#de4900;
+						text-decoration: none;
+					}
+				}
 			}
 		}
 	}

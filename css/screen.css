@@ -2,28 +2,28 @@
 /*========================================
   Global variables
 ==========================================*/
-/* line 130, icons/*.png */
-.icons-sprite, .icons-arrow-closed, .icons-arrow-opened, .icons-bottom_item, .icons-calc, .icons-cart, .icons-close-small, .icons-delete-button, .icons-list-arrow, .icons-menu-arr-right_hover, .icons-menu-arrow-right, .icons-user, .icons-video-arrow, #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-title.opened > div strong .icons, .side-nav > li.active > a .icons, .side-nav > li > a:hover .icons, .blue-bullet li:before, .brand-parts.closed .icons {
+/* line 154, icons/*.png */
+.icons-sprite, .icons-arrow-closed, .icons-arrow-opened, .icons-bottom_item, .icons-calc, .icons-cart, .icons-close-button-gray, .icons-close-small, .icons-delete-button, .icons-icon-password, .icons-icon-user, .icons-list-arrow, .icons-menu-arr-right_hover, .icons-menu-arrow-right, .icons-user, .icons-video-arrow, #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-title.opened > div strong .icons, .side-nav > li.active > a .icons, .side-nav > li > a:hover .icons, .blue-bullet li:before, .brand-parts.closed .icons {
   background: url('../img/icons.png') no-repeat;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-arrow-closed {
-  background-position: 0 -195px;
+  background-position: 0 -251px;
   height: 7px;
   width: 8px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-arrow-opened {
-  background-position: 0 -177px;
+  background-position: 0 -233px;
   height: 8px;
   width: 9px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-bottom_item {
-  background-position: 0 -106px;
+  background-position: 0 -132px;
   height: 29px;
   width: 31px;
 }
@@ -37,14 +37,21 @@
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-cart {
-  background-position: 0 -145px;
+  background-position: 0 -201px;
   height: 14px;
   width: 15px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-close-small {
+.icons-close-button-gray {
   background-position: 0 -67px;
+  height: 26px;
+  width: 25px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-close-small {
+  background-position: 0 -93px;
   height: 21px;
   width: 20px;
 }
@@ -57,36 +64,50 @@
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-icon-password {
+  background-position: 0 -186px;
+  height: 15px;
+  width: 7px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-icon-user {
+  background-position: 0 -161px;
+  height: 15px;
+  width: 15px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-list-arrow {
-  background-position: 0 -135px;
+  background-position: 0 -176px;
   height: 10px;
   width: 10px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-menu-arr-right_hover {
-  background-position: 0 -159px;
+  background-position: 0 -215px;
   height: 9px;
   width: 7px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-menu-arrow-right {
-  background-position: 0 -168px;
+  background-position: 0 -224px;
   height: 9px;
   width: 7px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-user {
-  background-position: 0 -88px;
+  background-position: 0 -114px;
   height: 18px;
   width: 12px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-video-arrow {
-  background-position: 0 -185px;
+  background-position: 0 -241px;
   height: 10px;
   width: 8px;
 }
@@ -790,7 +811,6 @@ html, body {
   margin: 0 auto;
   min-width: 960px;
   padding: 0 10px;
-  overflow: hidden;
 }
 /* line 15, ../sass/elements/_header.scss */
 #sv-header .header-top .wellcome a {
@@ -800,27 +820,29 @@ html, body {
 #sv-header .header-top .header-inteactive li {
   float: left;
   margin-left: 25px;
+  position: relative;
 }
-/* line 23, ../sass/elements/_header.scss */
-#sv-header .header-top .header-inteactive li a {
+/* line 24, ../sass/elements/_header.scss */
+#sv-header .header-top .header-inteactive li > a {
   color: #000;
 }
-/* line 25, ../sass/elements/_header.scss */
-#sv-header .header-top .header-inteactive li a:hover {
+/* line 26, ../sass/elements/_header.scss */
+#sv-header .header-top .header-inteactive li > a:hover {
   text-decoration: underline;
 }
-/* line 30, ../sass/elements/_header.scss */
+/* line 31, ../sass/elements/_header.scss */
 #sv-header .header-top .header-inteactive li .icons.icons-cart {
   vertical-align: middle;
   position: relative;
   margin-right: 7px;
   top: -2px;
 }
-/* line 39, ../sass/elements/_header.scss */
+/* line 40, ../sass/elements/_header.scss */
 #sv-header .header-top .currency {
   margin-left: 50px;
+  height: 35px;
 }
-/* line 41, ../sass/elements/_header.scss */
+/* line 43, ../sass/elements/_header.scss */
 #sv-header .header-top .currency a {
   width: 50px;
   text-align: center;
@@ -828,54 +850,54 @@ html, body {
   display: inline-block;
   color: #000;
 }
-/* line 47, ../sass/elements/_header.scss */
+/* line 49, ../sass/elements/_header.scss */
 #sv-header .header-top .currency a:hover {
   text-decoration: none;
 }
-/* line 50, ../sass/elements/_header.scss */
+/* line 52, ../sass/elements/_header.scss */
 #sv-header .header-top .currency a:first-child {
   border-right: 1px solid #fff;
 }
-/* line 53, ../sass/elements/_header.scss */
+/* line 55, ../sass/elements/_header.scss */
 #sv-header .header-top .currency a.active {
   background: #ebebeb;
   font-weight: normal;
   border-bottom: 1px solid #ff5400;
   cursor: default;
 }
-/* line 62, ../sass/elements/_header.scss */
+/* line 64, ../sass/elements/_header.scss */
 #sv-header .header-mid {
   height: 100px;
   background: #fff;
   min-width: 960px;
 }
-/* line 66, ../sass/elements/_header.scss */
+/* line 68, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn {
   min-width: 960px;
   padding: 0 10px;
   max-width: 1280px;
   margin: 0 auto;
 }
-/* line 71, ../sass/elements/_header.scss */
+/* line 73, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .logo {
   float: left;
   width: 300px;
   text-align: center;
 }
-/* line 75, ../sass/elements/_header.scss */
+/* line 77, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .logo a {
   display: inline-block;
   margin: 25px auto 0;
 }
-/* line 78, ../sass/elements/_header.scss */
+/* line 80, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .logo a img {
   display: block;
 }
-/* line 83, ../sass/elements/_header.scss */
+/* line 85, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .search {
   margin: 0 340px 0 300px;
 }
-/* line 85, ../sass/elements/_header.scss */
+/* line 87, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .search .search-top-block {
   height: 39px;
   line-height: 39px;
@@ -883,32 +905,32 @@ html, body {
   overflow: hidden;
   margin-right: -100px;
 }
-/* line 91, ../sass/elements/_header.scss */
+/* line 93, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .search .search-top-block .tel {
   color: #065481;
   font-weight: bold;
 }
-/* line 94, ../sass/elements/_header.scss */
+/* line 96, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .search .search-top-block .tel span {
   color: #000;
   font-weight: normal;
 }
-/* line 100, ../sass/elements/_header.scss */
+/* line 102, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .search .search-mid-block {
   overflow: hidden;
 }
-/* line 102, ../sass/elements/_header.scss */
+/* line 104, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .search .search-mid-block .search-container {
   height: 35px;
   position: relative;
 }
-/* line 105, ../sass/elements/_header.scss */
+/* line 107, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .search .search-mid-block .search-container .search-input {
   height: 35px;
   border: 1px solid #c3c3c3;
   background: #f7f7f7;
 }
-/* line 109, ../sass/elements/_header.scss */
+/* line 111, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .search .search-mid-block .search-container .search-input input[type='search'] {
   height: 100%;
   padding: 0;
@@ -919,7 +941,7 @@ html, body {
   font-size: 14px;
   padding-right: 15px;
 }
-/* line 119, ../sass/elements/_header.scss */
+/* line 121, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .search .search-mid-block .search-container .search-input input[type='submit'] {
   border: medium none;
   color: #000000;
@@ -947,7 +969,7 @@ html, body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9e9e9', endColorstr='#acacac', GradientType=0);
   /* IE6-9 */
 }
-/* line 138, ../sass/elements/_header.scss */
+/* line 140, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .search .search-mid-block .search-container .search-input input[type='submit']:hover, #sv-header .header-mid .header-mid-inn .search .search-mid-block .search-container .search-input input[type='submit']:focus {
   background: #acacac;
   /* Old browsers */
@@ -966,11 +988,11 @@ html, body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#acacac', endColorstr='#e9e9e9', GradientType=0);
   /* IE6-9 */
 }
-/* line 153, ../sass/elements/_header.scss */
+/* line 155, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .search .search-mid-block .search-discription {
   font-size: 12px;
 }
-/* line 161, ../sass/elements/_header.scss */
+/* line 163, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section {
   float: right;
   width: 310px;
@@ -978,7 +1000,7 @@ html, body {
   margin-top: 35px;
   padding-left: 30px;
 }
-/* line 168, ../sass/elements/_header.scss */
+/* line 170, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section:after {
   content: "";
   background: #c9c9c9;
@@ -988,13 +1010,13 @@ html, body {
   top: 0;
   height: 45px;
 }
-/* line 178, ../sass/elements/_header.scss */
+/* line 180, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .request {
   width: 140px;
   float: left;
   margin-right: 20px;
 }
-/* line 182, ../sass/elements/_header.scss */
+/* line 184, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .request a {
   display: block;
   height: 28px;
@@ -1019,7 +1041,7 @@ html, body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0d75b0', endColorstr='#0d75b0', GradientType=0);
   /* IE6-9 */
 }
-/* line 201, ../sass/elements/_header.scss */
+/* line 203, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart {
   height: 45px;
   border: 1px solid #e6e6e6;
@@ -1027,16 +1049,16 @@ html, body {
   width: 120px;
   position: relative;
 }
-/* line 207, ../sass/elements/_header.scss */
+/* line 209, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-title {
   cursor: pointer;
   padding-left: 5px;
 }
-/* line 213, ../sass/elements/_header.scss */
+/* line 215, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-title.opened > div strong .icons {
-  background-position: 0 -195px;
+  background-position: 0 -251px;
 }
-/* line 219, ../sass/elements/_header.scss */
+/* line 221, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-title > div {
   padding: 8px 0;
   margin: 0 auto;
@@ -1044,19 +1066,19 @@ html, body {
   line-height: 14px;
   height: 43px;
 }
-/* line 225, ../sass/elements/_header.scss */
+/* line 227, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-title > div strong {
   display: block;
   color: #000;
   position: relative;
 }
-/* line 229, ../sass/elements/_header.scss */
+/* line 231, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-title > div strong .icons {
   position: absolute;
   left: -15px;
   top: 2px;
 }
-/* line 238, ../sass/elements/_header.scss */
+/* line 240, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-content {
   width: 308px;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.7);
@@ -1065,7 +1087,7 @@ html, body {
   right: 0;
   display: none;
 }
-/* line 245, ../sass/elements/_header.scss */
+/* line 247, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-content .icons-delete-button {
   position: absolute;
   left: -19px;
@@ -1073,31 +1095,31 @@ html, body {
   cursor: pointer;
   z-index: 2;
 }
-/* line 252, ../sass/elements/_header.scss */
+/* line 254, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-content .item-holder {
   padding: 10px 0 10px 15px;
   background: #f5f6f7;
   border-top: 1px solid #dfe5eb;
 }
-/* line 256, ../sass/elements/_header.scss */
+/* line 258, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-content .item-holder:first-child {
   border-top: none;
 }
-/* line 259, ../sass/elements/_header.scss */
+/* line 261, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-content .item-holder.color2 {
   background: #fff;
 }
-/* line 263, ../sass/elements/_header.scss */
+/* line 265, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-content .item-section {
   display: table;
   width: 100%;
 }
-/* line 267, ../sass/elements/_header.scss */
+/* line 269, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-content .item {
   display: table-row;
   height: 50px;
 }
-/* line 272, ../sass/elements/_header.scss */
+/* line 274, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-content .item .item-pic {
   display: table-cell;
   height: 50px;
@@ -1110,11 +1132,11 @@ html, body {
   vertical-align: middle;
   text-align: center;
 }
-/* line 284, ../sass/elements/_header.scss */
+/* line 286, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-content .item .item-pic a img {
   vertical-align: middle;
 }
-/* line 289, ../sass/elements/_header.scss */
+/* line 291, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-content .item .item-name {
   display: table-cell;
   line-height: 20px;
@@ -1124,7 +1146,7 @@ html, body {
   margin-right: 10px;
   vertical-align: middle;
 }
-/* line 297, ../sass/elements/_header.scss */
+/* line 299, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-content .item .item-price {
   display: table-cell;
   font-weight: bold;
@@ -1134,17 +1156,17 @@ html, body {
   vertical-align: middle;
   width: 50px;
 }
-/* line 305, ../sass/elements/_header.scss */
+/* line 307, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-content .item .item-delete {
   display: table-cell;
   vertical-align: middle;
   width: 30px;
 }
-/* line 309, ../sass/elements/_header.scss */
+/* line 311, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-content .item .item-delete span {
   cursor: pointer;
 }
-/* line 314, ../sass/elements/_header.scss */
+/* line 316, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-content .cart-bottom {
   background: none repeat scroll 0 0 #0D6A9F;
   border-bottom-left-radius: 5px;
@@ -1155,7 +1177,7 @@ html, body {
   position: relative;
   top: 5px;
 }
-/* line 323, ../sass/elements/_header.scss */
+/* line 325, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-content .cart-bottom .total {
   color: #fff;
   float: right;
@@ -1379,7 +1401,7 @@ html, body {
 }
 /* line 13, ../sass/elements/_nav.scss */
 .side-nav > li.active > a .icons {
-  background-position: 0 -159px;
+  background-position: 0 -215px;
 }
 /* line 18, ../sass/elements/_nav.scss */
 .side-nav > li > a {
@@ -1397,7 +1419,7 @@ html, body {
 }
 /* line 28, ../sass/elements/_nav.scss */
 .side-nav > li > a:hover .icons {
-  background-position: 0 -159px;
+  background-position: 0 -215px;
 }
 /* line 33, ../sass/elements/_nav.scss */
 .side-nav > li > a .icons {
@@ -1828,6 +1850,115 @@ html, body {
   margin: 0 0 5px;
 }
 
+/* line 1, ../sass/elements/_registration-popup.scss */
+.registration-popup {
+  position: absolute;
+  top: 35px;
+  right: -30px;
+  z-index: 2;
+}
+
+/* line 7, ../sass/elements/_registration-popup.scss */
+.registration-popup-section {
+  width: 350px;
+  border-radius: 5px;
+  background: #f8f8f8;
+  border: 8px solid rgba(0, 0, 0, 0.08);
+  background: #fff;
+}
+/* line 13, ../sass/elements/_registration-popup.scss */
+.registration-popup-section .header {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 20px;
+  background: #f8f8f8;
+}
+/* line 18, ../sass/elements/_registration-popup.scss */
+.registration-popup-section .header strong, .registration-popup-section .header a {
+  font-size: 13px;
+}
+/* line 21, ../sass/elements/_registration-popup.scss */
+.registration-popup-section .header a {
+  color: #3995c5;
+  text-decoration: underline;
+}
+/* line 24, ../sass/elements/_registration-popup.scss */
+.registration-popup-section .header a:hover, .registration-popup-section .header a:focus {
+  text-decoration: none;
+}
+/* line 29, ../sass/elements/_registration-popup.scss */
+.registration-popup-section .registration-input-container {
+  padding: 0 20px 20px;
+}
+/* line 31, ../sass/elements/_registration-popup.scss */
+.registration-popup-section .registration-input-container input[type='email'], .registration-popup-section .registration-input-container input[type='text'], .registration-popup-section .registration-input-container input[type='password'] {
+  height: 35px;
+  line-height: 33px;
+  padding: 0 30px 0 10px;
+  color: #999;
+  border: 1px solid #ccc;
+  background: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 1px 5px 0 rgba(153, 153, 153, 0.4) inset;
+  width: 100%;
+  border-radius: 4px;
+}
+/* line 42, ../sass/elements/_registration-popup.scss */
+.registration-popup-section .registration-input-container input[type='email']:focus, .registration-popup-section .registration-input-container input[type='email']:hover, .registration-popup-section .registration-input-container input[type='text']:focus, .registration-popup-section .registration-input-container input[type='text']:hover, .registration-popup-section .registration-input-container input[type='password']:focus, .registration-popup-section .registration-input-container input[type='password']:hover {
+  box-shadow: none;
+}
+/* line 46, ../sass/elements/_registration-popup.scss */
+.registration-popup-section .registration-input-container input[type='submit'] {
+  cursor: pointer;
+  text-align: center;
+  width: 90px;
+  line-height: 28px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 12px;
+  color: #444;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 1px 0 0 white inset;
+  background: #f9f9f9;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #f9f9f9 0%, #ececec 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f9f9f9), color-stop(100%, #ececec));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #f9f9f9 0%, #ececec 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #f9f9f9 0%, #ececec 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #f9f9f9 0%, #ececec 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #f9f9f9 0%, #ececec 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#ececec',GradientType=0 );
+  /* IE6-9 */
+}
+/* line 67, ../sass/elements/_registration-popup.scss */
+.registration-popup-section .registration-input-container .forgot-password {
+  line-height: 18px;
+  font-size: 11px;
+}
+/* line 70, ../sass/elements/_registration-popup.scss */
+.registration-popup-section .registration-input-container .forgot-password a {
+  display: block;
+}
+/* line 73, ../sass/elements/_registration-popup.scss */
+.registration-popup-section .registration-input-container .forgot-password label {
+  color: #000000;
+}
+/* line 75, ../sass/elements/_registration-popup.scss */
+.registration-popup-section .registration-input-container .forgot-password label input {
+  margin-right: 5px;
+  position: relative;
+  top: 2px;
+}
+
 /* line 1, ../sass/elements/_filter-catalog.scss */
 .filter-catalog {
   background: #f3f3f3 url(../img/page/car.jpg) no-repeat 100% 100%;
@@ -1865,7 +1996,7 @@ html, body {
 /* line 13, ../sass/_main.scss */
 .blue-bullet li:before {
   content: "";
-  background-position: 0 -135px;
+  background-position: 0 -176px;
   height: 10px;
   width: 10px;
   position: absolute;
@@ -1993,7 +2124,7 @@ html, body {
 }
 /* line 116, ../sass/_main.scss */
 .brand-parts.closed .icons {
-  background-position: 0 -195px;
+  background-position: 0 -251px;
 }
 /* line 119, ../sass/_main.scss */
 .brand-parts.closed .brand-section {

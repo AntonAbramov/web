@@ -10,7 +10,7 @@
 		margin: 0 auto;
 		min-width: 960px;
 		padding: 0 10px;
-		overflow: hidden;
+		//overflow: hidden;
 		.wellcome {
 			a {
 				text-decoration: underline;
@@ -20,7 +20,8 @@
 			li {
 				float: left;
 				margin-left: 25px;
-				a {
+				position:relative;
+				> a {
 					color: #000;
 					&:hover {
 						text-decoration: underline;
@@ -38,6 +39,7 @@
 		}
 		.currency {
 			margin-left: 50px;
+			height:35px;
 			a {
 				width: 50px;
 				text-align: center;

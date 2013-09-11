@@ -1,134 +1,147 @@
-@charset "IBM437";
 /*========================================
   Global variables
 ==========================================*/
-/* line 178, icons/*.png */
-.icons-sprite, .icons-arrow-closed, .icons-arrow-opened, .icons-bottom_item, .icons-calc, .icons-cart, .icons-close-button-gray, .icons-close-small, .icons-delete-button, .icons-icon-password, .icons-icon-user, .icons-line-arrow, .icons-list-arrow, .icons-menu-arr-right_hover, .icons-menu-arrow-right, .icons-pag-next, .icons-pag-prev, .icons-user, .icons-video-arrow, #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-title.opened > div strong .icons, .side-nav > li.active > a .icons, .side-nav > li > a:hover .icons, .registration-popup-section .registration-input-container .user-icon:after, .registration-popup-section .registration-input-container .password-icon:after, .bullet-list.blue-bullet li:before, .bullet-list.line-bullet li:before, .brand-parts.closed .icons {
+/* line 194, icons/*.png */
+.icons-sprite, .icons-arrow-closed, .icons-arrow-opened, .icons-bottom_item, .icons-calc, .icons-call, .icons-cart, .icons-close-button-gray, .icons-close-small, .icons-delete-button, .icons-error, .icons-icon-password, .icons-icon-user, .icons-line-arrow, .icons-list-arrow, .icons-menu-arr-right_hover, .icons-menu-arrow-right, .icons-pag-next, .icons-pag-prev, .icons-user, .icons-video-arrow, #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-title.opened > div strong .icons, .side-nav > li.active > a .icons, .side-nav > li > a:hover .icons, .form .error:after, .registration-popup-section .registration-input-container .user-icon:after, .registration-popup-section .registration-input-container .password-icon:after, .bullet-list.blue-bullet li:before, .bullet-list.line-bullet li:before, .brand-parts.closed .icons {
   background: url('../img/icons.png') no-repeat;
 }
 
-/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-arrow-closed {
-  background-position: 0 -269px;
+  background-position: 0 -317px;
   height: 7px;
   width: 8px;
 }
 
-/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-arrow-opened {
-  background-position: 0 -251px;
+  background-position: 0 -299px;
   height: 8px;
   width: 9px;
 }
 
-/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-bottom_item {
-  background-position: 0 -132px;
+  background-position: 0 -180px;
   height: 29px;
   width: 31px;
 }
 
-/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-calc {
-  background-position: 0 -38px;
+  background-position: 0 -67px;
   height: 29px;
   width: 30px;
 }
 
-/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-call {
+  background-position: 0 -38px;
+  height: 29px;
+  width: 29px;
+}
+
+/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-cart {
-  background-position: 0 -201px;
+  background-position: 0 -249px;
   height: 14px;
   width: 15px;
 }
 
-/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-close-button-gray {
-  background-position: 0 -67px;
+  background-position: 0 -96px;
   height: 26px;
   width: 25px;
 }
 
-/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-close-small {
-  background-position: 0 -93px;
+  background-position: 0 -141px;
   height: 21px;
   width: 20px;
 }
 
-/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-delete-button {
   background-position: 0 0;
   height: 38px;
   width: 38px;
 }
 
-/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-error {
+  background-position: 0 -122px;
+  height: 19px;
+  width: 19px;
+}
+
+/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-icon-password {
-  background-position: 0 -186px;
+  background-position: 0 -234px;
   height: 15px;
   width: 7px;
 }
 
-/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-icon-user {
-  background-position: 0 -161px;
+  background-position: 0 -209px;
   height: 15px;
   width: 15px;
 }
 
-/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-line-arrow {
-  background-position: 0 -276px;
+  background-position: 0 -324px;
   height: 2px;
   width: 12px;
 }
 
-/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-list-arrow {
-  background-position: 0 -176px;
+  background-position: 0 -224px;
   height: 10px;
   width: 10px;
 }
 
-/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-menu-arr-right_hover {
-  background-position: 0 -224px;
+  background-position: 0 -272px;
   height: 9px;
   width: 7px;
 }
 
-/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-menu-arrow-right {
-  background-position: 0 -233px;
+  background-position: 0 -281px;
   height: 9px;
   width: 7px;
 }
 
-/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-pag-next {
-  background-position: 0 -215px;
+  background-position: 0 -263px;
   height: 9px;
   width: 6px;
 }
 
-/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-pag-prev {
-  background-position: 0 -242px;
+  background-position: 0 -290px;
   height: 9px;
   width: 6px;
 }
 
-/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-user {
-  background-position: 0 -114px;
+  background-position: 0 -162px;
   height: 18px;
   width: 12px;
 }
 
-/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-video-arrow {
-  background-position: 0 -259px;
+  background-position: 0 -307px;
   height: 10px;
   width: 8px;
 }
@@ -1121,7 +1134,7 @@ html, body {
 }
 /* line 248, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-title.opened > div strong .icons {
-  background-position: 0 -269px;
+  background-position: 0 -317px;
 }
 /* line 254, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-title > div {
@@ -1462,6 +1475,102 @@ html, body {
 .right-side-bar .side-container .popupal-brands .tr > .td .td img {
   max-width: 48px;
 }
+/* line 62, ../sass/elements/_sidebar.scss */
+.right-side-bar .support-block .support-top {
+  border-bottom: 1px solid #fff;
+  background: #4d4d4d;
+  text-align: center;
+  color: #fff;
+}
+/* line 67, ../sass/elements/_sidebar.scss */
+.right-side-bar .support-block .support-top .any-question {
+  font-family: helvetica-thin;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 30px 0 20px;
+}
+/* line 72, ../sass/elements/_sidebar.scss */
+.right-side-bar .support-block .support-top .any-question span {
+  font-family: helvetica-medium;
+}
+/* line 76, ../sass/elements/_sidebar.scss */
+.right-side-bar .support-block .support-top .tels {
+  font-size: 24px;
+  line-height: 24px;
+  font-family: helvetica-light;
+  padding-bottom: 30px;
+}
+/* line 81, ../sass/elements/_sidebar.scss */
+.right-side-bar .support-block .support-top .tels .tel1 {
+  margin-bottom: 5px;
+  font-family: helvetica-medium;
+  font-size: 30px;
+  line-height: 30px;
+}
+/* line 88, ../sass/elements/_sidebar.scss */
+.right-side-bar .support-block .support-top .calls {
+  border-top: 1px solid #313131;
+}
+/* line 91, ../sass/elements/_sidebar.scss */
+.right-side-bar .support-block .support-top .calls a {
+  display: block;
+  float: left;
+  height: 69px;
+  line-height: 15px;
+  padding-top: 0;
+  text-decoration: none;
+}
+/* line 98, ../sass/elements/_sidebar.scss */
+.right-side-bar .support-block .support-top .calls a:hover {
+  background: #313131;
+}
+/* line 101, ../sass/elements/_sidebar.scss */
+.right-side-bar .support-block .support-top .calls a:first-child {
+  width: 67.64705882352942%;
+  /* 230 / 340 */
+  color: #fff;
+  font-weight: bold;
+}
+/* line 105, ../sass/elements/_sidebar.scss */
+.right-side-bar .support-block .support-top .calls a:first-child span {
+  color: #b0b0b0;
+  font-weight: normal;
+  font-style: italic;
+}
+/* line 110, ../sass/elements/_sidebar.scss */
+.right-side-bar .support-block .support-top .calls a:first-child .icons-call {
+  margin-right: 14px;
+  position: relative;
+  top: 17px;
+}
+/* line 116, ../sass/elements/_sidebar.scss */
+.right-side-bar .support-block .support-top .calls a.skype {
+  width: 32.35294117647059%;
+  /* 110 / 340 */
+  padding-top: 21px;
+}
+/* line 124, ../sass/elements/_sidebar.scss */
+.right-side-bar .support-block .support-bottom {
+  padding: 20px;
+  background: #869c0f;
+  color: #fff;
+}
+/* line 128, ../sass/elements/_sidebar.scss */
+.right-side-bar .support-block .support-bottom .form-field {
+  margin: 0 0 10px;
+}
+/* line 131, ../sass/elements/_sidebar.scss */
+.right-side-bar .support-block .support-bottom input[type='text'] {
+  width: 80%;
+  padding: 5px;
+}
+/* line 135, ../sass/elements/_sidebar.scss */
+.right-side-bar .support-block .support-bottom textarea {
+  width: 80%;
+  resize: none;
+  height: 80px;
+  padding: 5px;
+}
 
 /* line 2, ../sass/elements/_nav.scss */
 .side-nav > li {
@@ -1478,7 +1587,7 @@ html, body {
 }
 /* line 13, ../sass/elements/_nav.scss */
 .side-nav > li.active > a .icons {
-  background-position: 0 -224px;
+  background-position: 0 -272px;
 }
 /* line 18, ../sass/elements/_nav.scss */
 .side-nav > li > a {
@@ -1497,7 +1606,7 @@ html, body {
 }
 /* line 29, ../sass/elements/_nav.scss */
 .side-nav > li > a:hover .icons {
-  background-position: 0 -224px;
+  background-position: 0 -272px;
 }
 /* line 34, ../sass/elements/_nav.scss */
 .side-nav > li > a .icons {
@@ -2046,6 +2155,87 @@ html, body {
   margin: 0 0 5px;
 }
 
+/* line 9, ../sass/elements/_form.scss */
+.form {
+  width: auto;
+}
+/* line 11, ../sass/elements/_form.scss */
+.form .title2 {
+  font-size: 12px;
+  border-bottom: 1px solid #b5b5b5;
+  margin: 0 0 10px;
+}
+/* line 16, ../sass/elements/_form.scss */
+.form .form-section {
+  margin: 0 -10px;
+}
+/* line 18, ../sass/elements/_form.scss */
+.form .form-section input, .form .form-section select {
+  width: 295px;
+  float: left;
+  margin: 0 10px 20px;
+  border: 1px solid #cccc;
+  padding: 5px;
+}
+/* line 24, ../sass/elements/_form.scss */
+.form .form-section input:focus, .form .form-section input:hover, .form .form-section select:focus, .form .form-section select:hover {
+  box-shadow: 0 0 5px #c4c4c4;
+}
+/* line 28, ../sass/elements/_form.scss */
+.form .form-section.capcha-section {
+  margin: 0 0 20px;
+}
+/* line 30, ../sass/elements/_form.scss */
+.form .form-section.capcha-section .capcha {
+  float: left;
+}
+/* line 34, ../sass/elements/_form.scss */
+.form .form-section.capcha-section .form-field input {
+  margin: 0 0 10px;
+  width: 110px;
+  text-align: center;
+}
+/* line 38, ../sass/elements/_form.scss */
+.form .form-section.capcha-section .form-field input:focus, .form .form-section.capcha-section .form-field input:hover {
+  box-shadow: 0 0 5px #c4c4c4;
+}
+/* line 45, ../sass/elements/_form.scss */
+.form .agreement {
+  border-top: 1px solid #b5b5b5;
+  padding-top: 15px;
+  margin: 0 0 15px;
+}
+/* line 49, ../sass/elements/_form.scss */
+.form .agreement input[type='checkbox'] {
+  margin-right: 5px;
+}
+/* line 53, ../sass/elements/_form.scss */
+.form input[type='submit'] {
+  margin: 0 auto;
+  display: block;
+}
+/* line 57, ../sass/elements/_form.scss */
+.form .error {
+  background: #fae0e0;
+  border: 1px solid #e68e8e;
+  position: relative;
+  padding: 10px 20px 10px 40px;
+  color: #000;
+  line-height: 14px;
+  margin-bottom: 20px;
+}
+/* line 65, ../sass/elements/_form.scss */
+.form .error:after {
+  content: "";
+  width: 19px;
+  height: 19px;
+  background-position: 0 -122px;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  margin-top: -10px;
+}
+
 /* line 1, ../sass/elements/_registration-popup.scss */
 .registration-popup {
   position: absolute;
@@ -2130,12 +2320,12 @@ html, body {
 }
 /* line 67, ../sass/elements/_registration-popup.scss */
 .registration-popup-section .registration-input-container .user-icon:after {
-  background-position: 0 -161px;
+  background-position: 0 -209px;
   right: 10px;
 }
 /* line 73, ../sass/elements/_registration-popup.scss */
 .registration-popup-section .registration-input-container .password-icon:after {
-  background-position: 0 -186px;
+  background-position: 0 -234px;
   right: 7px;
 }
 /* line 78, ../sass/elements/_registration-popup.scss */
@@ -2276,112 +2466,117 @@ html, body {
 }
 /* line 20, ../sass/_main.scss */
 .bullet-list.blue-bullet li:before {
-  background-position: 0 -176px;
+  background-position: 0 -224px;
   height: 10px;
   width: 10px;
   top: 3px;
 }
 /* line 28, ../sass/_main.scss */
 .bullet-list.line-bullet li:before {
-  background-position: 0 -276px;
+  background-position: 0 -324px;
   height: 2px;
   width: 12px;
   top: 9px;
 }
+/* line 36, ../sass/_main.scss */
+.bullet-list.anchor {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #8a8a8a;
+}
 
-/* line 37, ../sass/_main.scss */
+/* line 43, ../sass/_main.scss */
 .helvetica-tin {
   font-family: helvetica-thin;
 }
 
-/* line 40, ../sass/_main.scss */
+/* line 46, ../sass/_main.scss */
 .helvetica-mid {
   font-family: helvetica-medium;
 }
 
-/* line 43, ../sass/_main.scss */
+/* line 49, ../sass/_main.scss */
 .helvetica-bold {
   font-family: helvetica-bold;
 }
 
-/* line 46, ../sass/_main.scss */
+/* line 52, ../sass/_main.scss */
 .s20 {
   font-size: 20px;
   line-height: 1;
 }
 
-/* line 50, ../sass/_main.scss */
+/* line 56, ../sass/_main.scss */
 .s21 {
   font-size: 21px;
   line-height: 1;
 }
 
-/* line 54, ../sass/_main.scss */
+/* line 60, ../sass/_main.scss */
 .s22 {
   font-size: 22px;
   line-height: 1;
 }
 
-/* line 58, ../sass/_main.scss */
+/* line 64, ../sass/_main.scss */
 .s23 {
   font-size: 23px;
   line-height: 1;
 }
 
-/* line 62, ../sass/_main.scss */
+/* line 68, ../sass/_main.scss */
 .s24 {
   font-size: 24px;
   line-height: 1;
 }
 
-/* line 66, ../sass/_main.scss */
+/* line 72, ../sass/_main.scss */
 .s25 {
   font-size: 25px;
   line-height: 1;
 }
 
-/* line 70, ../sass/_main.scss */
+/* line 76, ../sass/_main.scss */
 .s26 {
   font-size: 26px;
   line-height: 1;
 }
 
-/* line 74, ../sass/_main.scss */
+/* line 80, ../sass/_main.scss */
 .s27 {
   font-size: 27px;
   line-height: 1;
 }
 
-/* line 80, ../sass/_main.scss */
+/* line 86, ../sass/_main.scss */
 .white-block .s27.helvetica-tin {
   color: #0e709d;
 }
-/* line 83, ../sass/_main.scss */
+/* line 89, ../sass/_main.scss */
 .white-block .s22.helvetica-mid {
   color: #000;
 }
-/* line 86, ../sass/_main.scss */
+/* line 92, ../sass/_main.scss */
 .white-block .s24.helvetica-mid {
   color: #000;
 }
 
-/* line 91, ../sass/_main.scss */
+/* line 97, ../sass/_main.scss */
 .partners-section {
   text-align: center;
 }
-/* line 93, ../sass/_main.scss */
+/* line 99, ../sass/_main.scss */
 .partners-section img {
   display: inline-block;
   margin: 0 10px 5px 0;
 }
 
-/* line 98, ../sass/_main.scss */
+/* line 104, ../sass/_main.scss */
 .title {
   font-size: 20px;
   font-family: helvetica-bold;
 }
 
-/* line 103, ../sass/_main.scss */
+/* line 109, ../sass/_main.scss */
 .brand-parts {
   background: #fff;
   border: 1px solid #d6d6d6;
@@ -2389,30 +2584,30 @@ html, body {
   padding: 20px 20px 5px;
   margin: 0 0 10px;
 }
-/* line 111, ../sass/_main.scss */
+/* line 117, ../sass/_main.scss */
 .brand-parts .brand-section table {
   width: 100%;
 }
-/* line 114, ../sass/_main.scss */
+/* line 120, ../sass/_main.scss */
 .brand-parts .brand-section table tr td {
   padding: 5px 0;
   text-align: center;
 }
-/* line 117, ../sass/_main.scss */
+/* line 123, ../sass/_main.scss */
 .brand-parts .brand-section table tr td img {
   max-width: 100%;
   max-height: 100%;
 }
-/* line 126, ../sass/_main.scss */
+/* line 132, ../sass/_main.scss */
 .brand-parts.closed .icons {
-  background-position: 0 -269px;
+  background-position: 0 -317px;
 }
-/* line 129, ../sass/_main.scss */
+/* line 135, ../sass/_main.scss */
 .brand-parts.closed .brand-section {
   display: none;
 }
 
-/* line 134, ../sass/_main.scss */
+/* line 140, ../sass/_main.scss */
 .triger-brand {
   cursor: pointer;
   -moz-user-select: none;
@@ -2422,60 +2617,60 @@ html, body {
   -ms-user-select: none;
   user-select: none;
 }
-/* line 142, ../sass/_main.scss */
+/* line 148, ../sass/_main.scss */
 .triger-brand .icons {
   top: -4px;
   position: relative;
 }
 
-/* line 147, ../sass/_main.scss */
+/* line 153, ../sass/_main.scss */
 .popular-shop {
   background: #fff;
   border: 1px solid #d6d6d6;
   padding: 20px;
   margin: 0 0 10px;
 }
-/* line 152, ../sass/_main.scss */
+/* line 158, ../sass/_main.scss */
 .popular-shop .shop-section {
   margin: 0 -10px;
 }
-/* line 154, ../sass/_main.scss */
+/* line 160, ../sass/_main.scss */
 .popular-shop .shop-section .shop {
   float: left;
   margin: 0 10px 20px;
   width: 294px;
 }
-/* line 158, ../sass/_main.scss */
+/* line 164, ../sass/_main.scss */
 .popular-shop .shop-section .shop .logo-holder {
   margin: 0 0 10px;
 }
-/* line 160, ../sass/_main.scss */
+/* line 166, ../sass/_main.scss */
 .popular-shop .shop-section .shop .logo-holder img {
   display: block;
   width: 100%;
 }
-/* line 166, ../sass/_main.scss */
+/* line 172, ../sass/_main.scss */
 .popular-shop .shop-section .shop .shop-discription .icons {
   float: right;
   position: relative;
   top: 3px;
 }
-/* line 171, ../sass/_main.scss */
+/* line 177, ../sass/_main.scss */
 .popular-shop .shop-section .shop .shop-discription strong {
   display: block;
 }
-/* line 174, ../sass/_main.scss */
+/* line 180, ../sass/_main.scss */
 .popular-shop .shop-section .shop .shop-discription a {
   display: block;
 }
 
-/* line 182, ../sass/_main.scss */
+/* line 188, ../sass/_main.scss */
 .white-section {
   padding: 20px;
   background: #fff;
 }
 
-/* line 186, ../sass/_main.scss */
+/* line 192, ../sass/_main.scss */
 .shop-links {
   text-decoration: none;
   position: absolute;
@@ -2489,40 +2684,40 @@ html, body {
   border: 1px solid #d2d2d2;
   border-radius: 5px;
 }
-/* line 198, ../sass/_main.scss */
+/* line 204, ../sass/_main.scss */
 .shop-links:hover {
   text-decoration: underline;
   color: #fff;
 }
 
-/* line 204, ../sass/_main.scss */
+/* line 210, ../sass/_main.scss */
 .orange {
   color: #ff5400;
 }
 
-/* line 207, ../sass/_main.scss */
+/* line 213, ../sass/_main.scss */
 .title2 {
   font-size: 14px;
   font-weight: bold;
   color: #ff5400;
 }
 
-/* line 213, ../sass/_main.scss */
+/* line 219, ../sass/_main.scss */
 .round-pic {
   position: relative;
 }
-/* line 215, ../sass/_main.scss */
+/* line 221, ../sass/_main.scss */
 .round-pic .pic-holder {
   border-radius: 100px;
   overflow: hidden;
   margin: 0 0 10px;
 }
-/* line 221, ../sass/_main.scss */
+/* line 227, ../sass/_main.scss */
 .round-pic .sign > img {
   float: left;
   margin-right: 10px;
 }
-/* line 225, ../sass/_main.scss */
+/* line 231, ../sass/_main.scss */
 .round-pic .sign > div {
   color: #444444;
   font-style: italic;
@@ -2530,26 +2725,31 @@ html, body {
   position: relative;
   top: 50px;
 }
-/* line 231, ../sass/_main.scss */
+/* line 237, ../sass/_main.scss */
 .round-pic .sign > div strong {
   display: block;
   font-style: normal;
 }
 
-/* line 239, ../sass/_main.scss */
+/* line 245, ../sass/_main.scss */
 .register-thanks-text {
   padding-top: 25px;
 }
-/* line 241, ../sass/_main.scss */
+/* line 247, ../sass/_main.scss */
 .register-thanks-text p:first-child {
   font-size: 22px;
   color: #3c9aca;
   line-height: 28px;
 }
-/* line 246, ../sass/_main.scss */
+/* line 252, ../sass/_main.scss */
 .register-thanks-text p {
   font-size: 11px;
   color: #444;
+}
+
+/* line 258, ../sass/_main.scss */
+.anchor-block {
+  margin: 0 0 30px;
 }
 
 @media (max-width: 1300px) {

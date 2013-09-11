@@ -239,7 +239,12 @@
 .pt30 {
 	padding-top: 30px;
 }
-
+.pl20 {
+	padding-left:20px;
+}
+.p20 {
+	padding:20px;
+}
 /* clearfix */
 .cf:after {
 	content: "";
@@ -275,4 +280,7 @@
 }
 .white {
 	color:#fff;
+}
+.bg-white {
+	background-color:#fff;
 }

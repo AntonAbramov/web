@@ -1,4 +1,5 @@
 .right-side-bar  {
+	z-index: 2;
 	.shop-catalog {
 		padding:30px 30px 20px;
 		background: #3a98c7;
@@ -7,6 +8,11 @@
 	.side-container {
 		background: #fff;
 		padding:20px 30px;
+		.mb30 {
+			.helvetica-tin.black.s22:first-child  {
+				margin-bottom:17px;
+			}
+		}
 		.btn.blue.medium {
 			.icons {
 				position: relative;

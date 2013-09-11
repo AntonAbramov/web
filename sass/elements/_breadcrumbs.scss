@@ -1,0 +1,31 @@
+.bread-crumbs {
+	margin:0 0 30px;
+	&:after {
+		display:table;
+		clear:both;
+		content:"";
+	}
+	li {
+		float:left;
+		margin-left:20px;
+		position: relative;
+		&:first-child {
+			margin-left:0;
+			&:after {
+				content:"";
+			}
+		}
+		&:after {
+			content:"/";
+			left:-10px;
+			position: absolute;
+			top:0;
+		}
+		a {
+			text-decoration: underline;
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+}

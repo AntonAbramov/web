@@ -38,24 +38,7 @@
 				<li>
 					<a id="enter" href="#">Вход</a>
 					<div class="registration-popup">
-						<div class="registration-popup-section">
-							<form action="#">
-								<div class="header"><strong>Войдите</strong> или <a href="#">зарегистрируйтесь</a></div>
-								<div class="registration-input-container">
-									<p><input class="email" type="email" placeholder="Email" /></p>
-
-									<p><input type="password" placeholder="Пароль" /></p>
-									<div class="cf">
-										<div class="forgot-password left">
-											<a href="#">Забыли пароль?</a>
-											<label for="forg"><input type="checkbox" id="forg" />Запомнить меня</label>
-										</div>
-										<input type="submit" class="right" value="Войти" />
-									</div>
-								</div>
-							</form>
-						</div>
-
+						<!-- ajax content-->
 					</div>
 				</li>
 				<li class="cart"><a href="#"><span class="icons icons-cart">&nbsp;</span>Корзина (2)</a></li>
@@ -66,7 +49,8 @@
 	<div class="header-mid ">
 		<div class="header-mid-inn cf">
 			<div class="logo">
-				<a href="/"><img src="img/tpl/logo.png" alt="WestLogistic" title="WestLogistic" /></a>
+				<a href="/"><img src="i
+				mg/tpl/logo.png" alt="WestLogistic" title="WestLogistic" /></a>
 			</div>
 			<section class="cart-section cf">
 			<div class="request">
@@ -79,77 +63,8 @@
 						<strong><span class="icons icons-arrow-opened">&nbsp;</span>Корзина (2)</strong>
 						2 658 грн
 					</div>
-
 				</div>
-				<div class="cart-content">
-					<div class="item-holder">
-						<div class="item-section">
-							<div class="item">
-								<div class="item-pic">
-									<a href="#"><img src="img/page/tov1.jpg" alt=""/></a>
-								</div>
-
-								<div class="item-name">V is for Vengeance </div>
-								<div class="item-price">$407.97</div>
-								<div class="item-delete">
-									<span class=" icons icons-close-small">&nbsp;</span>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item-holder color2">
-						<div class="item-section">
-							<div class="item">
-								<div class="item-pic">
-									<a href="#"><img src="img/page/tov1.jpg" alt=""/></a>
-								</div>
-
-								<div class="item-name">V is for Vengeance </div>
-								<div class="item-price">$407.97</div>
-								<div class="item-delete">
-									<span class=" icons icons-close-small">&nbsp;</span>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item-holder">
-						<div class="item-section">
-							<div class="item">
-								<div class="item-pic">
-									<a href="#"><img src="img/page/tov2.jpg" alt=""/></a>
-								</div>
-
-								<div class="item-name">V is for Vengeance </div>
-								<div class="item-price">$407.97</div>
-								<div class="item-delete">
-									<span class=" icons icons-close-small">&nbsp;</span>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item-holder color2">
-						<div class="item-section">
-							<div class="item">
-								<div class="item-pic">
-									<a href="#"><img src="img/page/tov2.jpg" alt=""/></a>
-								</div>
-
-								<div class="item-name">V is for Vengeance </div>
-								<div class="item-price">$407.97</div>
-								<div class="item-delete">
-									<span class=" icons icons-close-small">&nbsp;</span>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="cart-bottom cf">
-						<div class="total">Вместе: <span>$528.39</span></div>
-						<a class="btn orange small" href="#">Оформить</a>
-
-					</div>
-					<span class="icons icons-delete-button">&nbsp;</span>
-
-				</div>
+				<!-- ajax content-->
 			</div>
 		</section>
 			<section class="search cf">
@@ -160,9 +75,18 @@
 					<form action="#">
 						<div class="search-container cf">
 							<div class="search-input">
-								<input type="search" placeholder="Поиск" /><input type="submit" value="найти" />
+								<input type="search" id="search" placeholder="Поиск" /><input type="submit" value="найти" />
 							</div>
-							<div class="search-output"></div>
+							<div class="search-output">
+								<ul>
+									<li><a href="#"><span class="highlight">Appl</span>e Iphone</a></li>
+									<li><a href="#"><span class="highlight">Appl</span>e Iphone 4S</a></li>
+									<li><a href="#"><span class="highlight">Appl</span>e tv</a></li>
+									<li><a href="#"><span class="highlight">Appl</span>e Ipad</a></li>
+									<li><a href="#"><span class="highlight">Appl</span>e Ipod</a></li>
+									<li><a href="#"><span class="highlight">Appl</span>e Iphone</a></li>
+								</ul>
+							</div>
 						</div>
 					</form>
 					<div class="search-discription">Напишите здесь название товара, или просто вставте ID из eBay или Amazon</div>
@@ -372,70 +296,8 @@
 			<!-- #sv-container -->
 
 			<aside id="sv-leftcolumn">
-				<div class="tab-section">
-					<div class="tab-nav cf">
-						<a href="#ebay">eBay</a>
-						<a href="#amazon">Amazon</a>
-					</div>
-					<div id="ebay" class="tab">
-						<ul class="side-nav">
-							<li class="active">
-								<a href="#">Автозапчасти <span class="icons icons-menu-arrow-right">&nbsp;</span></a>
-								<ul>
-									<li><a href="#">Инструменты</a></li>
-									<li><a href="#">Музыкальные</a></li>
-									<li><a href="#">Товары</a></li>
-									<li><a href="#">Дом и Сад</a></li>
-									<li><a href="#">Фототовары</a></li>
-								</ul>
-							</li>
-							<li><a href="">Детские товары<span class="icons icons-menu-arrow-right">&nbsp;</span></a></li>
-							<li><a href="">Дом и Сад<span class="icons icons-menu-arrow-right">&nbsp;</span></a></li>
-							<li><a href="">Игрушки<span class="icons icons-menu-arrow-right">&nbsp;</span></a></li>
-							<li><a href="">Инструменты<span class="icons icons-menu-arrow-right">&nbsp;</span></a></li>
-							<li><a href="">Книги<span class="icons icons-menu-arrow-right">&nbsp;</span></a></li>
-							<li><a href="">Мода и Стиль<span class="icons icons-menu-arrow-right">&nbsp;</span></a></li>
-							<li><a href="">Музыкальные инструменты<span class="icons icons-menu-arrow-right">&nbsp;</span></a></li>
-							<li><a href="">Спортивные товары<span class="icons icons-menu-arrow-right">&nbsp;</span></a></li>
-							<li><a href="">Товары для бизнеса<span class="icons icons-menu-arrow-right">&nbsp;</span></a></li>
-							<li><a href="">Товары для красоты<span class="icons icons-menu-arrow-right">&nbsp;</span></a></li>
-							<li><a href="">Фототовары<span class="icons icons-menu-arrow-right">&nbsp;</span></a></li>
-							<li><a href="">Часы<span class="icons icons-menu-arrow-right">&nbsp;</span></a></li>
-							<li><a href="">Электроника<span class="icons icons-menu-arrow-right">&nbsp;</span></a></li>
-							<li><a href="">Ювелирные изделия<span class="icons icons-menu-arrow-right">&nbsp;</span></a></li>
-						</ul>
-					</div>
-					<div id="amazon" class="tab">
-						<ul class="side-nav">
-							<li class="active"><a href="#">Автозапчасти <span class="icons icons-menu-arrow-right">&nbsp;</span></a></li>
-							<li><a href="">Детские товары<span class="icons icons-menu-arrow-right">&nbsp;</span></a></li>
-							<li><a href="">Дом и Сад<span class="icons icons-menu-arrow-right">&nbsp;</span></a></li>
-							<li><a href="">Игрушки<span class="icons icons-menu-arrow-right">&nbsp;</span></a></li>
-						</ul>
-					</div>
-				</div><!-- end .tab-section -->
-				<div class="white-block">
-					<div class="helvetica-tin s27">Узнайте</div>
-					<p class="helvetica-mid s22">как это работает?</p>
-					<p>Зарегистрируйтесь на WestLogistic.com, чтобы получить возможность заказать любой товар в США.</p>
-					<p><strong>Всё очень просто! </strong></p>
-					<ul class="blue-bullet">
-						<li>Вы оплачиваете стоимость товара нам.</li>
-						<li>Мы мгновенно покупаем этот товар в магазине для вас.</li>
-						<li>Мы отправляем Вам этот товар на Украину надёжным перевозчиком.</li>
-					</ul>
-					<a class="btn orange medium" href="#">Подробнее об услуге</a>
-				</div>
-				<div class="white-block">
-					<p class="s24 helvetica-mid">Нашы партнёры</p>
-					<div class="partners-section">
-						<img src="img/partners/fedex.jpg" alt=""/>
-						<img src="img/partners/item2.jpg" alt=""/>
-						<img src="img/partners/item3.jpg" alt=""/>
-						<img src="img/partners/item4.jpg" alt=""/>
-						<img src="img/partners/item5.jpg" alt=""/>
-					</div>
-				</div>
+				<a class="shop-links" href="#">Маназины</a>
+				<!-- ajax content-->
 			</aside>
 			<!-- #sv-leftcolumn -->
 		<!--aside id="sv-rightcolumn">

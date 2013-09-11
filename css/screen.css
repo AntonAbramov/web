@@ -3,7 +3,7 @@
   Global variables
 ==========================================*/
 /* line 154, icons/*.png */
-.icons-sprite, .icons-arrow-closed, .icons-arrow-opened, .icons-bottom_item, .icons-calc, .icons-cart, .icons-close-button-gray, .icons-close-small, .icons-delete-button, .icons-icon-password, .icons-icon-user, .icons-list-arrow, .icons-menu-arr-right_hover, .icons-menu-arrow-right, .icons-user, .icons-video-arrow, #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-title.opened > div strong .icons, .side-nav > li.active > a .icons, .side-nav > li > a:hover .icons, .blue-bullet li:before, .brand-parts.closed .icons {
+.icons-sprite, .icons-arrow-closed, .icons-arrow-opened, .icons-bottom_item, .icons-calc, .icons-cart, .icons-close-button-gray, .icons-close-small, .icons-delete-button, .icons-icon-password, .icons-icon-user, .icons-list-arrow, .icons-menu-arr-right_hover, .icons-menu-arrow-right, .icons-user, .icons-video-arrow, #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-title.opened > div strong .icons, .side-nav > li.active > a .icons, .side-nav > li > a:hover .icons, .registration-popup-section .registration-input-container .user-icon:after, .registration-popup-section .registration-input-container .password-icon:after, .blue-bullet li:before, .brand-parts.closed .icons {
   background: url('../img/icons.png') no-repeat;
 }
 
@@ -915,10 +915,6 @@ html, body {
   color: #000;
   font-weight: normal;
 }
-/* line 102, ../sass/elements/_header.scss */
-#sv-header .header-mid .header-mid-inn .search .search-mid-block {
-  overflow: hidden;
-}
 /* line 104, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .search .search-mid-block .search-container {
   height: 35px;
@@ -931,7 +927,7 @@ html, body {
   background: #f7f7f7;
 }
 /* line 111, ../sass/elements/_header.scss */
-#sv-header .header-mid .header-mid-inn .search .search-mid-block .search-container .search-input input[type='search'] {
+#sv-header .header-mid .header-mid-inn .search .search-mid-block .search-container .search-input input[type='search'], #sv-header .header-mid .header-mid-inn .search .search-mid-block .search-container .search-input input[type='text'] {
   height: 100%;
   padding: 0;
   border: none;
@@ -940,8 +936,9 @@ html, body {
   text-indent: 15px;
   font-size: 14px;
   padding-right: 15px;
+  font-weight: bold;
 }
-/* line 121, ../sass/elements/_header.scss */
+/* line 122, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .search .search-mid-block .search-container .search-input input[type='submit'] {
   border: medium none;
   color: #000000;
@@ -969,7 +966,7 @@ html, body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9e9e9', endColorstr='#acacac', GradientType=0);
   /* IE6-9 */
 }
-/* line 140, ../sass/elements/_header.scss */
+/* line 141, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .search .search-mid-block .search-container .search-input input[type='submit']:hover, #sv-header .header-mid .header-mid-inn .search .search-mid-block .search-container .search-input input[type='submit']:focus {
   background: #acacac;
   /* Old browsers */
@@ -988,11 +985,39 @@ html, body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#acacac', endColorstr='#e9e9e9', GradientType=0);
   /* IE6-9 */
 }
-/* line 155, ../sass/elements/_header.scss */
+/* line 154, ../sass/elements/_header.scss */
+#sv-header .header-mid .header-mid-inn .search .search-mid-block .search-container .search-output {
+  display: none;
+  width: 87%;
+  background: #fff;
+  border: 1px solid #c3c3c3;
+  border-top: none;
+  padding: 5px 0;
+}
+/* line 163, ../sass/elements/_header.scss */
+#sv-header .header-mid .header-mid-inn .search .search-mid-block .search-container .search-output ul li a {
+  display: block;
+  padding: 0 10px;
+  height: 30px;
+  line-height: 30px;
+  color: #000;
+}
+/* line 169, ../sass/elements/_header.scss */
+#sv-header .header-mid .header-mid-inn .search .search-mid-block .search-container .search-output ul li a .highlight {
+  color: #04527f;
+  font-weight: bold;
+}
+/* line 173, ../sass/elements/_header.scss */
+#sv-header .header-mid .header-mid-inn .search .search-mid-block .search-container .search-output ul li a:hover {
+  text-decoration: none;
+  color: #000;
+  background: #dbe8ef;
+}
+/* line 184, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .search .search-mid-block .search-discription {
   font-size: 12px;
 }
-/* line 163, ../sass/elements/_header.scss */
+/* line 192, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section {
   float: right;
   width: 310px;
@@ -1000,7 +1025,7 @@ html, body {
   margin-top: 35px;
   padding-left: 30px;
 }
-/* line 170, ../sass/elements/_header.scss */
+/* line 199, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section:after {
   content: "";
   background: #c9c9c9;
@@ -1010,13 +1035,13 @@ html, body {
   top: 0;
   height: 45px;
 }
-/* line 180, ../sass/elements/_header.scss */
+/* line 209, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .request {
   width: 140px;
   float: left;
   margin-right: 20px;
 }
-/* line 184, ../sass/elements/_header.scss */
+/* line 213, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .request a {
   display: block;
   height: 28px;
@@ -1041,7 +1066,7 @@ html, body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0d75b0', endColorstr='#0d75b0', GradientType=0);
   /* IE6-9 */
 }
-/* line 203, ../sass/elements/_header.scss */
+/* line 232, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart {
   height: 45px;
   border: 1px solid #e6e6e6;
@@ -1049,16 +1074,16 @@ html, body {
   width: 120px;
   position: relative;
 }
-/* line 209, ../sass/elements/_header.scss */
+/* line 238, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-title {
   cursor: pointer;
   padding-left: 5px;
 }
-/* line 215, ../sass/elements/_header.scss */
+/* line 244, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-title.opened > div strong .icons {
   background-position: 0 -251px;
 }
-/* line 221, ../sass/elements/_header.scss */
+/* line 250, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-title > div {
   padding: 8px 0;
   margin: 0 auto;
@@ -1066,19 +1091,19 @@ html, body {
   line-height: 14px;
   height: 43px;
 }
-/* line 227, ../sass/elements/_header.scss */
+/* line 256, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-title > div strong {
   display: block;
   color: #000;
   position: relative;
 }
-/* line 231, ../sass/elements/_header.scss */
+/* line 260, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-title > div strong .icons {
   position: absolute;
   left: -15px;
   top: 2px;
 }
-/* line 240, ../sass/elements/_header.scss */
+/* line 269, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-content {
   width: 308px;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.7);
@@ -1087,7 +1112,7 @@ html, body {
   right: 0;
   display: none;
 }
-/* line 247, ../sass/elements/_header.scss */
+/* line 276, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-content .icons-delete-button {
   position: absolute;
   left: -19px;
@@ -1095,31 +1120,31 @@ html, body {
   cursor: pointer;
   z-index: 2;
 }
-/* line 254, ../sass/elements/_header.scss */
+/* line 283, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-content .item-holder {
   padding: 10px 0 10px 15px;
   background: #f5f6f7;
   border-top: 1px solid #dfe5eb;
 }
-/* line 258, ../sass/elements/_header.scss */
+/* line 287, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-content .item-holder:first-child {
   border-top: none;
 }
-/* line 261, ../sass/elements/_header.scss */
+/* line 290, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-content .item-holder.color2 {
   background: #fff;
 }
-/* line 265, ../sass/elements/_header.scss */
+/* line 294, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-content .item-section {
   display: table;
   width: 100%;
 }
-/* line 269, ../sass/elements/_header.scss */
+/* line 298, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-content .item {
   display: table-row;
   height: 50px;
 }
-/* line 274, ../sass/elements/_header.scss */
+/* line 303, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-content .item .item-pic {
   display: table-cell;
   height: 50px;
@@ -1132,11 +1157,11 @@ html, body {
   vertical-align: middle;
   text-align: center;
 }
-/* line 286, ../sass/elements/_header.scss */
+/* line 315, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-content .item .item-pic a img {
   vertical-align: middle;
 }
-/* line 291, ../sass/elements/_header.scss */
+/* line 320, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-content .item .item-name {
   display: table-cell;
   line-height: 20px;
@@ -1146,7 +1171,7 @@ html, body {
   margin-right: 10px;
   vertical-align: middle;
 }
-/* line 299, ../sass/elements/_header.scss */
+/* line 328, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-content .item .item-price {
   display: table-cell;
   font-weight: bold;
@@ -1156,17 +1181,17 @@ html, body {
   vertical-align: middle;
   width: 50px;
 }
-/* line 307, ../sass/elements/_header.scss */
+/* line 336, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-content .item .item-delete {
   display: table-cell;
   vertical-align: middle;
   width: 30px;
 }
-/* line 311, ../sass/elements/_header.scss */
+/* line 340, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-content .item .item-delete span {
   cursor: pointer;
 }
-/* line 316, ../sass/elements/_header.scss */
+/* line 345, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-content .cart-bottom {
   background: none repeat scroll 0 0 #0D6A9F;
   border-bottom-left-radius: 5px;
@@ -1177,7 +1202,7 @@ html, body {
   position: relative;
   top: 5px;
 }
-/* line 325, ../sass/elements/_header.scss */
+/* line 354, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-content .cart-bottom .total {
   color: #fff;
   float: right;
@@ -1865,32 +1890,39 @@ html, body {
   background: #f8f8f8;
   border: 8px solid rgba(0, 0, 0, 0.08);
   background: #fff;
+  display: none;
 }
-/* line 13, ../sass/elements/_registration-popup.scss */
+/* line 14, ../sass/elements/_registration-popup.scss */
 .registration-popup-section .header {
   height: 50px;
   line-height: 50px;
   padding: 0 20px;
   background: #f8f8f8;
 }
-/* line 18, ../sass/elements/_registration-popup.scss */
+/* line 19, ../sass/elements/_registration-popup.scss */
 .registration-popup-section .header strong, .registration-popup-section .header a {
   font-size: 13px;
 }
-/* line 21, ../sass/elements/_registration-popup.scss */
+/* line 22, ../sass/elements/_registration-popup.scss */
 .registration-popup-section .header a {
   color: #3995c5;
   text-decoration: underline;
 }
-/* line 24, ../sass/elements/_registration-popup.scss */
+/* line 25, ../sass/elements/_registration-popup.scss */
 .registration-popup-section .header a:hover, .registration-popup-section .header a:focus {
   text-decoration: none;
 }
 /* line 29, ../sass/elements/_registration-popup.scss */
-.registration-popup-section .registration-input-container {
-  padding: 0 20px 20px;
+.registration-popup-section .header .icons-close-button-gray {
+  float: right;
+  margin-top: 14px;
+  cursor: pointer;
 }
-/* line 31, ../sass/elements/_registration-popup.scss */
+/* line 35, ../sass/elements/_registration-popup.scss */
+.registration-popup-section .registration-input-container {
+  padding: 20px;
+}
+/* line 37, ../sass/elements/_registration-popup.scss */
 .registration-popup-section .registration-input-container input[type='email'], .registration-popup-section .registration-input-container input[type='text'], .registration-popup-section .registration-input-container input[type='password'] {
   height: 35px;
   line-height: 33px;
@@ -1905,12 +1937,37 @@ html, body {
   box-shadow: 0 1px 5px 0 rgba(153, 153, 153, 0.4) inset;
   width: 100%;
   border-radius: 4px;
+  position: relative;
+  z-index: 1;
 }
-/* line 42, ../sass/elements/_registration-popup.scss */
+/* line 50, ../sass/elements/_registration-popup.scss */
 .registration-popup-section .registration-input-container input[type='email']:focus, .registration-popup-section .registration-input-container input[type='email']:hover, .registration-popup-section .registration-input-container input[type='text']:focus, .registration-popup-section .registration-input-container input[type='text']:hover, .registration-popup-section .registration-input-container input[type='password']:focus, .registration-popup-section .registration-input-container input[type='password']:hover {
   box-shadow: none;
 }
-/* line 46, ../sass/elements/_registration-popup.scss */
+/* line 54, ../sass/elements/_registration-popup.scss */
+.registration-popup-section .registration-input-container .user-icon, .registration-popup-section .registration-input-container .password-icon {
+  position: relative;
+}
+/* line 56, ../sass/elements/_registration-popup.scss */
+.registration-popup-section .registration-input-container .user-icon:after, .registration-popup-section .registration-input-container .password-icon:after {
+  content: "";
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+}
+/* line 67, ../sass/elements/_registration-popup.scss */
+.registration-popup-section .registration-input-container .user-icon:after {
+  background-position: 0 -161px;
+  right: 10px;
+}
+/* line 73, ../sass/elements/_registration-popup.scss */
+.registration-popup-section .registration-input-container .password-icon:after {
+  background-position: 0 -186px;
+  right: 7px;
+}
+/* line 78, ../sass/elements/_registration-popup.scss */
 .registration-popup-section .registration-input-container input[type='submit'] {
   cursor: pointer;
   text-align: center;
@@ -1938,21 +1995,32 @@ html, body {
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#ececec',GradientType=0 );
   /* IE6-9 */
+  font-weight: bold;
 }
-/* line 67, ../sass/elements/_registration-popup.scss */
+/* line 98, ../sass/elements/_registration-popup.scss */
+.registration-popup-section .registration-input-container input[type='submit']:hover {
+  box-shadow: none;
+}
+/* line 102, ../sass/elements/_registration-popup.scss */
 .registration-popup-section .registration-input-container .forgot-password {
   line-height: 18px;
   font-size: 11px;
 }
-/* line 70, ../sass/elements/_registration-popup.scss */
+/* line 105, ../sass/elements/_registration-popup.scss */
 .registration-popup-section .registration-input-container .forgot-password a {
   display: block;
+  text-decoration: underline;
 }
-/* line 73, ../sass/elements/_registration-popup.scss */
+/* line 108, ../sass/elements/_registration-popup.scss */
+.registration-popup-section .registration-input-container .forgot-password a:hover {
+  text-decoration: none;
+  color: #0D75B0;
+}
+/* line 113, ../sass/elements/_registration-popup.scss */
 .registration-popup-section .registration-input-container .forgot-password label {
   color: #000000;
 }
-/* line 75, ../sass/elements/_registration-popup.scss */
+/* line 115, ../sass/elements/_registration-popup.scss */
 .registration-popup-section .registration-input-container .forgot-password label input {
   margin-right: 5px;
   position: relative;
@@ -2192,6 +2260,25 @@ html, body {
 .white-section {
   padding: 20px;
   background: #fff;
+}
+
+/* line 176, ../sass/_main.scss */
+.shop-links {
+  position: absolute;
+  right: 0;
+  top: 16px;
+  height: 24px;
+  line-height: 22px;
+  padding: 0 10px;
+  color: #fff;
+  background: #0d75b0;
+  border: 1px solid #d2d2d2;
+  border-radius: 5px;
+}
+/* line 187, ../sass/_main.scss */
+.shop-links:hover {
+  text-decoration: underline;
+  color: #fff;
 }
 
 @media (max-width: 1300px) {

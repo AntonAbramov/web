@@ -173,3 +173,19 @@
 	padding:20px;
 	background: #fff;
 }
+.shop-links {
+	position:absolute;
+	right:0;
+	top:16px;
+	height:24px;
+	line-height:22px;
+	padding:0 10px;
+	color:#fff;
+	background: #0d75b0;
+	border:1px solid #d2d2d2;
+	border-radius:5px;
+	&:hover {
+		text-decoration: underline;
+		color:#fff;
+	}
+}

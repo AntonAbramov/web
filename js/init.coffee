@@ -9,20 +9,47 @@ $(document).ready ->
 
 	if $('.tab-section').length
 		initTabs()
-		$('.tab-nav').find('a').first().click()
+
 
 	$(".triger-brand").on 'click', ->
 		$(@).parents('.brand-parts').toggleClass('closed')
-
-	if $('.cart').length
-		cartLogic()
-
-
 
 
 	return #end document ready
 
 jQuery(window).load ->
+
+	if $('.cart-content').length
+		cartLogic()
+	if $('#registration-popup').length
+		registrationPopupLogic()
+	if $("#search").length
+		searchTyping()
+
+
+	#delete ajax and return html to the page
+	$.ajax
+		url: 'ajax/sidebar.html'
+		dataType: 'html'
+		success: (data) ->
+			$('#sv-leftcolumn').append data
+			initTabs()
+
+	#delete ajax and return html to the page
+	$.ajax
+		url: 'ajax/registrationpopup.html'
+		dataType: 'html'
+		success: (data) ->
+			$('.registration-popup').append data
+			registrationPopupLogic()
+
+	#delete ajax and return html to the page
+	$.ajax
+		url: 'ajax/cart.html'
+		dataType: 'html'
+		success: (data) ->
+			$('.cart-section .cart').append data
+			cartLogic()
 
 
 	return #end Window load
@@ -68,6 +95,7 @@ initTabs = ->
 			$(@).addClass('active')
 			$(".tab").hide()
 			$(id).show()
+	$('.tab-nav').find('a').first().click()
 
 cartLogic = ->
 	$('.cart-title').on 'click', ->
@@ -91,3 +119,36 @@ cartLogic = ->
 		if not($(e.target).closest('.cart-content').length) and not($(e.target).closest('.cart-title').length)
 			$('.cart-title').removeClass('opened')
 			$(".cart-content").fadeOut()
+	return #cart logic
+
+registrationPopupLogic = ->
+	$('#enter').on 'click', (event) ->
+		event.preventDefault()
+		if $(@).parent().hasClass('opened')
+			$(@).parent().removeClass('opened')
+			$("#registration-popup").fadeOut()
+		else
+			$(@).parent().addClass('opened')
+			$('#registration-popup').fadeIn()
+	#popup logic
+	$("#registration-popup").find('.icons-close-button-gray').on 'click', ->
+		$('#registration-popup').fadeOut()
+		$(@).parents('li').removeClass('opened')
+
+	return #registrationPopupLogic
+
+	$("body").on 'click', (e) ->
+		if not($(e.target).closest('#registration-popup').length) and not($(e.target).closest('#enter').length)
+			$('#enter').parent().removeClass('opened')
+			$("#registration-popup").fadeOut()
+
+	return #end registrationPopupLogic
+
+searchTyping = ->
+	$("#search").on 'keyup', ->
+		if $("#search").val().length >= 3
+			$(".search-output").show()
+		else
+			$(".search-output").hide()
+
+	return #searchTyping

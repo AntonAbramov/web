@@ -196,3 +196,43 @@
 	font-weight:bold;
 	color:#ff5400;
 }
+
+.round-pic {
+	position:relative;
+	.pic-holder {
+		border-radius:100px;
+		overflow: hidden;
+		margin:0 0 10px;
+	}
+	.sign {
+		> img {
+			float:left;
+			margin-right:10px;
+		}
+		>div {
+			color: #444444;
+			font-style: italic;
+			line-height: 14px;
+			position: relative;
+			top: 50px;
+			strong {
+				display:block;
+				font-style:normal;
+			}
+		}
+	}
+}
+
+.register-thanks-text {
+	padding-top:25px;
+	p:first-child {
+		font-size:22px;
+		color:#3c9aca;
+		line-height:28px;
+	}
+	p {
+		font-size:11px;
+		color:#444;
+	}
+
+}

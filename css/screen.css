@@ -2,21 +2,21 @@
 /*========================================
   Global variables
 ==========================================*/
-/* line 154, icons/*.png */
-.icons-sprite, .icons-arrow-closed, .icons-arrow-opened, .icons-bottom_item, .icons-calc, .icons-cart, .icons-close-button-gray, .icons-close-small, .icons-delete-button, .icons-icon-password, .icons-icon-user, .icons-list-arrow, .icons-menu-arr-right_hover, .icons-menu-arrow-right, .icons-user, .icons-video-arrow, #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-title.opened > div strong .icons, .side-nav > li.active > a .icons, .side-nav > li > a:hover .icons, .registration-popup-section .registration-input-container .user-icon:after, .registration-popup-section .registration-input-container .password-icon:after, .blue-bullet li:before, .brand-parts.closed .icons {
+/* line 170, icons/*.png */
+.icons-sprite, .icons-arrow-closed, .icons-arrow-opened, .icons-bottom_item, .icons-calc, .icons-cart, .icons-close-button-gray, .icons-close-small, .icons-delete-button, .icons-icon-password, .icons-icon-user, .icons-list-arrow, .icons-menu-arr-right_hover, .icons-menu-arrow-right, .icons-pag-next, .icons-pag-prev, .icons-user, .icons-video-arrow, #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-title.opened > div strong .icons, .side-nav > li.active > a .icons, .side-nav > li > a:hover .icons, .registration-popup-section .registration-input-container .user-icon:after, .registration-popup-section .registration-input-container .password-icon:after, .blue-bullet li:before, .brand-parts.closed .icons {
   background: url('../img/icons.png') no-repeat;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-arrow-closed {
-  background-position: 0 -251px;
+  background-position: 0 -269px;
   height: 7px;
   width: 8px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-arrow-opened {
-  background-position: 0 -233px;
+  background-position: 0 -251px;
   height: 8px;
   width: 9px;
 }
@@ -86,16 +86,30 @@
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-menu-arr-right_hover {
-  background-position: 0 -215px;
+  background-position: 0 -224px;
   height: 9px;
   width: 7px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-menu-arrow-right {
-  background-position: 0 -224px;
+  background-position: 0 -233px;
   height: 9px;
   width: 7px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-pag-next {
+  background-position: 0 -215px;
+  height: 9px;
+  width: 6px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-pag-prev {
+  background-position: 0 -242px;
+  height: 9px;
+  width: 6px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
@@ -107,7 +121,7 @@
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-video-arrow {
-  background-position: 0 -241px;
+  background-position: 0 -259px;
   height: 10px;
   width: 8px;
 }
@@ -506,12 +520,12 @@ h1, h2, h3, h4, h5, h6 {
 /* line 10, ../sass/typography/_typo.scss */
 h1 {
   font-size: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 /* line 11, ../sass/typography/_typo.scss */
 h2 {
-  font-size: 1.500em;
+  font-size: 18px;
   margin-bottom: 20px;
 }
 
@@ -1100,7 +1114,7 @@ html, body {
 }
 /* line 248, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-title.opened > div strong .icons {
-  background-position: 0 -251px;
+  background-position: 0 -269px;
 }
 /* line 254, ../sass/elements/_header.scss */
 #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-title > div {
@@ -1457,7 +1471,7 @@ html, body {
 }
 /* line 13, ../sass/elements/_nav.scss */
 .side-nav > li.active > a .icons {
-  background-position: 0 -215px;
+  background-position: 0 -224px;
 }
 /* line 18, ../sass/elements/_nav.scss */
 .side-nav > li > a {
@@ -1476,7 +1490,7 @@ html, body {
 }
 /* line 29, ../sass/elements/_nav.scss */
 .side-nav > li > a:hover .icons {
-  background-position: 0 -215px;
+  background-position: 0 -224px;
 }
 /* line 34, ../sass/elements/_nav.scss */
 .side-nav > li > a .icons {
@@ -1561,6 +1575,80 @@ html, body {
 /* line 26, ../sass/elements/_breadcrumbs.scss */
 .bread-crumbs li a:hover {
   text-decoration: none;
+}
+
+/* line 33, ../sass/elements/_breadcrumbs.scss */
+.pagination {
+  text-align: center;
+  margin: 30px 0;
+}
+/* line 36, ../sass/elements/_breadcrumbs.scss */
+.pagination li {
+  display: inline-block;
+  margin: 0 2px;
+}
+/* line 40, ../sass/elements/_breadcrumbs.scss */
+.pagination li a {
+  display: block;
+  height: 28px;
+  line-height: 26px;
+  width: 28px;
+  font-size: 12px;
+  color: #717171;
+  box-shadow: 0 1px 3px 0 rgba(255, 255, 255, 0.4) inset;
+  border: 1px solid #e3e3e3;
+  text-decoration: none;
+  background: #f2f2f2;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #f2f2f2 0%, #e0e0e0 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f2f2f2), color-stop(100%, #e0e0e0));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #f2f2f2 0%, #e0e0e0 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #f2f2f2 0%, #e0e0e0 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #f2f2f2 0%, #e0e0e0 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #f2f2f2 0%, #e0e0e0 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f2f2', endColorstr='#e0e0e0',GradientType=0 );
+  /* IE6-9 */
+  border-radius: 3px;
+  font-weight: bold;
+  text-shadow: 0 1px #fff;
+}
+/* line 62, ../sass/elements/_breadcrumbs.scss */
+.pagination li a:hover {
+  background: #fafafa;
+}
+/* line 65, ../sass/elements/_breadcrumbs.scss */
+.pagination li a .icons {
+  position: relative;
+  top: 1px;
+}
+/* line 70, ../sass/elements/_breadcrumbs.scss */
+.pagination li.active a {
+  text-shadow: none;
+  color: #fff;
+  border-color: #fff;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.4) inset;
+  background: #44a4d5;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #44a4d5 0%, #2a85b4 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #44a4d5), color-stop(100%, #2a85b4));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #44a4d5 0%, #2a85b4 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #44a4d5 0%, #2a85b4 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #44a4d5 0%, #2a85b4 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #44a4d5 0%, #2a85b4 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#44a4d5', endColorstr='#2a85b4',GradientType=0 );
+  /* IE6-9 */
 }
 
 /* line 3, ../sass/elements/_tabs.scss */
@@ -2103,6 +2191,42 @@ html, body {
   top: 2px;
 }
 
+/* line 1, ../sass/elements/_news.scss */
+.news {
+  margin: 0 0 30px;
+}
+/* line 2, ../sass/elements/_news.scss */
+.news:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* line 8, ../sass/elements/_news.scss */
+.news .preview {
+  float: left;
+  background: #fff;
+  border: 1px solid #b8bab9;
+  padding: 5px;
+  max-width: 170px;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+  margin: 3px 20px 10px 0;
+}
+/* line 16, ../sass/elements/_news.scss */
+.news .preview img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+/* line 23, ../sass/elements/_news.scss */
+.news .content h2 {
+  font-weight: bold;
+  color: #FF5400;
+}
+/* line 28, ../sass/elements/_news.scss */
+.news .content .news-overview a {
+  margin-right: 5px;
+}
+
 /* line 1, ../sass/elements/_filter-catalog.scss */
 .filter-catalog {
   background: #f3f3f3 url(../img/page/car.jpg) no-repeat 100% 100%;
@@ -2264,7 +2388,7 @@ html, body {
 }
 /* line 113, ../sass/_main.scss */
 .brand-parts.closed .icons {
-  background-position: 0 -251px;
+  background-position: 0 -269px;
 }
 /* line 116, ../sass/_main.scss */
 .brand-parts.closed .brand-section {
@@ -2364,6 +2488,51 @@ html, body {
   font-size: 14px;
   font-weight: bold;
   color: #ff5400;
+}
+
+/* line 200, ../sass/_main.scss */
+.round-pic {
+  position: relative;
+}
+/* line 202, ../sass/_main.scss */
+.round-pic .pic-holder {
+  border-radius: 100px;
+  overflow: hidden;
+  margin: 0 0 10px;
+}
+/* line 208, ../sass/_main.scss */
+.round-pic .sign > img {
+  float: left;
+  margin-right: 10px;
+}
+/* line 212, ../sass/_main.scss */
+.round-pic .sign > div {
+  color: #444444;
+  font-style: italic;
+  line-height: 14px;
+  position: relative;
+  top: 50px;
+}
+/* line 218, ../sass/_main.scss */
+.round-pic .sign > div strong {
+  display: block;
+  font-style: normal;
+}
+
+/* line 226, ../sass/_main.scss */
+.register-thanks-text {
+  padding-top: 25px;
+}
+/* line 228, ../sass/_main.scss */
+.register-thanks-text p:first-child {
+  font-size: 22px;
+  color: #3c9aca;
+  line-height: 28px;
+}
+/* line 233, ../sass/_main.scss */
+.register-thanks-text p {
+  font-size: 11px;
+  color: #444;
 }
 
 @media (max-width: 1300px) {

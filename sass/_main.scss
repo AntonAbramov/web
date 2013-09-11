@@ -4,7 +4,7 @@
 	background: #fff;
 	margin-bottom:10px;
 }
-.blue-bullet {
+.bullet-list {
 	margin-bottom:20px;
 	li {
 		padding-left:20px;
@@ -12,15 +12,28 @@
 		margin-bottom:5px;
 		&:before {
 			content:"";
+			position: absolute;
+			left:0;
+		}
+	}
+	&.blue-bullet {
+		li:before {
 			@include icons-sprite(list-arrow);
 			height:10px;
 			width:10px;
-			position: absolute;
-			left:0;
 			top:3px;
 		}
 	}
+	&.line-bullet {
+		li:before {
+			@include icons-sprite(line-arrow);
+			height:2px;
+			width:12px;
+			top:9px;
+		}
+	}
 }
+
 .helvetica-tin  {
 	font-family: helvetica-thin;
 }

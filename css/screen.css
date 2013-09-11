@@ -2,8 +2,8 @@
 /*========================================
   Global variables
 ==========================================*/
-/* line 170, icons/*.png */
-.icons-sprite, .icons-arrow-closed, .icons-arrow-opened, .icons-bottom_item, .icons-calc, .icons-cart, .icons-close-button-gray, .icons-close-small, .icons-delete-button, .icons-icon-password, .icons-icon-user, .icons-list-arrow, .icons-menu-arr-right_hover, .icons-menu-arrow-right, .icons-pag-next, .icons-pag-prev, .icons-user, .icons-video-arrow, #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-title.opened > div strong .icons, .side-nav > li.active > a .icons, .side-nav > li > a:hover .icons, .registration-popup-section .registration-input-container .user-icon:after, .registration-popup-section .registration-input-container .password-icon:after, .blue-bullet li:before, .brand-parts.closed .icons {
+/* line 178, icons/*.png */
+.icons-sprite, .icons-arrow-closed, .icons-arrow-opened, .icons-bottom_item, .icons-calc, .icons-cart, .icons-close-button-gray, .icons-close-small, .icons-delete-button, .icons-icon-password, .icons-icon-user, .icons-line-arrow, .icons-list-arrow, .icons-menu-arr-right_hover, .icons-menu-arrow-right, .icons-pag-next, .icons-pag-prev, .icons-user, .icons-video-arrow, #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-title.opened > div strong .icons, .side-nav > li.active > a .icons, .side-nav > li > a:hover .icons, .registration-popup-section .registration-input-container .user-icon:after, .registration-popup-section .registration-input-container .password-icon:after, .bullet-list.blue-bullet li:before, .bullet-list.line-bullet li:before, .brand-parts.closed .icons {
   background: url('../img/icons.png') no-repeat;
 }
 
@@ -75,6 +75,13 @@
   background-position: 0 -161px;
   height: 15px;
   width: 15px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-line-arrow {
+  background-position: 0 -276px;
+  height: 2px;
+  width: 12px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
@@ -2252,119 +2259,129 @@ html, body {
 }
 
 /* line 7, ../sass/_main.scss */
-.blue-bullet {
+.bullet-list {
   margin-bottom: 20px;
 }
 /* line 9, ../sass/_main.scss */
-.blue-bullet li {
+.bullet-list li {
   padding-left: 20px;
   position: relative;
   margin-bottom: 5px;
 }
 /* line 13, ../sass/_main.scss */
-.blue-bullet li:before {
+.bullet-list li:before {
   content: "";
+  position: absolute;
+  left: 0;
+}
+/* line 20, ../sass/_main.scss */
+.bullet-list.blue-bullet li:before {
   background-position: 0 -176px;
   height: 10px;
   width: 10px;
-  position: absolute;
-  left: 0;
   top: 3px;
 }
+/* line 28, ../sass/_main.scss */
+.bullet-list.line-bullet li:before {
+  background-position: 0 -276px;
+  height: 2px;
+  width: 12px;
+  top: 9px;
+}
 
-/* line 24, ../sass/_main.scss */
+/* line 37, ../sass/_main.scss */
 .helvetica-tin {
   font-family: helvetica-thin;
 }
 
-/* line 27, ../sass/_main.scss */
+/* line 40, ../sass/_main.scss */
 .helvetica-mid {
   font-family: helvetica-medium;
 }
 
-/* line 30, ../sass/_main.scss */
+/* line 43, ../sass/_main.scss */
 .helvetica-bold {
   font-family: helvetica-bold;
 }
 
-/* line 33, ../sass/_main.scss */
+/* line 46, ../sass/_main.scss */
 .s20 {
   font-size: 20px;
   line-height: 1;
 }
 
-/* line 37, ../sass/_main.scss */
+/* line 50, ../sass/_main.scss */
 .s21 {
   font-size: 21px;
   line-height: 1;
 }
 
-/* line 41, ../sass/_main.scss */
+/* line 54, ../sass/_main.scss */
 .s22 {
   font-size: 22px;
   line-height: 1;
 }
 
-/* line 45, ../sass/_main.scss */
+/* line 58, ../sass/_main.scss */
 .s23 {
   font-size: 23px;
   line-height: 1;
 }
 
-/* line 49, ../sass/_main.scss */
+/* line 62, ../sass/_main.scss */
 .s24 {
   font-size: 24px;
   line-height: 1;
 }
 
-/* line 53, ../sass/_main.scss */
+/* line 66, ../sass/_main.scss */
 .s25 {
   font-size: 25px;
   line-height: 1;
 }
 
-/* line 57, ../sass/_main.scss */
+/* line 70, ../sass/_main.scss */
 .s26 {
   font-size: 26px;
   line-height: 1;
 }
 
-/* line 61, ../sass/_main.scss */
+/* line 74, ../sass/_main.scss */
 .s27 {
   font-size: 27px;
   line-height: 1;
 }
 
-/* line 67, ../sass/_main.scss */
+/* line 80, ../sass/_main.scss */
 .white-block .s27.helvetica-tin {
   color: #0e709d;
 }
-/* line 70, ../sass/_main.scss */
+/* line 83, ../sass/_main.scss */
 .white-block .s22.helvetica-mid {
   color: #000;
 }
-/* line 73, ../sass/_main.scss */
+/* line 86, ../sass/_main.scss */
 .white-block .s24.helvetica-mid {
   color: #000;
 }
 
-/* line 78, ../sass/_main.scss */
+/* line 91, ../sass/_main.scss */
 .partners-section {
   text-align: center;
 }
-/* line 80, ../sass/_main.scss */
+/* line 93, ../sass/_main.scss */
 .partners-section img {
   display: inline-block;
   margin: 0 10px 5px 0;
 }
 
-/* line 85, ../sass/_main.scss */
+/* line 98, ../sass/_main.scss */
 .title {
   font-size: 20px;
   font-family: helvetica-bold;
 }
 
-/* line 90, ../sass/_main.scss */
+/* line 103, ../sass/_main.scss */
 .brand-parts {
   background: #fff;
   border: 1px solid #d6d6d6;
@@ -2372,30 +2389,30 @@ html, body {
   padding: 20px 20px 5px;
   margin: 0 0 10px;
 }
-/* line 98, ../sass/_main.scss */
+/* line 111, ../sass/_main.scss */
 .brand-parts .brand-section table {
   width: 100%;
 }
-/* line 101, ../sass/_main.scss */
+/* line 114, ../sass/_main.scss */
 .brand-parts .brand-section table tr td {
   padding: 5px 0;
   text-align: center;
 }
-/* line 104, ../sass/_main.scss */
+/* line 117, ../sass/_main.scss */
 .brand-parts .brand-section table tr td img {
   max-width: 100%;
   max-height: 100%;
 }
-/* line 113, ../sass/_main.scss */
+/* line 126, ../sass/_main.scss */
 .brand-parts.closed .icons {
   background-position: 0 -269px;
 }
-/* line 116, ../sass/_main.scss */
+/* line 129, ../sass/_main.scss */
 .brand-parts.closed .brand-section {
   display: none;
 }
 
-/* line 121, ../sass/_main.scss */
+/* line 134, ../sass/_main.scss */
 .triger-brand {
   cursor: pointer;
   -moz-user-select: none;
@@ -2405,60 +2422,60 @@ html, body {
   -ms-user-select: none;
   user-select: none;
 }
-/* line 129, ../sass/_main.scss */
+/* line 142, ../sass/_main.scss */
 .triger-brand .icons {
   top: -4px;
   position: relative;
 }
 
-/* line 134, ../sass/_main.scss */
+/* line 147, ../sass/_main.scss */
 .popular-shop {
   background: #fff;
   border: 1px solid #d6d6d6;
   padding: 20px;
   margin: 0 0 10px;
 }
-/* line 139, ../sass/_main.scss */
+/* line 152, ../sass/_main.scss */
 .popular-shop .shop-section {
   margin: 0 -10px;
 }
-/* line 141, ../sass/_main.scss */
+/* line 154, ../sass/_main.scss */
 .popular-shop .shop-section .shop {
   float: left;
   margin: 0 10px 20px;
   width: 294px;
 }
-/* line 145, ../sass/_main.scss */
+/* line 158, ../sass/_main.scss */
 .popular-shop .shop-section .shop .logo-holder {
   margin: 0 0 10px;
 }
-/* line 147, ../sass/_main.scss */
+/* line 160, ../sass/_main.scss */
 .popular-shop .shop-section .shop .logo-holder img {
   display: block;
   width: 100%;
 }
-/* line 153, ../sass/_main.scss */
+/* line 166, ../sass/_main.scss */
 .popular-shop .shop-section .shop .shop-discription .icons {
   float: right;
   position: relative;
   top: 3px;
 }
-/* line 158, ../sass/_main.scss */
+/* line 171, ../sass/_main.scss */
 .popular-shop .shop-section .shop .shop-discription strong {
   display: block;
 }
-/* line 161, ../sass/_main.scss */
+/* line 174, ../sass/_main.scss */
 .popular-shop .shop-section .shop .shop-discription a {
   display: block;
 }
 
-/* line 169, ../sass/_main.scss */
+/* line 182, ../sass/_main.scss */
 .white-section {
   padding: 20px;
   background: #fff;
 }
 
-/* line 173, ../sass/_main.scss */
+/* line 186, ../sass/_main.scss */
 .shop-links {
   text-decoration: none;
   position: absolute;
@@ -2472,40 +2489,40 @@ html, body {
   border: 1px solid #d2d2d2;
   border-radius: 5px;
 }
-/* line 185, ../sass/_main.scss */
+/* line 198, ../sass/_main.scss */
 .shop-links:hover {
   text-decoration: underline;
   color: #fff;
 }
 
-/* line 191, ../sass/_main.scss */
+/* line 204, ../sass/_main.scss */
 .orange {
   color: #ff5400;
 }
 
-/* line 194, ../sass/_main.scss */
+/* line 207, ../sass/_main.scss */
 .title2 {
   font-size: 14px;
   font-weight: bold;
   color: #ff5400;
 }
 
-/* line 200, ../sass/_main.scss */
+/* line 213, ../sass/_main.scss */
 .round-pic {
   position: relative;
 }
-/* line 202, ../sass/_main.scss */
+/* line 215, ../sass/_main.scss */
 .round-pic .pic-holder {
   border-radius: 100px;
   overflow: hidden;
   margin: 0 0 10px;
 }
-/* line 208, ../sass/_main.scss */
+/* line 221, ../sass/_main.scss */
 .round-pic .sign > img {
   float: left;
   margin-right: 10px;
 }
-/* line 212, ../sass/_main.scss */
+/* line 225, ../sass/_main.scss */
 .round-pic .sign > div {
   color: #444444;
   font-style: italic;
@@ -2513,23 +2530,23 @@ html, body {
   position: relative;
   top: 50px;
 }
-/* line 218, ../sass/_main.scss */
+/* line 231, ../sass/_main.scss */
 .round-pic .sign > div strong {
   display: block;
   font-style: normal;
 }
 
-/* line 226, ../sass/_main.scss */
+/* line 239, ../sass/_main.scss */
 .register-thanks-text {
   padding-top: 25px;
 }
-/* line 228, ../sass/_main.scss */
+/* line 241, ../sass/_main.scss */
 .register-thanks-text p:first-child {
   font-size: 22px;
   color: #3c9aca;
   line-height: 28px;
 }
-/* line 233, ../sass/_main.scss */
+/* line 246, ../sass/_main.scss */
 .register-thanks-text p {
   font-size: 11px;
   color: #444;

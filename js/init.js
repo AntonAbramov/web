@@ -31,6 +31,7 @@
     }
     $.ajax({
       url: 'ajax/sidebar.html',
+      method: 'get',
       dataType: 'html',
       success: function(data) {
         $('#sv-leftcolumn').append(data);
@@ -39,6 +40,7 @@
     });
     $.ajax({
       url: 'ajax/registrationpopup.html',
+      method: 'get',
       dataType: 'html',
       success: function(data) {
         $('.registration-popup').append(data);
@@ -47,10 +49,19 @@
     });
     $.ajax({
       url: 'ajax/cart.html',
+      method: 'get',
       dataType: 'html',
       success: function(data) {
         $('.cart-section .cart').append(data);
         return cartLogic();
+      }
+    });
+    $.ajax({
+      url: 'ajax/footer.html',
+      method: 'get',
+      dataType: 'html',
+      success: function(data) {
+        return $('#sv-footer').append(data);
       }
     });
   });
@@ -58,7 +69,6 @@
   initSlider = function() {
     return $('#slides').slidesjs({
       width: 940,
-      height: 324,
       play: {
         active: false,
         effect: "slide",

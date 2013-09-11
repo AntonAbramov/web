@@ -30,6 +30,7 @@ jQuery(window).load ->
 	#delete ajax and return html to the page
 	$.ajax
 		url: 'ajax/sidebar.html'
+		method: 'get'
 		dataType: 'html'
 		success: (data) ->
 			$('#sv-leftcolumn').append data
@@ -38,6 +39,7 @@ jQuery(window).load ->
 	#delete ajax and return html to the page
 	$.ajax
 		url: 'ajax/registrationpopup.html'
+		method: 'get'
 		dataType: 'html'
 		success: (data) ->
 			$('.registration-popup').append data
@@ -46,10 +48,19 @@ jQuery(window).load ->
 	#delete ajax and return html to the page
 	$.ajax
 		url: 'ajax/cart.html'
+		method: 'get'
 		dataType: 'html'
 		success: (data) ->
 			$('.cart-section .cart').append data
 			cartLogic()
+
+	#delete ajax and return html to the page
+	$.ajax
+		url: 'ajax/footer.html'
+		method: 'get'
+		dataType: 'html'
+		success: (data) ->
+			$('#sv-footer').append data
 
 
 	return #end Window load
@@ -57,7 +68,6 @@ jQuery(window).load ->
 initSlider = ->
 	$('#slides').slidesjs({
 			width: 940,
-			height: 324,
 			play: {
 				active: false,
 				# [boolean] Generate the play and stop buttons.

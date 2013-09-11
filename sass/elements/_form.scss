@@ -5,3 +5,73 @@
 		margin:0 0 5px;
 	}
 }
+
+.form {
+	width:auto;// 610
+	.title2 {
+		font-size:12px;
+		border-bottom:1px solid #b5b5b5;
+		margin:0 0 10px;
+	}
+	.form-section  {
+		margin:0 -10px;
+		input,select {
+			width:295px;
+			float:left;
+			margin:0 10px 20px;
+			border:1px solid #cccc;
+			padding:5px;
+			&:focus, &:hover {
+				box-shadow:0 0 5px #c4c4c4;
+			}
+		}
+		&.capcha-section {
+			margin:0 0 20px;
+			.capcha {
+				float:left;
+			}
+			.form-field {
+				input {
+					margin:0 0 10px;
+					width:110px;
+					text-align: center;
+					&:focus, &:hover {
+						box-shadow:0 0 5px #c4c4c4;
+					}
+				}
+			}
+		}
+	}
+	.agreement {
+		border-top:1px solid #b5b5b5;
+		padding-top:15px;
+		margin:0 0 15px;
+		input[type='checkbox'] {
+			margin-right:5px;
+		}
+	}
+	input[type='submit'] {
+		margin:0 auto;
+		display:block;
+	}
+	.error {
+		background: #fae0e0;
+		border:1px solid #e68e8e;
+		position:relative;
+		padding:10px 20px 10px 40px;
+		color:#000;
+		line-height:14px;
+		margin-bottom:20px;
+		&:after {
+			content:"";
+			width:19px;
+			height:19px;
+			@include icons-sprite(error);
+			position: absolute;
+			left:10px;
+			top:50%;
+			margin-top:-10px;
+		}
+	}
+}
+

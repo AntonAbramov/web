@@ -32,6 +32,12 @@
 			top:9px;
 		}
 	}
+
+	&.anchor {
+		padding-bottom:20px;
+		border-bottom:1px solid #8a8a8a;
+
+	}
 }
 
 .helvetica-tin  {
@@ -248,4 +254,7 @@
 		color:#444;
 	}
 
+}
+.anchor-block {
+	margin:0 0 30px;
 }

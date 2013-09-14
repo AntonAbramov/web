@@ -4,7 +4,7 @@ $(document).ready ->
 	if $('#slides').length
 		initSlider()
 
-	if $('#mycarousel').length
+	if $('.carusel ul').length
 		initCarusel()
 
 	if $('.tab-section').length
@@ -62,6 +62,7 @@ jQuery(window).load ->
 		success: (data) ->
 			$('#sv-footer').append data
 
+	$(".carusel").find('ul')
 
 	return #end Window load
 
@@ -89,9 +90,9 @@ initSlider = ->
 		})
 
 initCarusel = ->
-	$('#mycarousel').jcarousel({
+	$('.carusel ul').jcarousel({
 		scroll : 1,
-		visible : 3,
+		visible : 5,
 		wrap: 'circular' # замыкание карусели
 	})
 
@@ -126,9 +127,15 @@ cartLogic = ->
 		$(@).parents('.item-holder').remove()
 
 	$("body").on 'click', (e) ->
-		if not($(e.target).closest('.cart-content').length) and not($(e.target).closest('.cart-title').length)
-			$('.cart-title').removeClass('opened')
-			$(".cart-content").fadeOut()
+		if $("#registration-popup").is(":visible")
+			if not($(e.target).closest('#registration-popup').length) and not($(e.target).closest('#enter').length)
+				$('#enter').parent().removeClass('opened')
+				$("#registration-popup").fadeOut()
+		if $(".cart-content").is(":visible")
+			if not($(e.target).closest('.cart-content').length) and not($(e.target).closest('.cart-title').length)
+				$('.cart-title').removeClass('opened')
+				$(".cart-content").fadeOut()
+
 	return #cart logic
 
 registrationPopupLogic = ->
@@ -147,12 +154,6 @@ registrationPopupLogic = ->
 
 	return #registrationPopupLogic
 
-	$("body").on 'click', (e) ->
-		if not($(e.target).closest('#registration-popup').length) and not($(e.target).closest('#enter').length)
-			$('#enter').parent().removeClass('opened')
-			$("#registration-popup").fadeOut()
-
-	return #end registrationPopupLogic
 
 searchTyping = ->
 	$("#search").on 'keyup', ->

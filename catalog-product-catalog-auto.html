@@ -1,0 +1,285 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Framework</title>
+	<meta charset="UTF-8"/>
+	<meta name="author" content="Anton Abramov"/>
+	<meta name="keywords" content=""/>
+	<meta name="description" content=""/>
+	<link type="image/x-icon" rel="shortcut icon" href="favicon.ico"/>
+	<link rel="stylesheet" href="css/normalize.css" type="text/css" media="all"/>
+	<link rel="stylesheet" href="css/screen.css" type="text/css" media="all"/>
+	<link rel="stylesheet" href="css/additional.css" type="text/css" media="all"/>
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<!--[if gte IE 9]>
+	<style type="text/css">
+		.gradient {
+			filter: none;
+		}
+	</style>
+	<![endif]-->
+</head>
+<body>
+
+<header id="sv-header">
+	<div class="header-top cf">
+		<section class="wellcome left">Добро пожаловать на WestLogistic.com, <a href="#">Создайте акаунт</a> или <a
+				href="#">Войдите</a></section>
+
+		<section class="currency right">
+			<a class='active' href="#uan">ГРН</a><a href="#usd">USD</a>
+		</section>
+		<section class="header-inteactive right">
+			<ul class="cf">
+				<li><a href="#">Как купить</a></li>
+				<li><a href="#">Мой кабинет</a></li>
+				<li>
+					<a id="enter" href="#">Вход</a>
+					<div class="registration-popup">
+						<!-- ajax content-->
+					</div>
+				</li>
+				<li class="cart"><a href="#"><span class="icons icons-cart">&nbsp;</span>Корзина (2)</a></li>
+				<li><a href="#">Выйти</a></li>
+			</ul>
+		</section>
+	</div>
+	<div class="header-mid ">
+		<div class="header-mid-inn cf">
+			<div class="logo">
+				<a href="/"><img src="i
+				mg/tpl/logo.png" alt="WestLogistic" title="WestLogistic" /></a>
+			</div>
+			<section class="cart-section cf">
+			<div class="request">
+				Отправьте нам
+				<a href="#">Запрос на покупку</a>
+			</div>
+			<div class="cart">
+				<div class="cart-title">
+					<div>
+						<strong><span class="icons icons-arrow-opened">&nbsp;</span>Корзина (2)</strong>
+						2 658 грн
+					</div>
+				</div>
+				<!-- ajax content-->
+			</div>
+		</section>
+			<section class="search cf">
+				<div class="search-top-block">
+					Служба поддержки: <span class='tel'><span>(044)</span> 654-89-87</span>,  <span class='tel'><span>(067)</span> 654-89-87</span>
+				</div>
+				<div class="search-mid-block">
+					<form action="#">
+						<div class="search-container cf">
+							<div class="search-input">
+								<input type="search" id="search" placeholder="Поиск" /><input type="submit" value="найти" />
+							</div>
+							<div class="search-output">
+								<ul>
+									<li><a href="#"><span class="highlight">Appl</span>e Iphone</a></li>
+									<li><a href="#"><span class="highlight">Appl</span>e Iphone 4S</a></li>
+									<li><a href="#"><span class="highlight">Appl</span>e tv</a></li>
+									<li><a href="#"><span class="highlight">Appl</span>e Ipad</a></li>
+									<li><a href="#"><span class="highlight">Appl</span>e Ipod</a></li>
+									<li><a href="#"><span class="highlight">Appl</span>e Iphone</a></li>
+								</ul>
+							</div>
+						</div>
+					</form>
+					<div class="search-discription">Напишите здесь название товара, или просто вставте ID из eBay или Amazon</div>
+				</div>
+			</section>
+
+		</div>
+	</div>
+</header>
+<!-- #sv-header -->
+<div id="sv-wrapper">
+	<div id="sv-middle" class="cf">
+			<div id="sv-container">
+				<div id="sv-content-lc">
+
+					<div class="sv-page">
+						<div style="padding:20px; background: #fff">
+							<h1>Автозапчасти</h1>
+							<ul class="bread-crumbs">
+								<li><a href="#">Главная</a></li>
+								<li> Мой кабинет</li>
+							</ul>
+							<div class="filter-catalog mb10">
+								<p class="helvetica-tin black s27">
+									Каталог <span class="helvetica-mid">автозапчастей</span>
+								</p>
+								<form action="#">
+									<div class="cf">
+										<div class="form-field w190 mr15 mb10 left">
+											<label for="mark">Выберите марку авто</label>
+											<select name="" id="mark">
+												<option value="">Fiat</option>
+												<option value="">Fiat2</option>
+												<option value="">Fiat3</option>
+											</select>
+										</div>
+										<div class="form-field w190 mr15 mb10 left">
+											<label for="model">Выберите модель</label>
+											<select name=""id="model">
+												<option value="">Punto</option>
+												<option value="">Punto2</option>
+												<option value="">Punto3</option>
+											</select>
+										</div>
+										<div class="form-field w100 mr15 mb10 left">
+											<label for="year">Год випуска</label>
+											<select name="" id="year">
+												<option value="">2012</option>
+												<option value="">2011</option>
+												<option value="">2010</option>
+											</select>
+										</div>
+										<div class="form-field w190 mr15 mb10 left">
+											<label for="tormoz">Группа запчастей</label>
+											<select name="" id="tormoz">
+												<option value="">Тормозная система</option>
+												<option value="">Тормозная система2</option>
+												<option value="">Тормозная система3</option>
+											</select>
+
+										</div>
+										<div class="form-field mt15 mr15 mb10 right">
+											<input type="submit" class="btn right orange medium" value="Поиск запчастей"/>
+
+										</div>
+									</div>
+
+								</form>
+							</div><!-- end filter catalog -->
+							<div class="filter-catalog mb10 cf">
+								<div class="form-field w190 mr15 mb10 left">
+									<span style="position:relative; top:7px;" class="helvetica-tin black mt5 s20">Мой<span class="helvetica-mid"> гараж</span></span>
+								</div>
+								<div class="form-field mr15 mb10 left">
+									<select name="" class="w220 mr10" >
+										<option value="">Mercedes-Benz E270 CDI, 2003</option>
+										<option value="">Mercedes-Benz E270 CDI, 2004</option>
+										<option value="">Mercedes-Benz E270 CDI, 2005</option>
+									</select>
+									<a href="#" class="btn orange medium">Выбрать</a>
+								</div>
+							</div>
+							<div class="brand-parts">
+								<p class="helvetica-tin black s27 triger-brand">
+									Автозапчасти по <span class="helvetica-mid">брендам</span>
+									<span class="icons icons-arrow-opened"></span>
+								</p>
+								<div class="brand-section">
+									<table>
+										<tr>
+											<td><img src="img/models/item1.jpg" alt=""/></td>
+											<td><img src="img/models/item2.jpg" alt=""/></td>
+											<td><img src="img/models/item3.jpg" alt=""/></td>
+											<td><img src="img/models/item1.jpg" alt=""/></td>
+											<td><img src="img/models/item2.jpg" alt=""/></td>
+											<td><img src="img/models/item3.jpg" alt=""/></td>
+										</tr>
+										<tr>
+											<td><img src="img/models/item3.jpg" alt=""/></td>
+											<td><img src="img/models/item1.jpg" alt=""/></td>
+											<td><img src="img/models/item1.jpg" alt=""/></td>
+											<td><img src="img/models/item2.jpg" alt=""/></td>
+											<td><img src="img/models/item2.jpg" alt=""/></td>
+											<td><img src="img/models/item3.jpg" alt=""/></td>
+										</tr>
+										<tr>
+											<td><img src="img/models/item1.jpg" alt=""/></td>
+											<td><img src="img/models/item3.jpg" alt=""/></td>
+											<td><img src="img/models/item2.jpg" alt=""/></td>
+											<td><img src="img/models/item3.jpg" alt=""/></td>
+											<td><img src="img/models/item1.jpg" alt=""/></td>
+											<td><img src="img/models/item2.jpg" alt=""/></td>
+										</tr>
+										<tr>
+											<td><img src="img/models/item3.jpg" alt=""/></td>
+											<td><img src="img/models/item1.jpg" alt=""/></td>
+											<td><img src="img/models/item2.jpg" alt=""/></td>
+											<td><img src="img/models/item3.jpg" alt=""/></td>
+											<td><img src="img/models/item1.jpg" alt=""/></td>
+											<td><img src="img/models/item2.jpg" alt=""/></td>
+										</tr>
+										<tr>
+											<td><img src="img/models/item3.jpg" alt=""/></td>
+											<td><img src="img/models/item1.jpg" alt=""/></td>
+											<td><img src="img/models/item1.jpg" alt=""/></td>
+											<td><img src="img/models/item2.jpg" alt=""/></td>
+											<td><img src="img/models/item2.jpg" alt=""/></td>
+											<td><img src="img/models/item3.jpg" alt=""/></td>
+										</tr>
+									</table>
+								</div>
+							</div>
+							<div class="white-section">
+								<p class="s24 black">АВТОЗАПЧАСТИ ИЗ США</p>
+								<p>Россия по праву считается самой читающей страной. Кроме того, как известно, мы неплохо разбираемся в музыке. Однако американцам и европейцам повезло намного больше. Доступный им ассортимент книг и музыки несоизмеримо больше по сравнению с тем, который есть в распоряжении российского покупателя.
+Этот факт заставляет нас заглядывать на заграничные сайты, в особенности на Amazon или eBay, где можно найти:
+Практически все новинки на рынке книг и музыкифКомпания BayRu – сервис, осуществляющий выкуп и доставку товаров с крупнейших мировых онлайн площадок – eBay и Amazon. Одним из ключевых направлений нашего бизнеса сегодня является заказ запчастей из США, Европы, Японии и Южной Кореи с аукциона eBay и непосредственно у производителей. Мы со 100% гарантией доставим любые детали для Вашего автомобиля (за исключением двигателей), которые Вы не можете найти в России или желаете приобрести дешевле.
+Не так важно ищете ли Вы диски для Кадиллак, капот для Мерседес, трансмиссию для Тойота или тормозные колодки для Киа, Вам нужно лишь ввести необходимое словосочетание в поле поиска на этой странице или заполнить данные в фильтры “марка а/м”, “модель”, “год”. Если Вы нашли искомую автозапчасть и хотите ее приобрести или получить дополнительную информацию, то Вам необходимо будет оформить заявку, положив товар в корзину и следуя инструкциям системы. В течение одного рабочего дня с момента оформления заявки с Вами свяжутся наши русскоговорящие специалисты из Чикаго, чтобы ответить на все вопросы и утвердить или аннулировать заказ. Если Вам необходима дополнительная консультация, то наши операторы в Москве и Санкт-Петербурге также будут рады Вам помочь.
+Доставка запчастей из Америки, Европы, Японии и Кореи осуществляется в любую точку России и СНГ по адресу, указанному Вами в заказе.
+На нашем сайте представлен самый широкий выбор автозапчастей для любых марок автомобилей: Toyota, Honda, Chevrolet, Ford, Dodge, BMW, Mitsubishi, Jeep, Yamaha, Polaris..
+Редкие музыкальные записи и книги, в том числе антикварные, а также рукописи.
+Множество книг самой разной тематики, множество музыкальных записей самых разных жанров.
+Важно и то, что в международных Интернет-магазинах и аукционах редкие и дорогие книги можно купить намного дешевле, чем в России. Хотя во многих случаях покупка товаров в Америке и Европе привлекает, скорее, как эксклюзивная возможность приобрести ту или иную книгу или музыкальный диск.
+Следовательно, если в книжном магазине Вашего города Вам уже давно стало скучно и тесно, а в российских Интернет-магазинах Вы тоже не можете найти то, что ищете. BayRu – правильное направление для Ваших покупок.</p>
+							</div>
+						</div>
+
+					</div>
+					<!-- #sv-page -->
+
+				</div>
+				<!-- #sv-content -->
+			</div>
+			<!-- #sv-container -->
+
+			<aside id="sv-leftcolumn">
+				<a class="shop-links" href="#">Маназины</a>
+				<!-- ajax content-->
+			</aside>
+			<!-- #sv-leftcolumn -->
+		<!--aside id="sv-rightcolumn">
+			<strong>Right Sidebar:</strong>
+		</aside--><!-- #sv-rightcolumn -->
+
+	</div><!-- #sv-middle -->
+
+	<div  class="right-side-bar brd bg-white p20">
+		<div class="auto-parts-side">
+			<p class="helvetica-tin s20 ">Автозапчасти <span class="helvetica-mid"> по брендам</span></p>
+			<div class="cf auto-parts">
+				<div><a href="#"><img src="img/brand/b1.jpg" alt=""/></a></div>
+				<div><a href="#"><img src="img/brand/b2.jpg" alt=""/></a></div>
+				<div><a href="#"><img src="img/brand/b3.jpg" alt=""/></a></div>
+				<div><a href="#"><img src="img/brand/b2.jpg" alt=""/></a></div>
+				<div><a href="#"><img src="img/brand/b1.jpg" alt=""/></a></div>
+				<div><a href="#"><img src="img/brand/b3.jpg" alt=""/></a></div>
+				<div><a href="#"><img src="img/brand/b2.jpg" alt=""/></a></div>
+			</div>
+			<a href="#" class="btn orange medium">Все бренды</a>
+		</div>
+	</div>
+</div>
+<!-- #sv-wrapper -->
+<footer id="sv-footer">
+</footer>
+<!-- #sv-footer -->
+
+<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="js/jquery.slides.min.js"></script>
+<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="js/init.js"></script>
+
+</body>
+</html>

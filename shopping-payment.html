@@ -1,0 +1,269 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Framework</title>
+	<meta charset="UTF-8"/>
+	<meta name="author" content="Anton Abramov"/>
+	<meta name="keywords" content=""/>
+	<meta name="description" content=""/>
+	<link type="image/x-icon" rel="shortcut icon" href="favicon.ico"/>
+	<link rel="stylesheet" href="css/normalize.css" type="text/css" media="all"/>
+	<link rel="stylesheet" href="css/screen.css" type="text/css" media="all"/>
+	<link rel="stylesheet" href="css/additional.css" type="text/css" media="all"/>
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<!--[if gte IE 9]>
+	<style type="text/css">
+		.gradient {
+			filter: none;
+		}
+	</style>
+	<![endif]-->
+</head>
+<body>
+
+<header id="sv-header">
+	<div class="header-top cf">
+		<section class="wellcome left">Добро пожаловать на WestLogistic.com, <a href="#">Создайте акаунт</a> или <a
+				href="#">Войдите</a></section>
+
+		<section class="currency right">
+			<a class='active' href="#uan">ГРН</a><a href="#usd">USD</a>
+		</section>
+		<section class="header-inteactive right">
+			<ul class="cf">
+				<li><a href="#">Как купить</a></li>
+				<li><a href="#">Мой кабинет</a></li>
+				<li>
+					<a id="enter" href="#">Вход</a>
+
+					<div class="registration-popup">
+						<!-- ajax content-->
+					</div>
+				</li>
+				<li class="cart"><a href="#"><span class="icons icons-cart">&nbsp;</span>Корзина (2)</a></li>
+				<li><a href="#">Выйти</a></li>
+			</ul>
+		</section>
+	</div>
+	<div class="header-mid ">
+		<div class="header-mid-inn cf">
+			<div class="logo">
+				<a href="/"><img src="i
+				mg/tpl/logo.png" alt="WestLogistic" title="WestLogistic"/></a>
+			</div>
+			<section class="cart-section cf">
+				<div class="request">
+					Отправьте нам
+					<a href="#">Запрос на покупку</a>
+				</div>
+				<div class="cart">
+					<div class="cart-title">
+						<div>
+							<strong><span class="icons icons-arrow-opened">&nbsp;</span>Корзина (2)</strong>
+							2 658 грн
+						</div>
+					</div>
+					<!-- ajax content-->
+				</div>
+			</section>
+			<section class="search cf">
+				<div class="search-top-block">
+					Служба поддержки: <span class='tel'><span>(044)</span> 654-89-87</span>, <span class='tel'><span>(067)</span> 654-89-87</span>
+				</div>
+				<div class="search-mid-block">
+					<form action="#">
+						<div class="search-container cf">
+							<div class="search-input">
+								<input type="search" id="search" placeholder="Поиск"/><input type="submit"
+								                                                             value="найти"/>
+							</div>
+							<div class="search-output">
+								<ul>
+									<li><a href="#"><span class="highlight">Appl</span>e Iphone</a></li>
+									<li><a href="#"><span class="highlight">Appl</span>e Iphone 4S</a></li>
+									<li><a href="#"><span class="highlight">Appl</span>e tv</a></li>
+									<li><a href="#"><span class="highlight">Appl</span>e Ipad</a></li>
+									<li><a href="#"><span class="highlight">Appl</span>e Ipod</a></li>
+									<li><a href="#"><span class="highlight">Appl</span>e Iphone</a></li>
+								</ul>
+							</div>
+						</div>
+					</form>
+					<div class="search-discription">Напишите здесь название товара, или просто вставте ID из eBay или
+						Amazon
+					</div>
+				</div>
+			</section>
+
+		</div>
+	</div>
+</header>
+<!-- #sv-header -->
+<div id="sv-wrapper">
+	<div id="sv-middle" class="cf">
+		<div id="sv-container">
+			<div id="sv-content-full">
+				<div class="sv-page">
+					<div class="p20 bg-white">
+						<h1>Оплата заказа</h1>
+						<ul class="steps row cf">
+							<li class="col-3">
+								<a href="">
+									<span class="icons">1</span>
+									<span class="step-title">Выбор товара</span>
+									<span class='step-discription'>Пройдитесь каталогом...</span>
+								</a>
+							</li>
+							<li class="col-3 ">
+								<a href="">
+									<span class="icons">2</span>
+									<span class="step-title">Оформление</span>
+									<span class='step-discription'>корзины</span>
+								</a>
+							</li>
+							<li class="col-3 active">
+								<a href="">
+									<span class="icons">3</span>
+									<span class="step-title">Оплата</span>
+									<span class='step-discription'>Visa, MasterCard, PayPay</span>
+								</a>
+							</li>
+							<li class="col-2 last">
+								<a href="">
+									<span class="icons">4</span>
+									<span class="step-title">Готово!</span>
+									<span class='step-discription'>Поздравляем с покупкой!</span>
+								</a>
+							</li>
+						</ul>
+						<h2 class="orange">Мой заказ</h2>
+						<table class="order-table">
+							<thead>
+								<tr>
+									<td>Фото</td>
+									<td>Название товара</td>
+									<td>Количество</td>
+									<td>Цена</td>
+									<td></td>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td><a href="#"><img src="img/page/tov3.jpg" alt=""/></a></td>
+									<td><a href="#">Toyota Tundra 07-11 / Toyota Sequoia 08-11 Halo Projector
+										Headlights - Black</a></td>
+									<td>1</td>
+									<td>
+										<div><strong>$231,60
+										</strong></div>
+										<div>(1848 грн)</div>
+									</td>
+									<td></td>
+								</tr>
+								<tr class="odd">
+									<td><a href="#"><img src="img/page/tov4.jpg" alt=""/></a></td>
+									<td><a href="#">Toyota Tundra 07-11 / Toyota Sequoia 08-11 Halo Projector
+										Headlights - Black</a></td>
+									<td>1</td>
+
+									<td>
+										<div><strong>$231,60
+										</strong></div>
+										<div>(1848 грн)</div>
+									</td>
+									<td></td>
+								</tr>
+							</tbody>
+						</table>
+						<div class="mb10">
+							<a href="#">← Назад в Корзину</a>
+						</div>
+						<div class="row">
+							<div class="col-4">
+								<div class="payment-way">
+									<h2 class="orange">Способ оплаты</h2>
+									<p>
+										<label for="PayPal"><input class="mr5" name='payment-type' type="radio" id="PayPal"/>PayPal</label>
+									</p>
+									<p>
+										<label for="liqpay"><input class="mr5" name='payment-type' type="radio" id="liqpay"/>Кредитная карта (Liqpay)</label>
+									</p>
+									<p>
+										<label for="privat"><input class="mr5" name='payment-type' type="radio" id="privat"/>Приват24</label>
+									</p>
+								</div>
+							</div>
+							<div class="col-4">
+								<div class="payment-adress">
+									<h2 class="orange">Билинговый адрес</h2>
+									<ul class="mb10">
+										<li>ул. Руська, 23.</li>
+										<li>г. Тернополь,</li>
+										<li>Тернопольская область,</li>
+										<li>Украина,</li>
+										<li>46000</li>
+									</ul>
+									<a href="#" class="btn-blue-small">Изменить</a>
+								</div>
+							</div>
+							<div class="col-4">
+								<div class="payment-amount">
+									<div class="black"><strong>Всего:  $588</strong></div>
+									<div class="black"><strong>Стоимость доставки: $85</strong></div>
+									<div class="amount-total">Вместе:  $673 <span>(5358 грн)</span></div>
+									<a class="btn orange large" href="#">Совершить оплату</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- #sv-page -->
+
+			</div>
+			<!-- #sv-content -->
+		</div>
+		<!-- #sv-container -->
+
+	</div>
+	<!-- #sv-middle -->
+	<div class="right-side-bar">
+		<section class="support-block">
+			<div class="support-top">
+				<p class="any-question">Возникли вопросы? <span>Звоните!</span></p>
+
+				<div class="tels">
+					<div class="tel1">(067) 350-14-11</div>
+					<div>(050) 400-50-60</div>
+				</div>
+				<div class="calls cf">
+					<a href="#">
+						<span class="icons icons-call"></span>Позвонить с сайта<br/>
+						<span>(бесплатно)</span>
+					</a>
+					<a class="skype" href="#"><img src="img/page/skype.png" alt=""/></a>
+				</div>
+			</div>
+			<div class="delivery-img">
+				<a href="#">
+					<img src="img/page/pic2.jpg" alt=""/>
+				</a>
+			</div>
+		</section>
+	</div>
+</div>
+<!-- #sv-wrapper -->
+<footer id="sv-footer">
+</footer>
+<!-- #sv-footer -->
+
+<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="js/jquery.slides.min.js"></script>
+<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="js/init.js"></script>
+
+</body>
+</html>

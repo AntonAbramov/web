@@ -8,6 +8,23 @@
 
 .form {
 	width:auto;// 610
+	&.input-full {
+		.form-section {
+			margin:0 0 30px;
+			input,select {
+				width:100%;
+				margin:0 0 20px;
+			}
+			textarea {
+				width:100%;
+				resize: none;
+			}
+		}
+	}
+	&.bg-gray {
+		background: #f8f8f8;
+		padding:30px;
+	}
 	.title2 {
 		font-size:12px;
 		border-bottom:1px solid #b5b5b5;

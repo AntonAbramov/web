@@ -187,30 +187,84 @@
 
  /* CARUSEL */
 
-.content-galery-small {
-	display:none;
-	.big-pic {
-		float:left;
-		width:48%;
+.carusel {
+	position: relative;
+	padding:0 60px;
+	.jcarousel-clip-horizontal {
+		overflow: hidden;
+		.jcarousel-list  {
+			padding:5px!important;
+		}
 	}
-	.photo-galery {
-		float:right;
-		width:48%;
-		li{
-			position:relative;
-			height:170px;
-			overflow:hidden;
-			padding:0;
-			a {
-				width:70px;
-				height:70px;
-				margin-top:5px;
-				&:last-child {
-					bottom: -10px;
-					left: 95px;
-					position: absolute;
+	ul {
+		margin-left:-5px!important;
+		&:after {
+			content:"";
+			display:table;
+			clear:both;
+		}
+		li {
+			padding:20px 20px 40px;
+			width:150px;
+			float:left;
+			border:1px solid #fff;
+			position: relative;
+			margin:0 4px;
+			&:hover {
+				border:1px solid #cdcdcd;
+				box-shadow:0 0 5px 0 rgba(0,0,0, .3);
+			}
+			.img-container {
+				display: block;
+				margin: 0 0 5px 0;
+				min-height: 215px;
+				max-height: 215px;
+				overflow: hidden;
+				&:hover {
+					text-decoration: underline;
+				}
+				img {
+					display:block;
+					margin:0 0 15px;
+					max-width:100%;
 				}
 			}
+			.price {
+				margin:0 -10px 10px 0;
+				color:#920101;
+				font-weight:bold;
+				span {
+					font-weight:normal;
+					color:#5e5e5e;
+				}
+			}
+			button.btn-blue-small {
+				position: absolute;
+				bottom:20px;
+				left:20px;
+			}
+		}
+	}
+	.jcarousel-prev, .jcarousel-next {
+		position: absolute;
+		top:50%;
+		margin-top:-96px;
+		height:192px;
+		width:26px;
+		cursor: pointer;
+	}
+	.jcarousel-prev{
+		left:-50px;
+		background: url(../img/tpl/carusel-left-arrow.png) 0 0;
+		&:hover {
+			background-position:100% 0 ;
+		}
+	}
+	 .jcarousel-next {
+		right:-50px;
+		 background: url(../img/tpl/carusel-right-arrow.png) 100% 0;
+		 &:hover {
+			background-position:0 0 ;
 		}
 	}
 }

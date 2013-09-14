@@ -1,0 +1,133 @@
+.steps {
+	background: #ececec;
+	border:1px solid #b0b0b0;
+	border-radius:5px;
+	margin:0 0 30px;
+	li {
+		float:left;
+		padding-right:50px;
+		position: relative;
+		height:46px;
+		&.last {
+			padding-right:0;
+			width:22.727%;
+			&:after {
+				display: none;
+			}
+			&.active {
+				width:27.333%;
+			}
+		}
+		&:after {
+			content:"";
+			width:58px;
+			height:45px;
+			@include icons-sprite(step-arrow);
+			position: absolute;
+			right:-10px;
+			top:1px;
+		}
+		&.active {
+			width:33.3333%;
+			margin-left:-55px;
+			a {
+				background: url(../img/tpl/step-bg.png) repeat-x;
+				padding-left:80px;
+				.icons {
+					@include icons-sprite(green-circle2);
+					color:#507900;
+					left:35px;
+				}
+				.step-title, .step-discription {
+					color:#fff;
+				}
+			}
+			a:before, a:after {
+				content:"";
+				position: absolute;
+
+				height:46px;
+				z-index: 2;
+			}
+			a:before {
+				@include icons-sprite(step-arrow-green-back);
+				width:28px;
+				left:0;
+				top:0;
+			}
+			a:after {
+				@include icons-sprite(step-arrow-green-front);
+				right:-29px;
+				width:30px;
+				top:0px;
+			}
+
+		}
+		a {
+			display:block;
+			height:46px;
+			position: relative;
+			text-decoration: none;
+			position:relative;
+			padding-left:50px;
+			.icons {
+				position: absolute;
+				z-index: 3;
+				left:7px;
+				top:4px;
+				width:37px;
+				height:37px;
+				@include icons-sprite(green-circle);
+				color:#fff;
+				line-height:37px;
+				text-align:center;
+				font-size:24px;
+				font-weight:bold;
+			}
+		}
+	}
+}
+.step-title {
+	font-size:16px;
+	line-height:20px;
+	display:block;
+	color:#5d5d5d;
+	padding-top:5px;
+}
+.step-discription {
+	font-size:11px;
+	line-height:14px;
+	display:block;
+	color:#9d9d9d;
+	margin-right:-10px;
+}
+.payment-way, .payment-adress, .payment-amount {
+	background: #f5f7f9;
+	padding:20px;
+	min-height: 200px;
+}
+.payment-way {
+	margin-right:10px;
+}
+.payment-adress {
+	margin-right:10px;
+}
+.payment-amount {
+	position: relative;
+	.amount-total {
+		font-size:20px;
+		color:#0d75b0;
+		font-weight:bold;
+		margin:10px 0 15px;
+		span {
+			color:#898989;
+			font-weight:normal;
+		}
+	}
+	.almost-done {
+		 bottom: 6px;
+		display: block;
+		left: 40px;
+		position: absolute;
+	}
+}

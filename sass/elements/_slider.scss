@@ -1,9 +1,25 @@
 #slides {
 	display: none;
 	position:relative;
+	display: none;
 	img {
 		width:100%;
 		display:block;
+		max-height:100%;
+	}
+	&.main-slides {
+		height:340px;
+	}
+	&.inner-slides {
+		height:160px;
+		margin:0 0 20px;
+		.slidesjs-pagination {
+			width:100%;
+			margin-right:0;
+			li {
+				margin:0 5px;
+			}
+		}
 	}
 }
 
@@ -74,11 +90,6 @@
 
 .navbar {
 	overflow: hidden
-}
-
-#slides {
-	display: none;
-	height:340px;
 }
 
 .container {
@@ -190,6 +201,30 @@
 .carusel {
 	position: relative;
 	padding:0 60px;
+
+	&.carusel-small {
+		padding:0 10px;
+		ul {
+			li {
+				padding:20px 10px 40px;
+				button.btn-blue-small {
+					left:10px;
+				}
+
+				.img-container {
+					max-height: 205px;
+					min-height: 205px;
+				}
+			}
+		}
+		.jcarousel-prev {
+			left:-25px;
+		}
+		.jcarousel-next {
+			right:-25px;
+		}
+	}
+
 	.jcarousel-clip-horizontal {
 		overflow: hidden;
 		.jcarousel-list  {

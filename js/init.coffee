@@ -4,8 +4,7 @@ $(document).ready ->
 	if $('#slides').length
 		initSlider()
 
-	if $('.carusel ul').length
-		initCarusel()
+
 
 	if $('.tab-section').length
 		initTabs()
@@ -62,7 +61,21 @@ jQuery(window).load ->
 		success: (data) ->
 			$('#sv-footer').append data
 
-	$(".carusel").find('ul')
+	if $('.carusel ul').length
+		initCarusel()
+
+
+
+	if $(".sorting-content").length
+
+		$(".sorting-content .sorting-nav").find("li").on 'click', ->
+			if not($(@).hasClass('active'))
+				$(".sorting-content .sorting-nav").find("li").removeClass("active")
+				$(".sorting-body > div").hide()
+				$(@).addClass("active");
+				idx = $(@).index()
+				$(".sorting-body > div").eq(idx).show()
+		$(".sorting-content .sorting-nav").find("li").first().click()
 
 	return #end Window load
 
@@ -92,8 +105,8 @@ initSlider = ->
 initCarusel = ->
 	$('.carusel ul').jcarousel({
 		scroll : 1,
-		visible : 5,
-		wrap: 'circular' # замыкание карусели
+		visible : 5
+		#wrap: 'circular' # замыкание карусели
 	})
 
 initTabs = ->

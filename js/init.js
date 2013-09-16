@@ -77,6 +77,26 @@
       });
       $(".sorting-content .sorting-nav").find("li").first().click();
     }
+    if ($(".product-image").length) {
+      $(".product-preview").find("img").each(function() {
+        var h, that, w;
+        that = $(this);
+        h = that.height() / 2;
+        w = that.width() / 2;
+        return that.css({
+          'marginTop': -h + 'px',
+          'marginLeft': -w + 'px'
+        });
+      });
+      $(".product-preview").find("a").on('click', function(ev) {
+        var src;
+        ev.preventDefault();
+        src = $(this).data("pic");
+        return $(".product-image").find("img").fadeOut(function() {
+          return $(this).attr('src', src);
+        }).fadeIn();
+      });
+    }
   });
 
   initSlider = function() {

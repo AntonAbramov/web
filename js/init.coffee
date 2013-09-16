@@ -77,6 +77,22 @@ jQuery(window).load ->
 				$(".sorting-body > div").eq(idx).show()
 		$(".sorting-content .sorting-nav").find("li").first().click()
 
+	if $(".product-image").length
+		$(".product-preview").find("img").each ->
+			that = $(@)
+			h = that.height()/2
+			w = that.width()/2
+			that.css
+				'marginTop': -h + 'px'
+				'marginLeft': -w + 'px'
+		$(".product-preview").find("a").on 'click', (ev) ->
+			ev.preventDefault()
+			src = $(@).data("pic")
+			$(".product-image").find("img").fadeOut ->
+				$(@).attr('src', src)
+			.fadeIn()
+
+
 	return #end Window load
 
 initSlider = ->

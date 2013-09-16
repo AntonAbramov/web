@@ -1,0 +1,340 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Framework</title>
+	<meta charset="UTF-8"/>
+	<meta name="author" content="Anton Abramov"/>
+	<meta name="keywords" content=""/>
+	<meta name="description" content=""/>
+	<link type="image/x-icon" rel="shortcut icon" href="favicon.ico"/>
+	<link rel="stylesheet" href="css/normalize.css" type="text/css" media="all"/>
+	<link rel="stylesheet" href="css/screen.css" type="text/css" media="all"/>
+	<link rel="stylesheet" href="css/additional.css" type="text/css" media="all"/>
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<!--[if gte IE 9]>
+	<style type="text/css">
+		.gradient {
+			filter: none;
+		}
+	</style>
+	<![endif]-->
+</head>
+<body>
+
+<header id="sv-header">
+	<div class="header-top cf">
+		<section class="wellcome left">Добро пожаловать на WestLogistic.com, <a href="#">Создайте акаунт</a> или <a
+				href="#">Войдите</a></section>
+
+		<section class="currency right">
+			<a class='active' href="#uan">ГРН</a><a href="#usd">USD</a>
+		</section>
+		<section class="header-inteactive right">
+			<ul class="cf">
+				<li><a href="#">Как купить</a></li>
+				<li><a href="#">Мой кабинет</a></li>
+				<li>
+					<a id="enter" href="#">Вход</a>
+					<div class="registration-popup">
+						<!-- ajax content-->
+					</div>
+				</li>
+				<li class="cart"><a href="#"><span class="icons icons-cart">&nbsp;</span>Корзина (2)</a></li>
+				<li><a href="#">Выйти</a></li>
+			</ul>
+		</section>
+	</div>
+	<div class="header-mid ">
+		<div class="header-mid-inn cf">
+			<div class="logo">
+				<a href="/"><img src="i
+				mg/tpl/logo.png" alt="WestLogistic" title="WestLogistic" /></a>
+			</div>
+			<section class="cart-section cf">
+			<div class="request">
+				Отправьте нам
+				<a href="#">Запрос на покупку</a>
+			</div>
+			<div class="cart">
+				<div class="cart-title">
+					<div>
+						<strong><span class="icons icons-arrow-opened">&nbsp;</span>Корзина (2)</strong>
+						2 658 грн
+					</div>
+				</div>
+				<!-- ajax content-->
+			</div>
+		</section>
+			<section class="search cf">
+				<div class="search-top-block">
+					Служба поддержки: <span class='tel'><span>(044)</span> 654-89-87</span>,  <span class='tel'><span>(067)</span> 654-89-87</span>
+				</div>
+				<div class="search-mid-block">
+					<form action="#">
+						<div class="search-container cf">
+							<div class="search-input">
+								<input type="search" id="search" placeholder="Поиск" /><input type="submit" value="найти" />
+							</div>
+							<div class="search-output">
+								<ul>
+									<li><a href="#"><span class="highlight">Appl</span>e Iphone</a></li>
+									<li><a href="#"><span class="highlight">Appl</span>e Iphone 4S</a></li>
+									<li><a href="#"><span class="highlight">Appl</span>e tv</a></li>
+									<li><a href="#"><span class="highlight">Appl</span>e Ipad</a></li>
+									<li><a href="#"><span class="highlight">Appl</span>e Ipod</a></li>
+									<li><a href="#"><span class="highlight">Appl</span>e Iphone</a></li>
+								</ul>
+							</div>
+						</div>
+					</form>
+					<div class="search-discription">Напишите здесь название товара, или просто вставте ID из eBay или Amazon</div>
+				</div>
+			</section>
+
+		</div>
+	</div>
+</header>
+<!-- #sv-header -->
+<div id="sv-wrapper">
+	<div id="sv-middle" class="cf">
+			<div id="sv-container">
+				<div id="sv-content-lc">
+
+					<div class="sv-page">
+						<div style="padding:20px; background: #fff">
+							<h1>Автозапчасти</h1>
+							<ul class="bread-crumbs">
+								<li><a href="#">Главная</a></li>
+								<li> Мой кабинет</li>
+							</ul>
+							<div class="mb10">
+								<a style="position: relative;top:-30px;" href="#">← Назад к результатам поиска</a>
+								<div class="product-page">
+									<section class="product-image-section">
+										<div class="product-image">
+											<img src="img/pic-preview/p1.jpg" alt=""/>
+										</div>
+										<div class="product-preview">
+											<ul class="cf">
+												<li>
+													<a href="#" data-pic="img/pic-preview/p1.jpg">
+														<img src="img/pic-preview/preview/p1.jpg" alt=""/>
+													</a>
+												</li>
+												<li>
+													<a href="#" data-pic="img/pic-preview/p2.jpg">
+														<img src="img/pic-preview/preview/p2.jpg" alt=""/>
+													</a>
+												</li>
+												<li>
+													<a href="#" data-pic="img/pic-preview/p1.jpg">
+														<img src="img/pic-preview/preview/p1.jpg" alt=""/>
+													</a>
+
+												</li>
+											</ul>
+										</div>
+									</section>
+									<section class="product-content">
+										<div class="product-name">
+											Night Film. A Novel.
+										</div>
+										<div class="lot-number">Номер лота: 271264170122</div>
+										<div class="amount">
+											<form action="#">
+												<div class="number">Количество <input type="number" maxlength="3" /></div>
+												<a href="#">Добавить в корзину</a>
+											</form>
+										</div>
+										<div class="seller-info">
+											<div class="orange s14">
+												<strong>Информация о eBay продавце</strong>
+											</div>
+											<div class="seller-name"><span class="icons icons-user"></span> boomerangbookstore <strong>(385)</strong></div>
+											<div>Позитивных отзывов: <strong>98,78%</strong></div>
+										</div>
+										<div class="availiable-in">В наличии в: <strong>США</strong> </div>
+										<div class="product-state">Состояние: <strong>Good</strong></div>
+										<div class="product-price">Цена сегодня: <span class="dol">$16.80 </span><span class="grn">(134.40 грн)</span></div>
+										<div class="mb10">
+											<a href="#" class="calculate-price">Подщитать
+											<span>стоимость доставки</span></a>
+										</div>
+										<div class="protect mb10 cf">
+											<div class="left">
+												<span class="icons"></span>
+											<strong>100%</strong>
+												гарантия доставки
+											</div>
+											<img class="mt5" src="img/tpl/right-now-ebay.jpg" alt=""/>
+										</div>
+									</section>
+								</div>
+								<div class="mb20">
+									<h2 class="orange mb10">Информация о товаре</h2>
+									<section class="item-info">
+										<div class="row">
+											<div class="col-2 t-right">
+												<strong>ISBN-10</strong>
+											</div>
+											<div class="col10">034182365342837</div>
+										</div>
+										<div class="row">
+											<div class="col-2 t-right">
+												<strong>ISBN-10</strong>
+											</div>
+											<div class="col10">034182365342837</div>
+										</div>
+										<div class="row">
+											<div class="col-2 t-right">
+												<strong>ISBN-10</strong>
+											</div>
+											<div class="col10">034182365342837</div>
+										</div>
+										<div class="row">
+											<div class="col-2 t-right">
+												<strong>ISBN-10</strong>
+											</div>
+											<div class="col10">034182365342837</div>
+										</div>
+										<div class="row">
+											<div class="col-2 t-right">
+												<strong>ISBN-10</strong>
+											</div>
+											<div class="col10">034182365342837</div>
+										</div>
+
+									</section>
+								</div>
+								<div class="mb40">
+									<h2 class="orange mb10">Оригинальное описание</h2>
+									<p>Up for purchase is the 12th edition of Chemistry the Central Science by Brown. This is the paperback version. This is NOT an international edition! This is the masteringchemistry edition which is the exact same page for page as the hardbound book. This book does not have any access codes with it. May have markings or writings in book. Each book has a tight binding. This is the exact same content as ISBN 9780321696724</p>
+									<p>Book ships fast via priority mail for free. This is a great deal folks. US student edition book. Has a different isbn but same content as 978-0321696724.
+This is the 12th edition of this textbook which is the LATEST edition! Cover looks just like photo in listing.</p>
+								</div>
+								<div>
+									<h2 class="orange">
+										Похожие товары
+									</h2>
+									<div class="simular-items cf">
+										<div class="item">
+											<a class="title" href="#">
+												<img src="img/page/p1.jpg" alt=""/>
+												Night Film: A Novel
+											</a>
+											Good
+											<div class="cf">
+												<div class="price">
+													<strong>$19.20</strong>(125.67 грн)
+												</div>
+												<a class="add-to-cart" href="#">В корзину</a>
+											</div>
+										</div>
+										<div class="item">
+											<a class="title" href="#">
+												<img src="img/page/p1.jpg" alt=""/>
+												Night Film: A Novel
+											</a>
+											Good
+											<div class="cf">
+												<div class="price">
+													<strong>$19.20</strong>(125.67 грн)
+												</div>
+												<a class="add-to-cart" href="#">В корзину</a>
+											</div>
+										</div>
+										<div class="item">
+											<a class="title" href="#">
+												<img src="img/page/p1.jpg" alt=""/>
+												Night Film: A Novel
+											</a>
+											Good
+											<div class="cf">
+												<div class="price">
+													<strong>$19.20</strong>(125.67 грн)
+												</div>
+												<a class="add-to-cart" href="#">В корзину</a>
+											</div>
+										</div>
+										<div class="item">
+											<a class="title" href="#">
+												<img src="img/page/p1.jpg" alt=""/>
+												Night Film: A Novel
+											</a>
+											Good
+											<div class="cf">
+												<div class="price">
+													<strong>$19.20</strong>(125.67 грн)
+												</div>
+												<a class="add-to-cart" href="#">В корзину</a>
+											</div>
+										</div>
+										<div class="item">
+											<a class="title" href="#">
+												<img src="img/page/p1.jpg" alt=""/>
+												Night Film: A Novel
+											</a>
+											Good
+											<div class="cf">
+												<div class="price">
+													<strong>$19.20</strong>(125.67 грн)
+												</div>
+												<a class="add-to-cart" href="#">В корзину</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<!-- #sv-page -->
+
+				</div>
+				<!-- #sv-content -->
+			</div>
+			<!-- #sv-container -->
+
+			<aside id="sv-leftcolumn">
+				<a class="shop-links" href="#">Маназины</a>
+				<!-- ajax content-->
+			</aside>
+			<!-- #sv-leftcolumn -->
+		<!--aside id="sv-rightcolumn">
+			<strong>Right Sidebar:</strong>
+		</aside--><!-- #sv-rightcolumn -->
+
+	</div><!-- #sv-middle -->
+
+	<div  class="right-side-bar brd bg-white p20">
+		<div class="auto-parts-side">
+			<p class="helvetica-tin s20 ">Автозапчасти <span class="helvetica-mid"> по брендам</span></p>
+			<div class="cf auto-parts">
+				<div><a href="#"><img src="img/brand/b1.jpg" alt=""/></a></div>
+				<div><a href="#"><img src="img/brand/b2.jpg" alt=""/></a></div>
+				<div><a href="#"><img src="img/brand/b3.jpg" alt=""/></a></div>
+				<div><a href="#"><img src="img/brand/b2.jpg" alt=""/></a></div>
+				<div><a href="#"><img src="img/brand/b1.jpg" alt=""/></a></div>
+				<div><a href="#"><img src="img/brand/b3.jpg" alt=""/></a></div>
+				<div><a href="#"><img src="img/brand/b2.jpg" alt=""/></a></div>
+			</div>
+			<a href="#" class="btn orange medium">Все бренды</a>
+		</div>
+	</div>
+</div>
+<!-- #sv-wrapper -->
+<footer id="sv-footer">
+</footer>
+<!-- #sv-footer -->
+
+<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="js/jquery.slides.min.js"></script>
+<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="js/init.js"></script>
+
+</body>
+</html>

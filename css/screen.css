@@ -2886,6 +2886,280 @@ html, body {
   position: absolute;
 }
 
+/* line 1, ../sass/elements/_product-page.scss */
+.product-page {
+  margin: 0 0 20px;
+  color: #000;
+}
+/* line 4, ../sass/elements/_product-page.scss */
+.product-page:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 9, ../sass/elements/_product-page.scss */
+.product-page .product-image-section {
+  float: left;
+  width: 235px;
+  margin: 0 15px 10px 0;
+}
+/* line 13, ../sass/elements/_product-page.scss */
+.product-page .product-image-section .product-image {
+  margin: 0 0 10px;
+}
+/* line 17, ../sass/elements/_product-page.scss */
+.product-page .product-image-section .product-preview ul {
+  margin: 0 -5px;
+}
+/* line 19, ../sass/elements/_product-page.scss */
+.product-page .product-image-section .product-preview ul li {
+  float: left;
+  margin: 0 5px 10px;
+}
+/* line 22, ../sass/elements/_product-page.scss */
+.product-page .product-image-section .product-preview ul li a {
+  background: none repeat scroll 0 0 #F4F4F4;
+  border: 1px solid #DADADA;
+  border-radius: 5px 5px 5px 5px;
+  width: 70px;
+  height: 60px;
+  padding: 5px;
+  text-align: center;
+  position: relative;
+  display: block;
+}
+/* line 33, ../sass/elements/_product-page.scss */
+.product-page .product-image-section .product-preview ul li img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-height: 100%;
+  max-width: 100%;
+}
+/* line 44, ../sass/elements/_product-page.scss */
+.product-page .product-content {
+  padding-left: 250px;
+}
+/* line 47, ../sass/elements/_product-page.scss */
+.product-page .product-name {
+  font-size: 24px;
+  color: #000;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #c2c2c2;
+  margin: 0 0 5px;
+  line-height: 24px;
+}
+/* line 55, ../sass/elements/_product-page.scss */
+.product-page .lot-number {
+  margin: 0 0 10px;
+}
+/* line 58, ../sass/elements/_product-page.scss */
+.product-page .amount {
+  background: none repeat scroll 0 0 #F2F2F2;
+  border: 1px solid #D0D0D0;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 0 20px;
+  padding: 20px;
+}
+/* line 65, ../sass/elements/_product-page.scss */
+.product-page .amount input[type='text'], .product-page .amount input[type='number'] {
+  width: 40px;
+  text-align: center;
+}
+/* line 69, ../sass/elements/_product-page.scss */
+.product-page .amount a {
+  margin-top: 10px;
+  display: inline-block;
+  width: 186px;
+  height: 38px;
+  border: 1px solid #547a0c;
+  border-radius: 5px;
+  line-height: 36px;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background: #b6e416;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #b6e416 0%, #618305 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #b6e416), color-stop(100%, #618305));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #b6e416 0%, #618305 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #b6e416 0%, #618305 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #b6e416 0%, #618305 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #b6e416 0%, #618305 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b6e416', endColorstr='#618305',GradientType=0 );
+  /* IE6-9 */
+}
+/* line 89, ../sass/elements/_product-page.scss */
+.product-page .amount a:hover {
+  background: #618305;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #618305 0%, #b6e416 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #618305), color-stop(100%, #b6e416));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #618305 0%, #b6e416 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #618305 0%, #b6e416 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #618305 0%, #b6e416 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #618305 0%, #b6e416 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#618305', endColorstr='#b6e416',GradientType=0 );
+  /* IE6-9 */
+}
+/* line 102, ../sass/elements/_product-page.scss */
+.product-page .availiable-in {
+  font-size: 14px;
+}
+/* line 105, ../sass/elements/_product-page.scss */
+.product-page .product-state {
+  margin: 0 0 20px;
+  font-size: 14px;
+}
+/* line 109, ../sass/elements/_product-page.scss */
+.product-page .product-price {
+  font-size: 14px;
+  margin: 0 0 20px;
+}
+/* line 112, ../sass/elements/_product-page.scss */
+.product-page .product-price .dol {
+  color: #658e16;
+  font-size: 24px;
+  font-weight: bold;
+}
+/* line 117, ../sass/elements/_product-page.scss */
+.product-page .product-price .grn {
+  font-size: 12px;
+}
+/* line 121, ../sass/elements/_product-page.scss */
+.product-page .calculate-price {
+  background: url(../img/page/calc.png) no-repeat;
+  width: 204px;
+  height: 52px;
+  padding: 10px 10px 10px 50px;
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+}
+/* line 129, ../sass/elements/_product-page.scss */
+.product-page .calculate-price span {
+  color: #e73310;
+  font-weight: bold;
+  display: block;
+  line-height: 12px;
+}
+/* line 136, ../sass/elements/_product-page.scss */
+.product-page .protect {
+  font-weight: bold;
+  color: #787878;
+  line-height: 12px;
+}
+/* line 140, ../sass/elements/_product-page.scss */
+.product-page .protect .icons {
+  background: url(../img/tpl/protection.png) no-repeat;
+  width: 42px;
+  height: 45px;
+  float: left;
+  margin-right: 10px;
+}
+/* line 147, ../sass/elements/_product-page.scss */
+.product-page .protect strong {
+  padding-top: 10px;
+  display: block;
+  color: #000;
+}
+/* line 153, ../sass/elements/_product-page.scss */
+.product-page .seller-info {
+  margin: 0 0 10px;
+}
+/* line 155, ../sass/elements/_product-page.scss */
+.product-page .seller-info > div {
+  padding-left: 30px;
+  position: relative;
+}
+/* line 156, ../sass/elements/_product-page.scss */
+.product-page .seller-info > div:first-child {
+  padding-left: 0;
+  margin: 0 0 5px;
+}
+/* line 162, ../sass/elements/_product-page.scss */
+.product-page .seller-info > div .icons {
+  margin-left: -20px;
+  margin-right: 5px;
+}
+
+/* line 171, ../sass/elements/_product-page.scss */
+.item-info {
+  font-size: 12px;
+  color: #000;
+}
+/* line 175, ../sass/elements/_product-page.scss */
+.item-info .row > div {
+  padding: 3px 10px;
+}
+
+/* line 181, ../sass/elements/_product-page.scss */
+.simular-items {
+  margin: 0 -10px;
+}
+/* line 183, ../sass/elements/_product-page.scss */
+.simular-items .item {
+  width: 30%;
+  float: left;
+  padding: 15px;
+  border: 1px solid #d2d2d2;
+  margin: 0 10px 20px;
+  text-align: center;
+}
+/* line 190, ../sass/elements/_product-page.scss */
+.simular-items .item .title {
+  display: block;
+  font-size: 14px;
+}
+/* line 193, ../sass/elements/_product-page.scss */
+.simular-items .item .title:hover {
+  text-decoration: underline;
+}
+/* line 196, ../sass/elements/_product-page.scss */
+.simular-items .item .title img {
+  display: block;
+  margin: 0 auto 10px;
+  max-width: 100%;
+  max-height: 110px;
+}
+/* line 204, ../sass/elements/_product-page.scss */
+.simular-items .item .price {
+  text-align: center;
+  color: #000;
+  float: left;
+}
+/* line 208, ../sass/elements/_product-page.scss */
+.simular-items .item .price strong {
+  display: block;
+  font-size: 18px;
+}
+/* line 214, ../sass/elements/_product-page.scss */
+.simular-items .item .add-to-cart {
+  background: none repeat scroll 0 0 #FF5400;
+  border-color: #D2D2D2;
+  border-radius: 5px 5px 5px 5px;
+  color: #FFFFFF;
+  display: inline-block;
+  height: 24px;
+  line-height: 24px;
+  padding: 0 10px;
+  text-decoration: none;
+}
+
 /* line 1, ../sass/elements/_filter-catalog.scss */
 .filter-catalog {
   background-color: #f3f3f3;

@@ -204,7 +204,8 @@
 			.price {
 				text-align:center;
 				color:#000;
-				float:left;
+				display:inline-block;
+				vertical-align: middle;
 				strong {
 
 					display:block;

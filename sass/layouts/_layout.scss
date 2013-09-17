@@ -47,6 +47,11 @@ html, body {
 #sv-content-lc {
 	padding: 0 0 0 300px;
 	width:950px;
+	&.resize {
+		min-width:950px;
+		max-width: 1260px;
+		width:auto;
+	}
 
 }
 

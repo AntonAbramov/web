@@ -1,8 +1,8 @@
 /*========================================
   Global variables
 ==========================================*/
-/* line 266, icons/*.png */
-.icons-sprite, .icons-arrow-closed, .icons-arrow-opened, .icons-bottom_item, .icons-calc, .icons-call, .icons-cart, .icons-close-button-gray, .icons-close-small, .icons-delete-button, .icons-delete-cross, .icons-error, .icons-green-circle, .icons-green-circle2, .icons-icon-password, .icons-icon-user, .icons-line-arrow, .icons-list-arrow, .icons-loop, .icons-menu-arr-right_hover, .icons-menu-arrow-right, .icons-new-window, .icons-pag-next, .icons-pag-prev, .icons-pencil, .icons-step-arrow-green-back, .icons-step-arrow-green-front, .icons-step-arrow, .icons-user, .icons-video-arrow, #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-title.opened > div strong .icons, .side-nav > li.active > a .icons, .side-nav > li > a:hover .icons, .form .error:after, .registration-input-container .user-icon:after, .registration-input-container .password-icon:after, .steps li:after, .steps li.active a .icons, .steps li.active a:before, .steps li.active a:after, .steps li a .icons, .bullet-list.blue-bullet li:before, .bullet-list.line-bullet li:before, .brand-parts.closed .icons {
+/* line 282, icons/*.png */
+.icons-sprite, .icons-arrow-closed, .icons-arrow-opened, .icons-bottom_item, .icons-calc, .icons-call, .icons-cart, .icons-close-button-gray, .icons-close-small, .icons-delete-button, .icons-delete-cross, .icons-error, .icons-favorite, .icons-favorite2, .icons-green-circle, .icons-green-circle2, .icons-icon-password, .icons-icon-user, .icons-line-arrow, .icons-list-arrow, .icons-loop, .icons-menu-arr-right_hover, .icons-menu-arrow-right, .icons-new-window, .icons-pag-next, .icons-pag-prev, .icons-pencil, .icons-step-arrow-green-back, .icons-step-arrow-green-front, .icons-step-arrow, .icons-user, .icons-video-arrow, #sv-header .header-mid .header-mid-inn .cart-section .cart .cart-title.opened > div strong .icons, .side-nav > li.active > a .icons, .side-nav > li > a:hover .icons, .form .error:after, .registration-input-container .user-icon:after, .registration-input-container .password-icon:after, .steps li:after, .steps li.active a .icons, .steps li.active a:before, .steps li.active a:after, .steps li a .icons, .bullet-list.blue-bullet li:before, .bullet-list.line-bullet li:before, .brand-parts.closed .icons, .simular-items .item .favorite.active .icons, .simular-items .item .favorite:hover .icons, .list-box .item .favorite.active .icons, .list-box .item .favorite:hover .icons {
   background: url('../img/icons.png') no-repeat;
 }
 
@@ -15,14 +15,14 @@
 
 /* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-arrow-opened {
-  background-position: 0 -572px;
+  background-position: 0 -604px;
   height: 8px;
   width: 9px;
 }
 
 /* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-bottom_item {
-  background-position: 0 -369px;
+  background-position: 0 -385px;
   height: 29px;
   width: 31px;
 }
@@ -43,7 +43,7 @@
 
 /* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-cart {
-  background-position: 0 -522px;
+  background-position: 0 -554px;
   height: 14px;
   width: 15px;
 }
@@ -57,7 +57,7 @@
 
 /* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-close-small {
-  background-position: 0 -315px;
+  background-position: 0 -331px;
   height: 21px;
   width: 20px;
 }
@@ -71,7 +71,7 @@
 
 /* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-delete-cross {
-  background-position: 0 -444px;
+  background-position: 0 -476px;
   height: 12px;
   width: 12px;
 }
@@ -81,6 +81,20 @@
   background-position: 0 -296px;
   height: 19px;
   width: 19px;
+}
+
+/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-favorite {
+  background-position: 0 -315px;
+  height: 16px;
+  width: 18px;
+}
+
+/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-favorite2 {
+  background-position: 0 -460px;
+  height: 16px;
+  width: 18px;
 }
 
 /* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
@@ -99,84 +113,84 @@
 
 /* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-icon-password {
-  background-position: 0 -507px;
+  background-position: 0 -539px;
   height: 15px;
   width: 7px;
 }
 
 /* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-icon-user {
-  background-position: 0 -482px;
+  background-position: 0 -514px;
   height: 15px;
   width: 15px;
 }
 
 /* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-line-arrow {
-  background-position: 0 -590px;
+  background-position: 0 -622px;
   height: 2px;
   width: 12px;
 }
 
 /* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-list-arrow {
-  background-position: 0 -497px;
+  background-position: 0 -529px;
   height: 10px;
   width: 10px;
 }
 
 /* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-loop {
-  background-position: 0 -354px;
+  background-position: 0 -370px;
   height: 15px;
   width: 15px;
 }
 
 /* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-menu-arr-right_hover {
-  background-position: 0 -545px;
+  background-position: 0 -577px;
   height: 9px;
   width: 7px;
 }
 
 /* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-menu-arrow-right {
-  background-position: 0 -554px;
+  background-position: 0 -586px;
   height: 9px;
   width: 7px;
 }
 
 /* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-new-window {
-  background-position: 0 -468px;
+  background-position: 0 -500px;
   height: 14px;
   width: 14px;
 }
 
 /* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-pag-next {
-  background-position: 0 -536px;
+  background-position: 0 -568px;
   height: 9px;
   width: 6px;
 }
 
 /* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-pag-prev {
-  background-position: 0 -563px;
+  background-position: 0 -595px;
   height: 9px;
   width: 6px;
 }
 
 /* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-pencil {
-  background-position: 0 -456px;
+  background-position: 0 -488px;
   height: 12px;
   width: 12px;
 }
 
 /* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-step-arrow-green-back {
-  background-position: 0 -398px;
+  background-position: 0 -414px;
   height: 46px;
   width: 26px;
 }
@@ -197,14 +211,14 @@
 
 /* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-user {
-  background-position: 0 -336px;
+  background-position: 0 -352px;
   height: 18px;
   width: 12px;
 }
 
 /* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-video-arrow {
-  background-position: 0 -580px;
+  background-position: 0 -612px;
   height: 10px;
   width: 8px;
 }
@@ -1761,7 +1775,7 @@ html, body {
 }
 /* line 14, ../sass/elements/_nav.scss */
 .side-nav > li.active > a .icons {
-  background-position: 0 -545px;
+  background-position: 0 -577px;
 }
 /* line 19, ../sass/elements/_nav.scss */
 .side-nav > li > a {
@@ -1780,7 +1794,7 @@ html, body {
 }
 /* line 30, ../sass/elements/_nav.scss */
 .side-nav > li > a:hover .icons {
-  background-position: 0 -545px;
+  background-position: 0 -577px;
 }
 /* line 35, ../sass/elements/_nav.scss */
 .side-nav > li > a .icons {
@@ -2422,6 +2436,12 @@ html, body {
   border: 1px solid #2a85b4;
   color: #fff;
 }
+/* line 32, ../sass/elements/_buttons.scss */
+.btn.gray {
+  background: #aeb2b4;
+  border: 1px solid #aeb2b4;
+  color: #fff;
+}
 
 /* line 2, ../sass/elements/_form.scss */
 .form-field label {
@@ -2650,12 +2670,12 @@ html, body {
 }
 /* line 94, ../sass/elements/_registration-popup.scss */
 .registration-input-container .user-icon:after {
-  background-position: 0 -482px;
+  background-position: 0 -514px;
   right: 10px;
 }
 /* line 100, ../sass/elements/_registration-popup.scss */
 .registration-input-container .password-icon:after {
-  background-position: 0 -507px;
+  background-position: 0 -539px;
   right: 7px;
 }
 /* line 106, ../sass/elements/_registration-popup.scss */
@@ -2790,7 +2810,7 @@ html, body {
 }
 /* line 52, ../sass/elements/_payment.scss */
 .steps li.active a:before {
-  background-position: 0 -398px;
+  background-position: 0 -414px;
   width: 28px;
   left: 0;
   top: 0;
@@ -3107,58 +3127,9 @@ html, body {
   padding: 3px 10px;
 }
 
-/* line 181, ../sass/elements/_product-page.scss */
-.simular-items {
-  margin: 0 -10px;
-}
-/* line 183, ../sass/elements/_product-page.scss */
+/* line 182, ../sass/elements/_product-page.scss */
 .simular-items .item {
-  width: 30%;
-  float: left;
-  padding: 15px;
-  border: 1px solid #d2d2d2;
-  margin: 0 10px 20px;
   text-align: center;
-}
-/* line 190, ../sass/elements/_product-page.scss */
-.simular-items .item .title {
-  display: block;
-  font-size: 14px;
-}
-/* line 193, ../sass/elements/_product-page.scss */
-.simular-items .item .title:hover {
-  text-decoration: underline;
-}
-/* line 196, ../sass/elements/_product-page.scss */
-.simular-items .item .title img {
-  display: block;
-  margin: 0 auto 10px;
-  max-width: 100%;
-  max-height: 110px;
-}
-/* line 204, ../sass/elements/_product-page.scss */
-.simular-items .item .price {
-  text-align: center;
-  color: #000;
-  display: inline-block;
-  vertical-align: middle;
-}
-/* line 209, ../sass/elements/_product-page.scss */
-.simular-items .item .price strong {
-  display: block;
-  font-size: 18px;
-}
-/* line 215, ../sass/elements/_product-page.scss */
-.simular-items .item .add-to-cart {
-  background: none repeat scroll 0 0 #FF5400;
-  border-color: #D2D2D2;
-  border-radius: 5px 5px 5px 5px;
-  color: #FFFFFF;
-  display: inline-block;
-  height: 24px;
-  line-height: 24px;
-  padding: 0 10px;
-  text-decoration: none;
 }
 
 /* line 1, ../sass/elements/_filter-catalog.scss */
@@ -3214,14 +3185,14 @@ html, body {
 }
 /* line 20, ../sass/_main.scss */
 .bullet-list.blue-bullet li:before {
-  background-position: 0 -497px;
+  background-position: 0 -529px;
   height: 10px;
   width: 10px;
   top: 3px;
 }
 /* line 28, ../sass/_main.scss */
 .bullet-list.line-bullet li:before {
-  background-position: 0 -590px;
+  background-position: 0 -622px;
   height: 2px;
   width: 12px;
   top: 9px;
@@ -3926,6 +3897,198 @@ html, body {
   text-decoration: underline;
   font-size: 14px;
   color: #0D75B0;
+}
+
+/* line 609, ../sass/_main.scss */
+.simular-items, .list-box {
+  margin: 0 -10px;
+}
+/* line 611, ../sass/_main.scss */
+.simular-items .item, .list-box .item {
+  width: 30%;
+  float: left;
+  padding: 15px;
+  border: 1px solid #d2d2d2;
+  margin: 0 10px 20px;
+  position: relative;
+}
+/* line 618, ../sass/_main.scss */
+.simular-items .item .title, .list-box .item .title {
+  display: block;
+  font-size: 14px;
+}
+/* line 621, ../sass/_main.scss */
+.simular-items .item .title:hover, .list-box .item .title:hover {
+  text-decoration: underline;
+}
+/* line 624, ../sass/_main.scss */
+.simular-items .item .title img, .list-box .item .title img {
+  display: block;
+  margin: 0 auto 10px;
+  max-width: 100%;
+  max-height: 110px;
+}
+/* line 631, ../sass/_main.scss */
+.simular-items .item .favorite, .list-box .item .favorite {
+  -webkit-transition: none 0.3s ease-in-out;
+  -moz-transition: none 0.3s ease-in-out;
+  -o-transition: none 0.3s ease-in-out;
+  transition: none 0.3s ease-in-out;
+}
+/* line 633, ../sass/_main.scss */
+.simular-items .item .favorite.active .icons, .simular-items .item .favorite:hover .icons, .list-box .item .favorite.active .icons, .list-box .item .favorite:hover .icons {
+  background-position: 0 -315px;
+}
+/* line 637, ../sass/_main.scss */
+.simular-items .item .price, .list-box .item .price {
+  text-align: center;
+  color: #000;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 642, ../sass/_main.scss */
+.simular-items .item .price strong, .list-box .item .price strong {
+  display: block;
+  font-size: 18px;
+}
+/* line 648, ../sass/_main.scss */
+.simular-items .item .add-to-cart, .list-box .item .add-to-cart {
+  background: none repeat scroll 0 0 #FF5400;
+  border-color: #D2D2D2;
+  border-radius: 5px 5px 5px 5px;
+  color: #FFFFFF;
+  display: inline-block;
+  height: 24px;
+  line-height: 24px;
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+/* line 663, ../sass/_main.scss */
+.blocks .list-box .item {
+  text-align: center;
+}
+/* line 665, ../sass/_main.scss */
+.blocks .list-box .item .favorite {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+/* line 669, ../sass/_main.scss */
+.blocks .list-box .item .favorite .text {
+  display: none;
+}
+
+/* line 676, ../sass/_main.scss */
+.sort-header {
+  margin-top: -20px;
+  position: relative;
+  padding-right: 210px;
+}
+/* line 680, ../sass/_main.scss */
+.sort-header .trigger-shown {
+  position: absolute;
+  right: 0;
+  top: -40px;
+  line-height: 26px;
+}
+/* line 686, ../sass/_main.scss */
+.sort-header .list-icon, .sort-header .block-icon {
+  background-image: url(../img/tpl/page-triger.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  text-indent: -9999em;
+  -webkit-transition: none 0.3s ease-in-out;
+  -moz-transition: none 0.3s ease-in-out;
+  -o-transition: none 0.3s ease-in-out;
+  transition: none 0.3s ease-in-out;
+  margin-left: 5px;
+}
+/* line 695, ../sass/_main.scss */
+.sort-header .list-icon.active, .sort-header .block-icon.active {
+  cursor: default;
+}
+/* line 699, ../sass/_main.scss */
+.sort-header .list-icon {
+  background-position: 0 0;
+}
+/* line 701, ../sass/_main.scss */
+.sort-header .list-icon.active, .sort-header .list-icon:hover {
+  background-position: 0 100%;
+}
+/* line 705, ../sass/_main.scss */
+.sort-header .block-icon {
+  background-position: 100% 0;
+}
+/* line 707, ../sass/_main.scss */
+.sort-header .block-icon.active, .sort-header .block-icon:hover {
+  background-position: 100% 100%;
+}
+/* line 712, ../sass/_main.scss */
+.sort-header .t-center a {
+  font-size: 10px;
+}
+/* line 716, ../sass/_main.scss */
+.sort-header .sort-by-block {
+  width: 37%;
+}
+
+/* line 720, ../sass/_main.scss */
+.filter {
+  background: none repeat scroll 0 0 #FFFFFF;
+  float: right;
+  padding: 10px 20px 20px;
+  position: absolute;
+  right: 0;
+  top: 67px;
+  width: 240px;
+  z-index: 2;
+}
+/* line 730, ../sass/_main.scss */
+.filter header .title {
+  font-family: helvetica-light;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+/* line 736, ../sass/_main.scss */
+.filter input[type='checkbox'] {
+  float: left;
+  margin-right: 5px;
+  position: relative;
+  top: 2px;
+}
+/* line 742, ../sass/_main.scss */
+.filter .title2 {
+  margin-bottom: 5px;
+}
+/* line 745, ../sass/_main.scss */
+.filter .form-field + .title2 {
+  margin-top: 20px;
+}
+/* line 748, ../sass/_main.scss */
+.filter label {
+  color: #000;
+  font-size: 12px;
+}
+/* line 753, ../sass/_main.scss */
+.filter .range-inputs input[type='text'] {
+  width: 40px;
+  text-align: center;
+  margin: 0 3px;
+  height: 22px;
+  line-height: 20px;
+  border: 1px solid #929292;
+}
+/* line 761, ../sass/_main.scss */
+.filter .range-inputs a {
+  border-radius: 3px;
+  height: 22px;
+  line-height: 22px;
+  position: relative;
+  top: 2px;
+  padding: 0 5px;
 }
 
 @media (max-width: 1280px) {

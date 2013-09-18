@@ -605,3 +605,167 @@
 	font-size: 14px;
 	color:#0D75B0;
 }
+
+.simular-items, .list-box {
+	margin:0 -10px;
+	.item {
+		width:30%;
+		float:left;
+		padding:15px;
+		border:1px solid #d2d2d2;
+		margin:0 10px 20px;
+		position: relative;
+		.title {
+			display:block;
+			font-size:14px;
+			&:hover {
+				text-decoration: underline;
+			}
+			img {
+				display:block;
+				margin:0 auto 10px;
+				max-width:100%;
+				max-height:110px;
+			}
+		}
+		.favorite {
+			@include transition(none);
+			&.active .icons, &:hover .icons {
+				@include icons-sprite(favorite);
+			}
+		}
+		.price {
+			text-align:center;
+			color:#000;
+			display:inline-block;
+			vertical-align: middle;
+			strong {
+
+				display:block;
+				font-size:18px;
+			}
+		}
+		.add-to-cart {
+			background: none repeat scroll 0 0 #FF5400;
+			border-color: #D2D2D2;
+			border-radius: 5px 5px 5px 5px;
+			color: #FFFFFF;
+			display: inline-block;
+			height: 24px;
+			line-height: 24px;
+			padding: 0 10px;
+			text-decoration: none;
+		}
+	}
+}
+.blocks {
+	.list-box {
+		.item {
+			text-align:center;
+			.favorite {
+				position:absolute;
+				top:8px;
+				right:8px;
+				.text {
+					display:none;
+				}
+			}
+		}
+	}
+}
+.sort-header {
+	margin-top:-20px;
+	position: relative;
+	padding-right:210px;
+	.trigger-shown {
+		position: absolute;
+		right:0;
+		top:-40px;
+		line-height: 26px;
+	}
+	.list-icon, .block-icon {
+		background-image: url(../img/tpl/page-triger.png);
+		background-repeat:no-repeat;
+		display:inline-block;
+		width:26px;
+		height:26px;
+		text-indent: -9999em;
+		@include transition(none);
+		margin-left:5px;
+		&.active {
+			cursor: default;
+		}
+	}
+	.list-icon {
+		background-position:0 0 ;
+		&.active, &:hover {
+			background-position: 0 100%;
+		}
+	}
+	.block-icon {
+		background-position:100% 0 ;
+		&.active, &:hover {
+			background-position: 100% 100% ;
+		}
+	}
+	.t-center {
+		a {
+			font-size:10px;
+		}
+	}
+	.sort-by-block {
+		width:37%;
+	}
+}
+.filter {
+	background: none repeat scroll 0 0 #FFFFFF;
+	float: right;
+	padding: 10px 20px 20px;
+	position: absolute;
+	right: 0;
+	top: 67px;
+	width: 240px;
+	z-index: 2;
+	header {
+		.title {
+			font-family: helvetica-light;
+			border-bottom:1px solid #ccc;
+			padding-bottom:10px;
+		}
+	}
+	input[type='checkbox'] {
+		float: left;
+		margin-right: 5px;
+		position: relative;
+		top: 2px;
+	}
+	.title2 {
+		margin-bottom:5px;
+	}
+	.form-field + .title2 {
+		margin-top:20px;
+	}
+	label {
+		color:#000;
+		font-size:12px;
+	}
+	.range-inputs {
+		input[type='text'] {
+			width:40px;
+			text-align:center;
+			margin:0 3px;
+			height:22px;
+			line-height:20px;
+			border:1px solid #929292;
+		}
+		a{
+			border-radius:3px;
+			height:22px;
+			line-height:22px;
+			position: relative;
+			top:2px;
+			padding:0 5px;
+		}
+	}
+}
+

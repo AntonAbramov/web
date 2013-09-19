@@ -1,3 +1,6 @@
+.sv-page {
+	position: relative;
+}
 .white-block {
 	position:relative;
 	padding:20px 15px 15px;
@@ -623,8 +626,8 @@
 .simular-items, .list-box {
 	margin:0 -10px;
 	.item {
-		width:30%;
-		float:left;
+
+
 		padding:15px;
 		border:1px solid #d2d2d2;
 		margin:0 10px 20px;
@@ -637,7 +640,7 @@
 			}
 			img {
 				display:block;
-				margin:0 auto 10px;
+
 				max-width:100%;
 				max-height:110px;
 			}
@@ -654,7 +657,6 @@
 			display:inline-block;
 			vertical-align: middle;
 			strong {
-
 				display:block;
 				font-size:18px;
 			}
@@ -672,9 +674,49 @@
 		}
 	}
 }
+.lists {
+	.list-box {
+		.item {
+			position: relative;
+			margin-bottom:-1px;
+			min-height:140px;
+			padding-left:100px;
+			&:after {
+				content:"";
+				display:table;
+				clear:both;
+			}
+			.title {
+				position:relative;
+				img {
+					position: absolute;
+					left: -85px;
+					top:0;
+				}
+			}
+			.text {
+			}
+			.price-holder {
+				position: absolute;
+				top:50%;
+				margin-top:-45px;
+				right:20px;
+				.price {
+					margin:0 0 5px;
+					display:block;
+				}
+			}
+		}
+		.price-holder {
+			float:right;
+		}
+	}
+}
 .blocks {
 	.list-box {
 		.item {
+			float:left;
+			width:30%;
 			text-align:center;
 			.favorite {
 				position:absolute;
@@ -683,6 +725,9 @@
 				.text {
 					display:none;
 				}
+			}
+			img {
+				margin:0 auto 10px;
 			}
 		}
 	}
@@ -734,14 +779,15 @@
 .filter {
 	background: none repeat scroll 0 0 #FFFFFF;
 	float: right;
-	padding: 10px 20px 20px;
+	padding: 10px 15px 0;
 	position: absolute;
 	right: 0;
 	top: 67px;
-	width: 240px;
+	width: 230px;
 	z-index: 2;
 	header {
 		.title {
+
 			font-family: helvetica-light;
 			border-bottom:1px solid #ccc;
 			padding-bottom:10px;

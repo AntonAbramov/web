@@ -22,7 +22,25 @@
 		margin-left:300px;
 		width:650px;
 	}
+	.filter{
+		h2.title {
+			color:#0d6699;
+			text-decoration: underline;
+			cursor: pointer;
+			&:hover {
+				text-decoration: none;
+			}
+		}
+		header.active + form {
+			display:block;
+		}
+		form {
+			display:none;
+		}
+	}
 }
 @media (min-width: 1280px)  {
-
+	.list-box {
+		padding-right:230px;
+	}
 }

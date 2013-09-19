@@ -181,6 +181,11 @@
 .simular-items {
 	.item {
 		text-align:center;
+		width:30%;
+		float:left;
+		img {
+			margin:0 auto 10px;
+		}
 	}
 }
 

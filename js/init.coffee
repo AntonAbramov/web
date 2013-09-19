@@ -24,7 +24,8 @@ jQuery(window).load ->
 		registrationPopupLogic()
 	if $("#search").length
 		searchTyping()
-
+	if $('.trigger-shown').length
+		changingLists()
 
 	#delete ajax and return html to the page
 	$.ajax
@@ -91,6 +92,11 @@ jQuery(window).load ->
 			$(".product-image").find("img").fadeOut ->
 				$(@).attr('src', src)
 			.fadeIn()
+
+	$(".filter").find("header h2.title").on 'click', ->
+		$(@).parent().toggleClass("active")
+
+
 
 
 	return #end Window load
@@ -192,3 +198,11 @@ searchTyping = ->
 			$(".search-output").hide()
 
 	return #searchTyping
+
+changingLists = ->
+	$(".trigger-shown").find('a').on 'click', ->
+		if not($(@).hasClass('active'))
+			$(".trigger-shown").find('a').removeClass('active')
+			$(@).addClass('active')
+			if $(@).index() == 0
+				$("#sv-wrapper").addClass('')

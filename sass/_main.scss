@@ -95,7 +95,7 @@
 }
 
 .partners-section {
-	text-align: center;
+	//text-align: center;
 	img {
 		display:inline-block;
 		margin:0 10px 5px 0
@@ -397,6 +397,8 @@
 	}
 	.add {
 		float:right;
+		color:#fff;
+		text-decoration: none;
 		font-size:13px;
 		background: #7ea40b;
 		display:block;
@@ -768,4 +770,5 @@
 		}
 	}
 }
+
 

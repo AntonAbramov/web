@@ -382,7 +382,19 @@
 		line-height: 55px;
 		font-size:16px;
 	}
-
+	.cart-section {
+		margin-top:5px;
+		width:auto;
+		&:after {
+			display:none;
+		}
+		.cart{
+			border:none;
+			.cart-title > div strong {
+				color:#fff;
+			}
+		}
+	}
 	.toolbar-cart {
 		float:right;
 		margin-right:15px;

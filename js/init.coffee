@@ -200,9 +200,12 @@ searchTyping = ->
 	return #searchTyping
 
 changingLists = ->
-	$(".trigger-shown").find('a').on 'click', ->
+	$(".trigger-shown").find('a').on 'click', (event) ->
+		event.preventDefault()
 		if not($(@).hasClass('active'))
 			$(".trigger-shown").find('a').removeClass('active')
 			$(@).addClass('active')
-			if $(@).index() == 0
-				$("#sv-wrapper").addClass('')
+			if $(@).hasClass("block-icon")
+				$("#sv-wrapper").removeClass("lists").addClass("blocks")
+			else
+				$("#sv-wrapper").removeClass("blocks").addClass("lists")

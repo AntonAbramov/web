@@ -205,12 +205,15 @@
   };
 
   changingLists = function() {
-    return $(".trigger-shown").find('a').on('click', function() {
+    return $(".trigger-shown").find('a').on('click', function(event) {
+      event.preventDefault();
       if (!($(this).hasClass('active'))) {
         $(".trigger-shown").find('a').removeClass('active');
         $(this).addClass('active');
-        if ($(this).index() === 0) {
-          return $("#sv-wrapper").addClass('');
+        if ($(this).hasClass("block-icon")) {
+          return $("#sv-wrapper").removeClass("lists").addClass("blocks");
+        } else {
+          return $("#sv-wrapper").removeClass("blocks").addClass("lists");
         }
       }
     });

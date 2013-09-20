@@ -23,6 +23,8 @@
 		width:650px;
 	}
 	.filter{
+		margin-right:20px;
+		border:1px solid #ccc;
 		h2.title {
 			color:#0d6699;
 			text-decoration: underline;
@@ -38,9 +40,11 @@
 			display:none;
 		}
 	}
+
+
 }
 @media (min-width: 1280px)  {
 	.list-box {
-		padding-right:230px;
+		padding-right:200px;
 	}
 }

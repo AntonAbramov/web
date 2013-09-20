@@ -626,8 +626,6 @@
 .simular-items, .list-box {
 	margin:0 -10px;
 	.item {
-
-
 		padding:15px;
 		border:1px solid #d2d2d2;
 		margin:0 10px 20px;
@@ -675,6 +673,12 @@
 	}
 }
 .lists {
+	.sort-header {
+		margin:-20px 0 20px;
+		.t-center {
+			display:none;
+		}
+	}
 	.list-box {
 		.item {
 			position: relative;
@@ -685,6 +689,9 @@
 				content:"";
 				display:table;
 				clear:both;
+			}
+			&:nth-child(odd) {
+				background: #f6f6f6;
 			}
 			.title {
 				position:relative;
@@ -716,8 +723,11 @@
 	.list-box {
 		.item {
 			float:left;
-			width:30%;
+			width:30.12%;
 			text-align:center;
+			&:hover {
+				background: #f6f6f6;
+			}
 			.favorite {
 				position:absolute;
 				top:8px;
@@ -779,11 +789,11 @@
 .filter {
 	background: none repeat scroll 0 0 #FFFFFF;
 	float: right;
-	padding: 10px 15px 0;
+	padding: 10px 15px 5px;
 	position: absolute;
 	right: 0;
 	top: 67px;
-	width: 230px;
+	width: 200px;
 	z-index: 2;
 	header {
 		.title {
@@ -828,5 +838,7 @@
 		}
 	}
 }
-
+.list-grid-pagination {
+	padding-right:220px;
+}
 

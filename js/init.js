@@ -30,15 +30,6 @@
       changingLists();
     }
     $.ajax({
-      url: 'ajax/sidebar.html',
-      method: 'get',
-      dataType: 'html',
-      success: function(data) {
-        $('#sv-leftcolumn').append(data);
-        return initTabs();
-      }
-    });
-    $.ajax({
       url: 'ajax/registrationpopup.html',
       method: 'get',
       dataType: 'html',

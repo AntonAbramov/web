@@ -17,7 +17,6 @@ $(document).ready ->
 	return #end document ready
 
 jQuery(window).load ->
-
 	if $('.cart-content').length
 		cartLogic()
 	if $('#registration-popup').length
@@ -26,15 +25,6 @@ jQuery(window).load ->
 		searchTyping()
 	if $('.trigger-shown').length
 		changingLists()
-
-	#delete ajax and return html to the page
-	$.ajax
-		url: 'ajax/sidebar.html'
-		method: 'get'
-		dataType: 'html'
-		success: (data) ->
-			$('#sv-leftcolumn').append data
-			initTabs()
 
 	#delete ajax and return html to the page
 	$.ajax

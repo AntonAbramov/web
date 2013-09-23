@@ -1,3 +1,4 @@
+@charset "IBM437";
 /*========================================
   Global variables
 ==========================================*/
@@ -6,217 +7,217 @@
   background: url('../img/icons.png') no-repeat;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-arrow-closed {
   background-position: 0 0;
   height: 8px;
   width: 9px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-arrow-opened {
   background-position: 0 -604px;
   height: 8px;
   width: 9px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-bottom_item {
   background-position: 0 -385px;
   height: 29px;
   width: 31px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-calc {
   background-position: 0 -75px;
   height: 29px;
   width: 30px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-call {
   background-position: 0 -46px;
   height: 29px;
   width: 29px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-cart {
   background-position: 0 -554px;
   height: 14px;
   width: 15px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-close-button-gray {
   background-position: 0 -224px;
   height: 26px;
   width: 25px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-close-small {
   background-position: 0 -331px;
   height: 21px;
   width: 20px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-delete-button {
   background-position: 0 -8px;
   height: 38px;
   width: 38px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-delete-cross {
   background-position: 0 -476px;
   height: 12px;
   width: 12px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-error {
   background-position: 0 -296px;
   height: 19px;
   width: 19px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-favorite {
   background-position: 0 -315px;
   height: 16px;
   width: 18px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-favorite2 {
   background-position: 0 -460px;
   height: 16px;
   width: 18px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-green-circle {
   background-position: 0 -187px;
   height: 37px;
   width: 37px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-green-circle2 {
   background-position: 0 -150px;
   height: 37px;
   width: 37px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-icon-password {
   background-position: 0 -539px;
   height: 15px;
   width: 7px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-icon-user {
   background-position: 0 -514px;
   height: 15px;
   width: 15px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-line-arrow {
   background-position: 0 -622px;
   height: 2px;
   width: 12px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-list-arrow {
   background-position: 0 -529px;
   height: 10px;
   width: 10px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-loop {
   background-position: 0 -370px;
   height: 15px;
   width: 15px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-menu-arr-right_hover {
   background-position: 0 -577px;
   height: 9px;
   width: 7px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-menu-arrow-right {
   background-position: 0 -586px;
   height: 9px;
   width: 7px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-new-window {
   background-position: 0 -500px;
   height: 14px;
   width: 14px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-pag-next {
   background-position: 0 -568px;
   height: 9px;
   width: 6px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-pag-prev {
   background-position: 0 -595px;
   height: 9px;
   width: 6px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-pencil {
   background-position: 0 -488px;
   height: 12px;
   width: 12px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-step-arrow-green-back {
   background-position: 0 -414px;
   height: 46px;
   width: 26px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-step-arrow-green-front {
   background-position: 0 -104px;
   height: 46px;
   width: 32px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-step-arrow {
   background-position: 0 -250px;
   height: 46px;
   width: 58px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-user {
   background-position: 0 -352px;
   height: 18px;
   width: 12px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-video-arrow {
   background-position: 0 -612px;
   height: 10px;
@@ -2960,8 +2961,9 @@ html, body {
 /* line 44, ../sass/elements/_product-page.scss */
 .product-page .product-content {
   padding-left: 250px;
+  position: relative;
 }
-/* line 47, ../sass/elements/_product-page.scss */
+/* line 48, ../sass/elements/_product-page.scss */
 .product-page .product-name {
   font-size: 24px;
   color: #000;
@@ -2970,11 +2972,11 @@ html, body {
   margin: 0 0 5px;
   line-height: 24px;
 }
-/* line 55, ../sass/elements/_product-page.scss */
+/* line 56, ../sass/elements/_product-page.scss */
 .product-page .lot-number {
   margin: 0 0 10px;
 }
-/* line 58, ../sass/elements/_product-page.scss */
+/* line 59, ../sass/elements/_product-page.scss */
 .product-page .amount {
   background: none repeat scroll 0 0 #F2F2F2;
   border: 1px solid #D0D0D0;
@@ -2983,12 +2985,12 @@ html, body {
   margin: 0 0 20px;
   padding: 20px;
 }
-/* line 65, ../sass/elements/_product-page.scss */
+/* line 66, ../sass/elements/_product-page.scss */
 .product-page .amount input[type='text'], .product-page .amount input[type='number'] {
   width: 40px;
   text-align: center;
 }
-/* line 69, ../sass/elements/_product-page.scss */
+/* line 70, ../sass/elements/_product-page.scss */
 .product-page .amount a {
   margin-top: 10px;
   display: inline-block;
@@ -3018,7 +3020,7 @@ html, body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b6e416', endColorstr='#618305',GradientType=0 );
   /* IE6-9 */
 }
-/* line 89, ../sass/elements/_product-page.scss */
+/* line 90, ../sass/elements/_product-page.scss */
 .product-page .amount a:hover {
   background: #618305;
   /* Old browsers */
@@ -3037,31 +3039,31 @@ html, body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#618305', endColorstr='#b6e416',GradientType=0 );
   /* IE6-9 */
 }
-/* line 102, ../sass/elements/_product-page.scss */
+/* line 103, ../sass/elements/_product-page.scss */
 .product-page .availiable-in {
   font-size: 14px;
 }
-/* line 105, ../sass/elements/_product-page.scss */
+/* line 106, ../sass/elements/_product-page.scss */
 .product-page .product-state {
   margin: 0 0 20px;
   font-size: 14px;
 }
-/* line 109, ../sass/elements/_product-page.scss */
+/* line 110, ../sass/elements/_product-page.scss */
 .product-page .product-price {
   font-size: 14px;
   margin: 0 0 20px;
 }
-/* line 112, ../sass/elements/_product-page.scss */
+/* line 113, ../sass/elements/_product-page.scss */
 .product-page .product-price .dol {
   color: #658e16;
   font-size: 24px;
   font-weight: bold;
 }
-/* line 117, ../sass/elements/_product-page.scss */
+/* line 118, ../sass/elements/_product-page.scss */
 .product-page .product-price .grn {
   font-size: 12px;
 }
-/* line 121, ../sass/elements/_product-page.scss */
+/* line 122, ../sass/elements/_product-page.scss */
 .product-page .calculate-price {
   background: url(../img/page/calc.png) no-repeat;
   width: 204px;
@@ -3071,20 +3073,20 @@ html, body {
   color: #000;
   text-decoration: none;
 }
-/* line 129, ../sass/elements/_product-page.scss */
+/* line 130, ../sass/elements/_product-page.scss */
 .product-page .calculate-price span {
   color: #e73310;
   font-weight: bold;
   display: block;
   line-height: 12px;
 }
-/* line 136, ../sass/elements/_product-page.scss */
+/* line 137, ../sass/elements/_product-page.scss */
 .product-page .protect {
   font-weight: bold;
   color: #787878;
   line-height: 12px;
 }
-/* line 140, ../sass/elements/_product-page.scss */
+/* line 141, ../sass/elements/_product-page.scss */
 .product-page .protect .icons {
   background: url(../img/tpl/protection.png) no-repeat;
   width: 42px;
@@ -3092,49 +3094,49 @@ html, body {
   float: left;
   margin-right: 10px;
 }
-/* line 147, ../sass/elements/_product-page.scss */
+/* line 148, ../sass/elements/_product-page.scss */
 .product-page .protect strong {
   padding-top: 10px;
   display: block;
   color: #000;
 }
-/* line 153, ../sass/elements/_product-page.scss */
+/* line 154, ../sass/elements/_product-page.scss */
 .product-page .seller-info {
   margin: 0 0 10px;
 }
-/* line 155, ../sass/elements/_product-page.scss */
+/* line 156, ../sass/elements/_product-page.scss */
 .product-page .seller-info > div {
   padding-left: 30px;
   position: relative;
 }
-/* line 156, ../sass/elements/_product-page.scss */
+/* line 157, ../sass/elements/_product-page.scss */
 .product-page .seller-info > div:first-child {
   padding-left: 0;
   margin: 0 0 5px;
 }
-/* line 162, ../sass/elements/_product-page.scss */
+/* line 163, ../sass/elements/_product-page.scss */
 .product-page .seller-info > div .icons {
   margin-left: -20px;
   margin-right: 5px;
 }
 
-/* line 171, ../sass/elements/_product-page.scss */
+/* line 172, ../sass/elements/_product-page.scss */
 .item-info {
   font-size: 12px;
   color: #000;
 }
-/* line 175, ../sass/elements/_product-page.scss */
+/* line 176, ../sass/elements/_product-page.scss */
 .item-info .row > div {
   padding: 3px 10px;
 }
 
-/* line 182, ../sass/elements/_product-page.scss */
+/* line 183, ../sass/elements/_product-page.scss */
 .simular-items .item {
   text-align: center;
   width: 30.12%;
   float: left;
 }
-/* line 186, ../sass/elements/_product-page.scss */
+/* line 187, ../sass/elements/_product-page.scss */
 .simular-items .item img {
   margin: 0 auto 10px;
 }
@@ -4225,5 +4227,16 @@ html, body {
   /* line 47, ../sass/layouts/_adaptive.scss */
   .list-box {
     padding-right: 200px;
+  }
+
+  /* line 51, ../sass/layouts/_adaptive.scss */
+  .product-page .amount {
+    float: right;
+  }
+  /* line 54, ../sass/layouts/_adaptive.scss */
+  .product-page .seller-info {
+    position: absolute;
+    right: 10px;
+    bottom: 140px;
   }
 }

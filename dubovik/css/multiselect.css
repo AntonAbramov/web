@@ -1,0 +1,84 @@
+.ui-multiselect-menu.hotelsMultiselect {font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;border:1px solid #DDD;}
+.ui-multiselect.hotelsMultiselect {font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;text-align:left;width:240px !important; }
+.ui-multiselect span.ui-icon { float:right }
+.ui-multiselect-single .ui-multiselect-checkboxes input { position:absolute !important; top: auto !important; left:-9999px; }
+.ui-multiselect-single .ui-multiselect-checkboxes label { padding:5px !important }
+
+.ui-multiselect-header { margin-bottom:3px; padding:3px 0 3px 4px }
+.ui-multiselect-header ul { font-size:0.9em }
+.ui-multiselect-header ul li { display: block; float:left; padding: 4px 6px; width:105px; }
+.ui-multiselect-header ul li:first-child {
+	border-right:#dddddd 1px dashed;
+}
+.ui-widget-content .ui-multiselect-header a { text-decoration:none !important; font-weight: normal;font-size: 10px; color:#666666;text-transform: uppercase;line-height: 15px;border-bottom:#dddddd 1px dashed;}
+.ui-multiselect-header a:hover { text-decoration:underline }
+.ui-multiselect-header span.ui-icon { float:left }
+.ui-multiselect-header li.ui-multiselect-close { display:none !important; float:right; text-align:right; padding-right:0 }
+.ui-multiselect-header .ui-icon.ui-icon-check {background: url('../img/icon/multiselectCheck.png');}
+.ui-multiselect-header .ui-icon.ui-icon-closethick {background: url('../img/icon/multiselectUncheck.png');}
+
+.ui-widget-content.ui-multiselect-menu { display:none; padding:0; position:absolute; z-index:10000; text-align: left;border-color:#dddddd; }
+.ui-multiselect-checkboxes { position:relative /* fixes bug in IE6/7 */; overflow-y:auto }
+.ui-multiselect-checkboxes.selected { border-bottom:#ddd 1px solid;overflow: hidden;margin-bottom: 4px;padding-bottom: 4px;}
+.ui-multiselect-checkboxes label { cursor:default; display:block; border:1px solid transparent; padding:1px 9px}
+.ui-multiselect-checkboxes label input {}
+.ui-multiselect-checkboxes label span {color: #222; text-transform: none; font-size: 13px;letter-spacing:0;}
+.ui-multiselect-checkboxes li { clear:both; font-size:0.9em;}
+.ui-widget-content .ui-multiselect-checkboxes li label {
+	border-width:1px 0;
+	-moz-border-radius:0;
+	-webkit-border--radius:0;
+	-khtml-border-radius:0;
+	border-radius:0;
+}
+.ui-multiselect-checkboxes li.empty {font-size: 1em;padding-right: 3px;display: none;color: #202020;text-align: center;padding: 76px 10px 0; }
+.ui-multiselect-checkboxes li.selectAll { border-bottom:#ddd 1px solid;padding-bottom: 4px;margin-bottom: 4px;}
+
+.ui-multiselect-checkboxes li.ui-multiselect-optgroup-label { text-align:left;font-weight:bold;}
+.ui-multiselect-checkboxes li.ui-multiselect-optgroup-label a {display: block;padding:7px 9px 1px;margin:1px 0;text-decoration:none;font-size:13px;font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;}
+
+/* remove label borders in IE6 because IE6 does not support transparency */
+* html .ui-multiselect-checkboxes label { border:none }
+
+
+
+.ui-multiselect.ui-widget{
+	-moz-box-sizing: border-box;
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #DDDDDD;
+	display: block;
+	font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
+	font-size: 13px;
+	height: 28px;
+	line-height: 26px;
+	margin: 0;
+	padding: 0 18px 0 6px;
+	position: relative;
+	text-align: left;
+	width: 242px !important;
+	z-index: 1;
+}
+.ui-widget-content.ui-multiselect-menu {
+	border-color: #DDDDDD;
+	display: none;
+	padding: 0;
+	position: absolute;
+	text-align: left;
+	z-index: 10000;
+}
+.ui-multiselect-menu {
+	background: #fff;
+}
+.ui-multiselect-menu .ui-widget-header {
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	background: none repeat scroll 0 0 transparent;
+	border-color: #DDDDDD;
+	border-image: none;
+	border-radius: 0 0 0 0;
+	border-style: solid;
+	border-width: 0 0 1px;
+	padding: 0;
+}

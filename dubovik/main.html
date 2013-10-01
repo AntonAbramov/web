@@ -1,747 +1,959 @@
-
 <!DOCTYPE html>
 <html>
-	<head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-        <link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css" />
-        <link rel="stylesheet" type="text/css" href="css/style_search_results.css" />
-        <link rel="stylesheet" type="text/css" href="css/jquery.datepick.css">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style_search_results.css"/>
+	<link rel="stylesheet" type="text/css" href="css/jquery.datepick.css">
 
-        <script type="text/javascript" src="assets/5b1b4afd/jquery.js"></script>
-        <script type="text/javascript" src="assets/f595bf8a/js/adminCore.js"></script>
-        <script type="text/javascript" src="assets/96b810c2/plupload.full.js"></script>
-        <script type="text/javascript" src="assets/96b810c2/pluploadInitializer.js"></script>
-        <title>Turuturu - Тур №559618040</title>
-        <meta name="description" content="" />
-        <meta name="keywords"    content="" />
+	<script type="text/javascript" src="assets/5b1b4afd/jquery.js"></script>
+	<script type="text/javascript" src="assets/f595bf8a/js/adminCore.js"></script>
+	<script type="text/javascript" src="assets/96b810c2/plupload.full.js"></script>
+	<script type="text/javascript" src="assets/96b810c2/pluploadInitializer.js"></script>
+	<title>Turuturu - Тур №559618040</title>
+	<meta name="description" content=""/>
+	<meta name="keywords" content=""/>
 
-        <link rel="stylesheet" type="text/css" href="css/style_search_results.css" media="screen, projection, print">
+	<!-- <link rel="stylesheet/less" type="text/css" href="/css/styless.css" media="screen, projection, print">
+	<script src="/js/less.js" type="text/javascript"></script>-->
 
-        <!-- <link rel="stylesheet/less" type="text/css" href="/css/styless.css" media="screen, projection, print">
-        <script src="/js/less.js" type="text/javascript"></script>-->
+	<script src="js/modernizr.js" type="text/javascript"></script>
+	<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
 
-        <script src="js/modernizr.js" type="text/javascript"></script>
-        <script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script>
+		!window.XMLHttpRequest && window.location.reload("/ie6/ie6.html");
+		!window.jQuery && document.write('<script src="/js/jquery-1.7.1.min.js"><\/script>');
+	</script>
 
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-        <script>
-            !window.XMLHttpRequest && window.location.reload("/ie6/ie6.html");
-            !window.jQuery && document.write('<script src="/js/jquery-1.7.1.min.js"><\/script>');
-        </script>
+	<!--<LINK rel="icon" href="/favicon.ico" type="image/x-icon">
+	<LINK rel="shortcut icon" href="/favicon.ico" type="image/x-icon">-->
+	<script type="text/javascript" src="js/jquery.ezmark.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/ezmark.css" media="all">
 
-        <!--<LINK rel="icon" href="/favicon.ico" type="image/x-icon">
-        <LINK rel="shortcut icon" href="/favicon.ico" type="image/x-icon">-->
-        <script type="text/javascript" src="js/jquery.ezmark.js"></script>
-        <link rel="stylesheet" type="text/css" href="css/ezmark.css" media="all">
+	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/jquery.jscrollpane.css" media="all">
 
-        <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
-        <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="css/jquery.jscrollpane.css" media="all">
+	<script type="text/javascript" src="js/jquery.selectBox.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/jquery.selectBox.css" media="all">
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui-1.8.23.custom.css" media="all">
+	<script type="text/javascript" src="js/placeholder.min.js"></script>
+	<!--<script type="text/javascript" src="http://api-maps.yandex.ru/2.0-stable/?lang=ru-RU&coordorder=longlat&load=package.full&wizard=constructor&onload=fid_134985912390225153932"></script>-->
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="assets/96b810c2/plupload.full.js"></script>
+	<script type="text/javascript" src="assets/96b810c2/pluploadInitializer.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap-select.min.js"></script>
+	<script type="text/javascript" src="js/jquery.datepick.js"></script>
+	<script type="text/javascript" src="js/jquery.datepick-ru.js"></script>
+	<script src="js/jquery.maskedinput.min.js" type="text/javascript"></script>
+	<script src="js/jquery.multiselect.min.js" type="text/javascript"></script>
+	<script src="js/jquery.ui.selectmenu.js" type="text/javascript"></script>
 
-        <script type="text/javascript" src="js/jquery.selectBox.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="css/jquery.selectBox.css" media="all">
-        <script type="text/javascript" src="js/jquery-ui.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="css/jquery-ui-1.8.23.custom.css" media="all">
-        <script type="text/javascript" src="js/placeholder.min.js"></script>
-        <!--<script type="text/javascript" src="http://api-maps.yandex.ru/2.0-stable/?lang=ru-RU&coordorder=longlat&load=package.full&wizard=constructor&onload=fid_134985912390225153932"></script>-->
-        <script type="text/javascript" src="js/main.js"></script>
-        <script type="text/javascript" src="assets/96b810c2/plupload.full.js"></script>
-        <script type="text/javascript" src="assets/96b810c2/pluploadInitializer.js"></script>
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="js/bootstrap-select.min.js"></script>
-        <script type="text/javascript" src="js/jquery.datepick.js"></script>
-        <script type="text/javascript" src="js/jquery.datepick-ru.js"></script>
-        <script src="js/jquery.maskedinput.min.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="css/update.css" media="all">
+	<link rel="stylesheet" type="text/css" href="css/multiselect.css" media="all">
+	<link rel="stylesheet" type="text/css" href="css/jquery.ui.selectmenu.css" media="all">
 
-		<link rel="stylesheet" type="text/css" href="css/update.css" media="all">
-        <link rel="stylesheet" type="text/css" href="/css/dev.css" media="screen, projection, print">
+	<link rel="stylesheet" type="text/css" href="/css/dev.css" media="screen, projection, print">
 
-    </head>
-    <body>
-    <div class="request_form_container">
-        <div class="request_form" style="display: none">
-            <div class="heading"><h2>Заявка на подбор тура</h2><span id="close_form">X</span></div>
-            <form action="" name="request_form" method="">
-                <table>
-                    <tr>
-                        <td><p>Страны</p></td>
-                        <td>
-                            <span class="toggle_country_list"><a>Выберите 2-4 страны</a></span>
-                            <div class="country_list" style="display: none;">
-                                <ul class="contry_list_block">
-                                    <li>
-                                        <label class="checkbox inline">
-                                          <input type="checkbox" class="c_checkbox" id="inlineCheckbox1">Египет
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox inline">
-                                          <input type="checkbox" class="c_checkbox" id="inlineCheckbox2">Турция
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox inline">
-                                          <input type="checkbox" class="c_checkbox" id="inlineCheckbox3">Тайланд
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox inline">
-                                          <input type="checkbox" class="c_checkbox" id="inlineCheckbox4">Индонезия
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox inline">
-                                          <input type="checkbox" class="c_checkbox" id="inlineCheckbox5">Мальдивы
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox inline">
-                                          <input type="checkbox" class="c_checkbox" id="inlineCheckbox6">Испания
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox inline">
-                                          <input type="checkbox" class="c_checkbox" id="inlineCheckbox7">Италия
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox inline">
-                                          <input type="checkbox" class="c_checkbox" id="inlineCheckbox8">Сирия
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox inline">
-                                          <input type="checkbox" class="c_checkbox" id="inlineCheckbox9">Палестина
-                                        </label>
-                                    </li>
-                                </ul>
-                                <ul class="contry_list_block">
-                                    <li>
-                                        <label class="checkbox inline">
-                                          <input type="checkbox" class="c_checkbox" id="inlineCheckbox1">Египет
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox inline">
-                                          <input type="checkbox" class="c_checkbox" id="inlineCheckbox2">Турция
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox inline">
-                                          <input type="checkbox" class="c_checkbox" id="inlineCheckbox3">Тайланд
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox inline">
-                                          <input type="checkbox" class="c_checkbox" id="inlineCheckbox4">Индонезия
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox inline">
-                                          <input type="checkbox" class="c_checkbox" id="inlineCheckbox5">Мальдивы
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox inline">
-                                          <input type="checkbox" class="c_checkbox" id="inlineCheckbox6">Испания
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox inline">
-                                          <input type="checkbox" class="c_checkbox" id="inlineCheckbox7">Италия
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox inline">
-                                          <input type="checkbox" class="c_checkbox" id="inlineCheckbox8">Сирия
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox inline">
-                                          <input type="checkbox" class="c_checkbox" id="inlineCheckbox9">Палестина
-                                        </label>
-                                    </li>
-                                </ul>
-                                <ul class="contry_list_block">
-                                    <li>
-                                        <label class="checkbox inline">
-                                          <input type="checkbox" class="c_checkbox" id="inlineCheckbox1">Египет
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox inline">
-                                          <input type="checkbox" class="c_checkbox" id="inlineCheckbox2">Турция
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox inline">
-                                          <input type="checkbox" class="c_checkbox" id="inlineCheckbox3">Тайланд
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox inline">
-                                          <input type="checkbox" class="c_checkbox" id="inlineCheckbox4">Индонезия
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox inline">
-                                          <input type="checkbox" class="c_checkbox" id="inlineCheckbox5">Мальдивы
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox inline">
-                                          <input type="checkbox" class="c_checkbox" id="inlineCheckbox6">Испания
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox inline">
-                                          <input type="checkbox" class="c_checkbox" id="inlineCheckbox7">Италия
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox inline">
-                                          <input type="checkbox" class="c_checkbox" id="inlineCheckbox8">Сирия
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox inline">
-                                          <input type="checkbox" class="c_checkbox" id="inlineCheckbox9">Палестина
-                                        </label>
-                                    </li>
-                                </ul>
-                                <ul class="contry_list_block">
-                                    <li>
-                                        <label class="checkbox inline">
-                                          <input type="checkbox" class="c_checkbox" id="inlineCheckbox1">Египет
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox inline">
-                                          <input type="checkbox" class="c_checkbox" id="inlineCheckbox2">Турция
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox inline">
-                                          <input type="checkbox" class="c_checkbox" id="inlineCheckbox3">Тайланд
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox inline">
-                                          <input type="checkbox" class="c_checkbox" id="inlineCheckbox4">Индонезия
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox inline">
-                                          <input type="checkbox" class="c_checkbox" id="inlineCheckbox5">Мальдивы
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox inline">
-                                          <input type="checkbox" class="c_checkbox" id="inlineCheckbox6">Испания
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox inline">
-                                          <input type="checkbox" class="c_checkbox" id="inlineCheckbox7">Италия
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox inline">
-                                          <input type="checkbox" class="c_checkbox" id="inlineCheckbox8">Сирия
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label class="checkbox inline">
-                                          <input type="checkbox" class="c_checkbox" id="inlineCheckbox9">Палестина
-                                        </label>
-                                    </li>
-                                </ul>
-                                <span class="btn">Готово</span>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><p>Класс отеля</p></td>
-                        <td class="star_list">
-                            <label class="checkbox inline">
-                              <input type="checkbox" value="2 stars">2<span class="full_star"></span>
-                            </label>
-                            <label class="checkbox inline">
-                              <input type="checkbox"  value="3 stars">3<span class="full_star"></span>
-                            </label>
-                            <label class="checkbox inline">
-                              <input type="checkbox"  value="4 stars">4<span class="full_star"></span>
-                            </label>
-                            <label class="checkbox inline">
-                              <input type="checkbox"  value="5 stars">5<span class="full_star"></span>
-                            </label>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><p>Даты тура</p></td>
-                        <td>
-                           <input type="text" placeholder="Вылет" id="departure2" autocomplete="off">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><p>Ночей</p></td>
-                        <td>
-                            <select class="selectpicker show-tick" data-width="55px">
-                              <option>4</option>
-                              <option>5</option>
-                              <option>6</option>
-                              <option>7</option>
-                              <option>8</option>
-                              <option>9</option>
-                              <option>10</option>
-                            </select> до
-                            <select class="selectpicker show-tick" data-width="55px">
-                              <option>10</option>
-                              <option>11</option>
-                              <option>12</option>
-                              <option>13</option>
-                              <option>14</option>
-                              <option>15</option>
-                              <option>16</option>
-                            </select>
-                        </td>
-                    </tr>
-                    <tr class="price_selection">
-                        <td><p>Цена</p></td>
-                        <td>
-                            <div class="input-prepend">
-                                <span class="add-on">Руб. </span>
-                                <input type="text" placeholder="От" id="price_start">
-                            </div>
-                            <div class="input-prepend">
-                                <span class="add-on">Руб. </span>
-                                <input type="text"  placeholder="До" id="price_end"><span> руб</span>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><p>Пожелания</p></td>
-                        <td>
-                            <textarea rows="3"></textarea>
-                        </td>
-                    </tr>
-                    <tr class="name_req">
-                        <td><p>Ваше имя</p></td>
-                        <td>
-                            <input type="text" placeholder="Имя" required>
-                        </td>
-                    </tr>
-                    <tr class="phone_req">
-                        <td><p>Ваш телефон</p></td>
-                        <td>
-                            <input type="text" id="phone_number" required>
-                        </td>
-                    </tr>
-                    <tr class="email_req">
-                        <td><p>Ваш e-mail</p></td>
-                        <td>
-                            <input type="email" id="email" required>
-                        </td>
-                    </tr>
-                    <tr class="send_request_button">
-                        <td><input type="submit" value="Отправить заявку"></td>
-                    </tr>
-                </table>
-            </form>
-        </div>
-        <div class="notify_form" style="display: none">
-            <div class="heading"><h2>Уведомить меня о снижении цены на этот тур!</h2><span id="close_form">X</span></div>
-            <form action="" name="notify_form" method="">
-                <table>
-                    <tr class="name_req">
-                        <td><p>Ваше имя</p></td>
-                        <td>
-                            <input type="text" placeholder="Имя" required>
-                        </td>
-                    </tr>
-                    <tr class="phone_req">
-                        <td><p>Ваш телефон</p></td>
-                        <td>
-                            <input type="text" id="phone_number2" required>
-                        </td>
-                    </tr>
-                    <tr class="email_req">
-                        <td><p>Ваш e-mail</p></td>
-                        <td>
-                            <input type="email" id="email2" required>
-                        </td>
-                    </tr>
-                    <tr class="send_request_button">
-                        <td><input type="submit" value="Отправить заявку"><i class="icon-envelope icon-white"></i></td>
-                    </tr>
-                </table>
-            </form>
-        </div>
-    </div>
-    <div class="screen_fill" style="display: none"></div>
-        <div class = "wrapper">
-            <div class = "maincontent">
-                <header role="banner">
-	                <div class="header-top-nav">
-		                <div class="inn">
-			                <ul>
-				                <li>
-					                <a href="#">
-						                О насКак
-					                </a>
-				                </li>
-				                <li>
-					                <a href="#">
-						                 купить
-					                </a>
-				                </li>
-				                <li>
-					                <a href="#">
-						                турКонтакты
-					                </a>
-				                </li>
-			                </ul>
-			                <button class="leave-order btn">
-				                Оставить заявку
-			                </button>
-			                <div class="tel">
-				                <a class="telCall ya-phone" href="tel:+70009999999"> +7 (000) 999-99-99 </a>
-			                </div>
-		                </div>
+</head>
+<body>
+<div class="request_form_container">
+<div class="request_form" style="display: none">
+<div class="heading"><h2>Заявка на подбор тура</h2><span id="close_form">X</span></div>
+<form action="" name="request_form" method="">
+<table>
+<tr>
+	<td><p>Страны</p></td>
+	<td>
+		<span class="toggle_country_list"><a>Выберите 2-4 страны</a></span>
 
-	                </div>
-                    <div class="container regular">
-                        <a href="/" class="logo"><img src="img/header/logo.png"><span>TuruTuru</span></a>
-                        <ul class="navigation">
-                            <li><a href="#">О проекте</a></li>
-                            <li><a href="#">Скидки</a></li>
-                            <li><a href="#">Как купить</a></li>
-                            <li><a href="#">Вопросы и ответы</a></li>
-                            <li><a href="#">Памятка туристу</a></li>
-                        </ul>
-                        <!--<div class="header_adds">
-                            <div class="subscribe">
-                                Подписывайтесь на спецпредложения -
-                            </div>
-                            <ul class="header_socnet">
-                                <li class="soc_vk">
-                                    <a href="http://vk.com/"></a>
-                                </li>
-                                <li class="soc_twit">
-                                    <a href="http://twitter.com/"></a>
-                                </li>
-                                <li class="soc_face">
-                                    <a href="http://facebook.com/"></a>
-                                </li>
-                            </ul>
-                        </div>-->
-                    </div>
-                </header>
+		<div class="country_list" style="display: none;">
+			<ul class="contry_list_block">
+				<li>
+					<label class="checkbox inline">
+						<input type="checkbox" class="c_checkbox" id="inlineCheckbox1">Египет
+					</label>
+				</li>
+				<li>
+					<label class="checkbox inline">
+						<input type="checkbox" class="c_checkbox" id="inlineCheckbox2">Турция
+					</label>
+				</li>
+				<li>
+					<label class="checkbox inline">
+						<input type="checkbox" class="c_checkbox" id="inlineCheckbox3">Тайланд
+					</label>
+				</li>
+				<li>
+					<label class="checkbox inline">
+						<input type="checkbox" class="c_checkbox" id="inlineCheckbox4">Индонезия
+					</label>
+				</li>
+				<li>
+					<label class="checkbox inline">
+						<input type="checkbox" class="c_checkbox" id="inlineCheckbox5">Мальдивы
+					</label>
+				</li>
+				<li>
+					<label class="checkbox inline">
+						<input type="checkbox" class="c_checkbox" id="inlineCheckbox6">Испания
+					</label>
+				</li>
+				<li>
+					<label class="checkbox inline">
+						<input type="checkbox" class="c_checkbox" id="inlineCheckbox7">Италия
+					</label>
+				</li>
+				<li>
+					<label class="checkbox inline">
+						<input type="checkbox" class="c_checkbox" id="inlineCheckbox8">Сирия
+					</label>
+				</li>
+				<li>
+					<label class="checkbox inline">
+						<input type="checkbox" class="c_checkbox" id="inlineCheckbox9">Палестина
+					</label>
+				</li>
+			</ul>
+			<ul class="contry_list_block">
+				<li>
+					<label class="checkbox inline">
+						<input type="checkbox" class="c_checkbox" id="inlineCheckbox1">Египет
+					</label>
+				</li>
+				<li>
+					<label class="checkbox inline">
+						<input type="checkbox" class="c_checkbox" id="inlineCheckbox2">Турция
+					</label>
+				</li>
+				<li>
+					<label class="checkbox inline">
+						<input type="checkbox" class="c_checkbox" id="inlineCheckbox3">Тайланд
+					</label>
+				</li>
+				<li>
+					<label class="checkbox inline">
+						<input type="checkbox" class="c_checkbox" id="inlineCheckbox4">Индонезия
+					</label>
+				</li>
+				<li>
+					<label class="checkbox inline">
+						<input type="checkbox" class="c_checkbox" id="inlineCheckbox5">Мальдивы
+					</label>
+				</li>
+				<li>
+					<label class="checkbox inline">
+						<input type="checkbox" class="c_checkbox" id="inlineCheckbox6">Испания
+					</label>
+				</li>
+				<li>
+					<label class="checkbox inline">
+						<input type="checkbox" class="c_checkbox" id="inlineCheckbox7">Италия
+					</label>
+				</li>
+				<li>
+					<label class="checkbox inline">
+						<input type="checkbox" class="c_checkbox" id="inlineCheckbox8">Сирия
+					</label>
+				</li>
+				<li>
+					<label class="checkbox inline">
+						<input type="checkbox" class="c_checkbox" id="inlineCheckbox9">Палестина
+					</label>
+				</li>
+			</ul>
+			<ul class="contry_list_block">
+				<li>
+					<label class="checkbox inline">
+						<input type="checkbox" class="c_checkbox" id="inlineCheckbox1">Египет
+					</label>
+				</li>
+				<li>
+					<label class="checkbox inline">
+						<input type="checkbox" class="c_checkbox" id="inlineCheckbox2">Турция
+					</label>
+				</li>
+				<li>
+					<label class="checkbox inline">
+						<input type="checkbox" class="c_checkbox" id="inlineCheckbox3">Тайланд
+					</label>
+				</li>
+				<li>
+					<label class="checkbox inline">
+						<input type="checkbox" class="c_checkbox" id="inlineCheckbox4">Индонезия
+					</label>
+				</li>
+				<li>
+					<label class="checkbox inline">
+						<input type="checkbox" class="c_checkbox" id="inlineCheckbox5">Мальдивы
+					</label>
+				</li>
+				<li>
+					<label class="checkbox inline">
+						<input type="checkbox" class="c_checkbox" id="inlineCheckbox6">Испания
+					</label>
+				</li>
+				<li>
+					<label class="checkbox inline">
+						<input type="checkbox" class="c_checkbox" id="inlineCheckbox7">Италия
+					</label>
+				</li>
+				<li>
+					<label class="checkbox inline">
+						<input type="checkbox" class="c_checkbox" id="inlineCheckbox8">Сирия
+					</label>
+				</li>
+				<li>
+					<label class="checkbox inline">
+						<input type="checkbox" class="c_checkbox" id="inlineCheckbox9">Палестина
+					</label>
+				</li>
+			</ul>
+			<ul class="contry_list_block">
+				<li>
+					<label class="checkbox inline">
+						<input type="checkbox" class="c_checkbox" id="inlineCheckbox1">Египет
+					</label>
+				</li>
+				<li>
+					<label class="checkbox inline">
+						<input type="checkbox" class="c_checkbox" id="inlineCheckbox2">Турция
+					</label>
+				</li>
+				<li>
+					<label class="checkbox inline">
+						<input type="checkbox" class="c_checkbox" id="inlineCheckbox3">Тайланд
+					</label>
+				</li>
+				<li>
+					<label class="checkbox inline">
+						<input type="checkbox" class="c_checkbox" id="inlineCheckbox4">Индонезия
+					</label>
+				</li>
+				<li>
+					<label class="checkbox inline">
+						<input type="checkbox" class="c_checkbox" id="inlineCheckbox5">Мальдивы
+					</label>
+				</li>
+				<li>
+					<label class="checkbox inline">
+						<input type="checkbox" class="c_checkbox" id="inlineCheckbox6">Испания
+					</label>
+				</li>
+				<li>
+					<label class="checkbox inline">
+						<input type="checkbox" class="c_checkbox" id="inlineCheckbox7">Италия
+					</label>
+				</li>
+				<li>
+					<label class="checkbox inline">
+						<input type="checkbox" class="c_checkbox" id="inlineCheckbox8">Сирия
+					</label>
+				</li>
+				<li>
+					<label class="checkbox inline">
+						<input type="checkbox" class="c_checkbox" id="inlineCheckbox9">Палестина
+					</label>
+				</li>
+			</ul>
+			<span class="btn">Готово</span>
+		</div>
+	</td>
+</tr>
+<tr>
+	<td><p>Класс отеля</p></td>
+	<td class="star_list">
+		<label class="checkbox inline">
+			<input type="checkbox" value="2 stars">2<span class="full_star"></span>
+		</label>
+		<label class="checkbox inline">
+			<input type="checkbox" value="3 stars">3<span class="full_star"></span>
+		</label>
+		<label class="checkbox inline">
+			<input type="checkbox" value="4 stars">4<span class="full_star"></span>
+		</label>
+		<label class="checkbox inline">
+			<input type="checkbox" value="5 stars">5<span class="full_star"></span>
+		</label>
+	</td>
+</tr>
+<tr>
+	<td><p>Даты тура</p></td>
+	<td>
+		<input type="text" placeholder="Вылет" id="departure2" autocomplete="off">
+	</td>
+</tr>
+<tr>
+	<td><p>Ночей</p></td>
+	<td>
+		<select class="selectpicker show-tick" data-width="55px">
+			<option>4</option>
+			<option>5</option>
+			<option>6</option>
+			<option>7</option>
+			<option>8</option>
+			<option>9</option>
+			<option>10</option>
+		</select> до
+		<select class="selectpicker show-tick" data-width="55px">
+			<option>10</option>
+			<option>11</option>
+			<option>12</option>
+			<option>13</option>
+			<option>14</option>
+			<option>15</option>
+			<option>16</option>
+		</select>
+	</td>
+</tr>
+<tr class="price_selection">
+	<td><p>Цена</p></td>
+	<td>
+		<div class="input-prepend">
+			<span class="add-on">Руб. </span>
+			<input type="text" placeholder="От" id="price_start">
+		</div>
+		<div class="input-prepend">
+			<span class="add-on">Руб. </span>
+			<input type="text" placeholder="До" id="price_end"><span> руб</span>
+		</div>
+	</td>
+</tr>
+<tr>
+	<td><p>Пожелания</p></td>
+	<td>
+		<textarea rows="3"></textarea>
+	</td>
+</tr>
+<tr class="name_req">
+	<td><p>Ваше имя</p></td>
+	<td>
+		<input type="text" placeholder="Имя" required>
+	</td>
+</tr>
+<tr class="phone_req">
+	<td><p>Ваш телефон</p></td>
+	<td>
+		<input type="text" id="phone_number" required>
+	</td>
+</tr>
+<tr class="email_req">
+	<td><p>Ваш e-mail</p></td>
+	<td>
+		<input type="email" id="email" required>
+	</td>
+</tr>
+<tr class="send_request_button">
+	<td><input type="submit" value="Отправить заявку"></td>
+</tr>
+</table>
+</form>
+</div>
+<div class="notify_form" style="display: none">
+	<div class="heading"><h2>Уведомить меня о снижении цены на этот тур!</h2><span id="close_form">X</span></div>
+	<form action="" name="notify_form" method="">
+		<table>
+			<tr class="name_req">
+				<td><p>Ваше имя</p></td>
+				<td>
+					<input type="text" placeholder="Имя" required>
+				</td>
+			</tr>
+			<tr class="phone_req">
+				<td><p>Ваш телефон</p></td>
+				<td>
+					<input type="text" id="phone_number2" required>
+				</td>
+			</tr>
+			<tr class="email_req">
+				<td><p>Ваш e-mail</p></td>
+				<td>
+					<input type="email" id="email2" required>
+				</td>
+			</tr>
+			<tr class="send_request_button">
+				<td><input type="submit" value="Отправить заявку"><i class="icon-envelope icon-white"></i></td>
+			</tr>
+		</table>
+	</form>
+</div>
+</div>
+<div class="screen_fill" style="display: none"></div>
+<div class="wrapper">
+<div class="maincontent">
+<header role="banner">
+	<div class="header-top-nav">
+		<div class="inn">
+			<ul>
+				<li>
+					<a href="#">
+						О нас
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						Как купить
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						турКонтакты
+					</a>
+				</li>
+			</ul>
+			<button class="leave-order btn">
+				Оставить заявку
+			</button>
+			<div class="tel">
+				<a class="telCall ya-phone" href="tel:+70009999999"> +7 (000) 999-99-99 </a>
+			</div>
+		</div>
 
-
-
-<section class="search">
-	<div class="container">
-    	<form action="" name="search_form" method="">
-            <ul class="main_filter">
-        		<li class="main_fliter_section from">
-                   <label>Откуда</label>
-                   <input type="text" placeholder="Город вылета" data-provide="typeahead" autocomplete="on" id="from">
-                </li>
-                <li class="main_fliter_section to">
-                    <label>Куда</label>
-                    <input type="text" placeholder="Страна прилета" id="to" autocomplete="on">
-                    <div class="resorts">
-                        <div class="show_all_resorts"><a>Все курорты</a></div>
-                        <div class="resorts_list" style="display:none;">
-                            <select class="selectpicker" data-width="154px" multiple title="Выберите курорт">
-                               <option>Хургада</option>
-                               <option>Шарм Эль Шейх</option>
-                               <option>Сома и макади бэй</option>
-                               <option>Сафага</option>
-                               <option>Марса алам</option>
-                            </select>
-                        </div>
-                    </div>
-                </li>
-                <li class="main_fliter_section departure">
-                    <label>Вылет</label>
-                    <input type="text" placeholder="Вылет" id="departure" >
-                </li>
-                <li class="main_fliter_section nights">
-                    <label>Ночей</label>
-                    от <select class="selectpicker show-tick" data-width="55px">
-                      <option>4</option>
-                      <option>5</option>
-                      <option>6</option>
-                      <option>7</option>
-                      <option>8</option>
-                      <option>9</option>
-                      <option>10</option>
-                    </select> до
-                    <select class="selectpicker show-tick" data-width="55px">
-                      <option>10</option>
-                      <option>11</option>
-                      <option>12</option>
-                      <option>13</option>
-                      <option>14</option>
-                      <option>15</option>
-                      <option>16</option>
-                    </select>
-                </li>
-                <li class="main_fliter_section travelers">
-                    <label>Взрос.</label>
-                    <select class="selectpicker show-tick" data-width="47px">
-                       <option>1</option>
-                       <option>2</option>
-                       <option>3</option>
-                       <option>4</option>
-                       <option>5</option>
-                    </select>
-                    <span class="float_right kids">
-                        <label>Дети</label>
-                        <select class="selectpicker show-tick" data-width="47px">
-                            <option >0</option>
-                            <option class="kids_amount one">1</option>
-                            <option class="kids_amount two">2</option>
-                            <option class="kids_amount three">3</option>
-                            <option class="kids_amount four">4</option>
-                            <option class="kids_amount five">5</option>
-                        </select>  
-                    </span>
-                    <span class="float_right add">
-                        <label>Возраст</label>
-                        <select class="selectpicker show-tick age_choice" data-width="47px" disabled>
-                                <option>0</option>
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                        </select>  
-                    </span>
-                </li>
-                <li class="main_fliter_section options">
-                    <label>Опции</label>
-                    <select class="selectpicker show-tick" data-width="105px" multiple title="Выберите">
-                        <optgroup label="Питание" data-icon="icon-glass">
-                            <option data-icon="icon-glass" data-subtext="Все включено + любой алкоголь">UAI</option>
-                            <option data-icon="icon-glass" data-subtext="Все включено + местный алкоголь">AI</option>
-                            <option data-icon="icon-glass" data-subtext="Завтрак, обед и ужин">FB</option>
-                            <option data-icon="icon-glass" data-subtext="Завтрак и ужин">HB</option>
-                            <option data-icon="icon-glass" data-subtext="Только завтрак">BB</option>
-                            <option data-icon="icon-glass" data-subtext="Без питания">RO</option>
-                        </optgroup>
-                        <optgroup label="Рейтинг" data-icon="icon-star">
-                            <option data-icon="icon-star">5</option>
-                            <option data-icon="icon-star">4</option>
-                            <option data-icon="icon-star">3</option>
-                            <option data-icon="icon-star">2</option>
-                        </optgroup>
-                    </select>
-                    <div class="price_range">
-                        <div class="show_price_range"><a>Любая цена</a></div>
-                        <div class="price_range" style="display:none;">
-                            <div class="input-prepend first">
-                                <span class="add-on">Руб. </span>
-                                <input type="text" placeholder="От" id="price_start2">
-                            </div>
-                            <div class="input-prepend second">
-                                <span class="add-on">Руб. </span>
-                                <input type="text"  placeholder="До" id="price_end2"><span> руб</span>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="main_fliter_section"></li>
-            </ul>
-            <ul class="main_filter">
-                <li class="find">
-                    <button type="submit" class="btn">Найти тур</button>
-                </li>
-            </ul>
-            <ul class="main_filter">
-                <li class="special_request">
-                    <span class="btn"><i class="icon-pencil"></i>Заявка на подбор тура</span>
-                </li>
-            </ul>
-    	</form>
 	</div>
-</section>
+	<div class="container regular">
+		<a href="/" class="logo"><img src="img/header/logo.png"><span>TuruTuru</span></a>
+		<ul class="navigation">
+			<li><a href="#">О проекте</a></li>
+			<li><a href="#">Скидки</a></li>
+			<li><a href="#">Как купить</a></li>
+			<li><a href="#">Вопросы и ответы</a></li>
+			<li><a href="#">Памятка туристу</a></li>
+		</ul>
+		<!--<div class="header_adds">
+			<div class="subscribe">
+				Подписывайтесь на спецпредложения -
+			</div>
+			<ul class="header_socnet">
+				<li class="soc_vk">
+					<a href="http://vk.com/"></a>
+				</li>
+				<li class="soc_twit">
+					<a href="http://twitter.com/"></a>
+				</li>
+				<li class="soc_face">
+					<a href="http://facebook.com/"></a>
+				</li>
+			</ul>
+		</div>-->
+	</div>
+</header>
 
-<div class="container popular">
-<h2>Популярные туры</h2>
-    <div class="row">
-        <ul>
-            <li>
-                <div class="pop_info">
-                    <a href="#">Египет, Таба</a>
-                    <p><a href="#">Taba Heights Marriott Beach</a></p>
-                </div>
-                <div class="pop_info_bottom">
-                    <p>от 20 500 руб.</p>
-                </div>
-                <a href="#"><img src="img/egypt.png"></a>
-            </li>
-            <li>
-                <div class="pop_info">
-                    <a href="#">Турция, Анталия</a>
-                    <p><a href="#">Super Puper Beach</a></p>
-                </div>
-                <div class="pop_info_bottom">
-                    <p>от 19 900 руб.</p>
-                </div>
-                <a href="#"><img src="img/thailand.png"></a>
-            </li>
-            <li>
-                <div class="pop_info">
-                    <a href="#">Тайланд, Паттайя</a>
-                    <p><a href="#">White Sand Beach</a></p>
-                </div>
-                <div class="pop_info_bottom">
-                    <p>от 29 900 руб.</p>
-                </div>
-                <a href="#"><img src="img/turkey.png"></a>
-            </li>
-        </ul>
-    </div>
-    <div class="row">
-        <ul>
-            <li>
-                <div class="pop_info">
-                    <a href="#">Тайланд, Пхукет</a>
-                    <p><a href="#">Bond Sand Beach</a></p>
-                </div>
-                <div class="pop_info_bottom">
-                    <p>от 30 100 руб.</p>
-                </div>
-                <a href="#"><img src="img/egypt.jpg"></a>
-            </li>
-            <li>
-                <div class="pop_info">
-                    <a href="#">Египет, Хугарда</a>
-                    <p><a href="#">Alibaba Resort</a></p>
-                </div>
-                <div class="pop_info_bottom">
-                    <p>от 18 500 руб.</p>
-                </div>
-                <a href="#"><img src="img/thailand.jpg"></a>
-            </li>
-            <li>
-                <div class="pop_info">
-                    <a href="#">Доминикана, Пунта Кана</a>
-                    <p><a href="#">Caribe Resort</a></p>
-                </div>
-                <div class="pop_info_bottom">
-                    <p>от 36 900 руб.</p>
-                </div>
-                <a href="#"><img src="img/turkey.jpg"></a>
-            </li>
-        </ul>
-    </div>
+
+<div class="row" style="margin:0 auto; width:960px;">
+	<section class="search span4">
+		<div class="">
+		<form name="search-tour" id="search-tour" action="#">
+		<div class="fline">
+			<label for="#">ОТКУДА</label>
+			<select name="fromCity" class="from_city" title="Откуда" aria-disabled="false">
+				<option value="1">
+					Санкт-Петербург                            </option>
+				<option selected="selected" value="2">
+					Москва                            </option>
+				<option value="21">
+					Волгоград                            </option>
+				<option value="25">
+					Екатеринбург                            </option>
+				<option value="28">
+					Иркутск                            </option>
+				<option value="29">
+					Казань                            </option>
+				<option value="36">
+					Краснодар                            </option>
+				<option value="37">
+					Красноярск                            </option>
+				<option value="46">
+					Мурманск                            </option>
+				<option value="50">
+					Нижний Новгород                            </option>
+				<option value="53">
+					Новосибирск                            </option>
+				<option value="56">
+					Омск                            </option>
+				<option value="61">
+					Пермь                            </option>
+				<option value="63">
+					Ростов-на-Дону                            </option>
+				<option value="64">
+					Самара                            </option>
+				<option value="72">
+					Томск                            </option>
+				<option value="79">
+					Уфа                            </option>
+				<option value="80">
+					Хабаровск                            </option>
+				<option value="84">
+					Челябинск                            </option>
+			</select>
+		</div>
+		<div class="fline">
+			<label for="#">КУДА</label>
+			<select id="to_country" name="toCountry" class="to_country countriesList" title="Куда"  aria-disabled="false">
+				<optgroup label="Популярные направления">
+					<option value="26" class="flag flag_26">
+						Греция                                    </option>
+					<option value="43" class="flag flag_43">
+						Кипр                                    </option>
+					<option value="87" class="flag flag_87">
+						Таиланд                                    </option>
+					<option selected="selected" value="92" class="flag flag_92">
+						Турция                                    </option>
+					<option value="105" class="flag flag_105">
+						Чехия                                    </option>
+				</optgroup>
+				<optgroup label="Остальные">
+
+					<option value="3" class="flag flag_3">
+						Австрия							</option>
+					<option value="4" class="flag flag_4">
+						Андорра							</option>
+					<option value="13" class="flag flag_13">
+						Болгария							</option>
+					<option value="20" class="flag flag_20">
+						Венгрия							</option>
+					<option value="22" class="flag flag_22">
+						Вьетнам							</option>
+					<option value="28" class="flag flag_28">
+						Доминикана							</option>
+					<option value="29" class="flag flag_29">
+						Египет							</option>
+					<option value="32" class="flag flag_32">
+						Израиль							</option>
+					<option value="33" class="flag flag_33">
+						Индия							</option>
+					<option value="34" class="flag flag_34">
+						Индонезия							</option>
+					<option value="35" class="flag flag_35">
+						Иордания							</option>
+					<option value="38" class="flag flag_38">
+						Испания							</option>
+					<option value="39" class="flag flag_39">
+						Италия							</option>
+					<option value="44" class="flag flag_44">
+						Китай							</option>
+					<option value="48" class="flag flag_48">
+						Куба							</option>
+					<option value="56" class="flag flag_56">
+						Мальдивы							</option>
+					<option value="57" class="flag flag_57">
+						Мальта							</option>
+					<option value="59" class="flag flag_59">
+						Марокко							</option>
+					<option value="60" class="flag flag_60">
+						Мексика							</option>
+					<option value="68" class="flag flag_68">
+						ОАЭ							</option>
+					<option value="75" class="flag flag_75">
+						Португалия							</option>
+					<option value="91" class="flag flag_91">
+						Тунис							</option>
+					<option value="98" class="flag flag_98">
+						Финляндия							</option>
+					<option value="99" class="flag flag_99">
+						Франция							</option>
+					<option value="101" class="flag flag_101">
+						Хорватия							</option>
+					<option value="104" class="flag flag_104">
+						Черногория							</option>
+					<option value="110" class="flag flag_110">
+						Шри-Ланка							</option>
+
+				</optgroup>
+			</select>
+		</div>
+		<div class="fline">
+			<label for="#">ДАТА ВЫЛЕТА</label>
+			<input type="text" readonly="" value="15.10.2013" name="dateFrom" class="date date-departure hasDatepicker" id="datepickerz">
+			<label class="inline checkbox" for="dates-flexible">
+				<input type="checkbox" checked="checked" name="dateFlexible" id="dates-flexible">± 3 дня</label>
+		</div>
+
+		<div class="fline">
+			<label for="#">ПРОДОЛЖИТЕЛЬНОСТЬ</label>
+			<div class="inline-area dateDurationContainer">
+				<label for="">от</label>
+				<select name="nightFrom" class="duration tour-duration-from" aria-disabled="false">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option selected="" value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+				</select>
+
+				<label for="">до</label>
+				<select name="nightTo" class="duration tour-duration-to" aria-disabled="false">
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option selected="" value="10">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+					<option value="13">13</option>
+					<option value="14">14</option>
+					<option value="15">15</option>
+					<option value="16">16</option>
+					<option value="17">17</option>
+					<option value="18">18</option>
+					<option value="19">19</option>
+					<option value="20">20</option>
+					<option value="21">21</option>
+					<option value="22">22</option>
+					<option value="23">23</option>
+					<option value="24">24</option>
+					<option value="25">25</option>
+					<option value="26">26</option>
+					<option value="27">27</option>
+					<option value="28">28</option>
+					<option value="29">29</option>
+				</select>
+				<label for="">ночей</label>
+				<label class="helper" for=""></label>
+			</div>
+
+		</div>
+		<div class="fline">
+			<label for="#">Кто едет</label>
+			<div class="frows cf">
+				<div class="frow">
+					<label for="">Взрослые</label>
+					<select name="adults" aria-disabled="false">
+						<option value="1">1</option>
+						<option selected="selected" value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+					</select>
+				</div>
+				<div class="frow">
+					<label for="">Дети</label>
+					<select id="nb_children" name="children" aria-disabled="false">
+						<option selected="selected" value="0">0</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div class="fline hidden kid1" >
+			<div class="frows size3 cf">
+				<label for="" class="size3">Полный возраст детей</label>
+				<div class="frow">
+					<select name="ages" id="age_children_1">
+						<option value="0"  selected="selected" >0</option>
+						<option value="1" >1</option>
+						<option value="2" >2</option>
+						<option value="3" >3</option>
+						<option value="4" >4</option>
+						<option value="5" >5</option>
+						<option value="6" >6</option>
+						<option value="7" >7</option>
+						<option value="8" >8</option>
+						<option value="9" >9</option>
+						<option value="10" >10</option>
+						<option value="11" >11</option>
+						<option value="12" >12</option>
+						<option value="13" >13</option>
+						<option value="14" >14</option>
+					</select>
+				</div>
+				<div class="frow hidden kid2">
+					<select name="ages" id="age_children_2">
+						<option value="0"  selected="selected" >0</option>
+						<option value="1" >1</option>
+						<option value="2" >2</option>
+						<option value="3" >3</option>
+						<option value="4" >4</option>
+						<option value="5" >5</option>
+						<option value="6" >6</option>
+						<option value="7" >7</option>
+						<option value="8" >8</option>
+						<option value="9" >9</option>
+						<option value="10" >10</option>
+						<option value="11" >11</option>
+						<option value="12" >12</option>
+						<option value="13" >13</option>
+						<option value="14" >14</option>
+					</select>
+				</div>
+				<div class="frow hidden kid3">
+					<select name="ages" id="age_children_3">
+						<option value="0"  selected="selected" >0</option>
+						<option value="1" >1</option>
+						<option value="2" >2</option>
+						<option value="3" >3</option>
+						<option value="4" >4</option>
+						<option value="5" >5</option>
+						<option value="6" >6</option>
+						<option value="7" >7</option>
+						<option value="8" >8</option>
+						<option value="9" >9</option>
+						<option value="10" >10</option>
+						<option value="11" >11</option>
+						<option value="12" >12</option>
+						<option value="13" >13</option>
+						<option value="14" >14</option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div class="side-additional-options" >
+			<a href="javascript:void(0);" class="side-additional-options-open"><i class="icnz icn-plus">+</i>Дополнительные настройки</a>
+		</div>
+		<div class="additional_options" >
+			<div class="fline">
+				<label for="">КЛАСС ОТЕЛЯ</label>
+				<label for="hotel-stars-all" class="checkbox"><input type="checkbox" id="hotel-stars-all" name="hotelClass" value="all" checked="checked">Любой</label>
+				<label for="hotel-stars-5" class="checkbox">
+					<input type="checkbox" id="hotel-stars-5" class="hotelStars" name="hotelClass" value="7" checked="checked">
+					<i class="icnz icn-star stars5"></i>
+				</label>
+				<label for="hotel-stars-4" class="checkbox">
+					<input type="checkbox" id="hotel-stars-4" class="hotelStars" name="hotelClass" value="4" checked="checked">
+					<i class="icnz icn-star stars4"></i>
+				</label>
+				<label for="hotel-stars-3" class="checkbox">
+					<input type="checkbox" id="hotel-stars-3" class="hotelStars" name="hotelClass" value="3" checked="checked">
+					<i class="icnz icn-star stars3"></i>
+				</label>
+			</div>
+
+			<div class="fline">
+				<label for="#">ПИТАНИЕ</label>
+				<label class="checkbox">
+					<input type="checkbox" name="meal" id="meal-type-all" value="all" checked="checked">Любое
+				</label>
+				<label class="checkbox">
+					<input type="checkbox" name="meal"
+					       class="mealType"
+					       id="meal-type-1"
+					       value="1"
+					       checked="checked"										>
+					AI - Всё включено							</label>
+				<label class="checkbox">
+					<input type="checkbox" name="meal"
+					       class="mealType"
+					       id="meal-type-2"
+					       value="2"
+					       checked="checked"										>
+					BB - Завтрак							</label>
+				<label class="checkbox">
+					<input type="checkbox" name="meal"
+					       class="mealType"
+					       id="meal-type-3"
+					       value="3"
+					       checked="checked"										>
+					FB - Завтрак, обед, ужин							</label>
+				<label class="checkbox">
+					<input type="checkbox" name="meal"
+					       class="mealType"
+					       id="meal-type-5"
+					       value="5"
+					       checked="checked"										>
+					HB - Завтрак+ужин							</label>
+				<label class="checkbox">
+					<input type="checkbox" name="meal"
+					       class="mealType"
+					       id="meal-type-7"
+					       value="7"
+					       checked="checked"										>
+					RO - Без питания							</label>
+			</div>
+	</section>
+
+	<div class="span8 popular">
+		<h2>?????????? ????</h2>
+
+		<div class="row">
+			<ul>
+				<li>
+					<div class="pop_info">
+						<a href="#">??????, ????</a>
+
+						<p><a href="#">Taba Heights Marriott Beach</a></p>
+					</div>
+					<div class="pop_info_bottom">
+						<p>?? 20 500 ???.</p>
+					</div>
+					<a href="#"><img src="img/egypt.png"></a>
+				</li>
+				<li>
+					<div class="pop_info">
+						<a href="#">??????, ???????</a>
+
+						<p><a href="#">Super Puper Beach</a></p>
+					</div>
+					<div class="pop_info_bottom">
+						<p>?? 19 900 ???.</p>
+					</div>
+					<a href="#"><img src="img/thailand.png"></a>
+				</li>
+				<li>
+					<div class="pop_info">
+						<a href="#">???????, ???????</a>
+
+						<p><a href="#">White Sand Beach</a></p>
+					</div>
+					<div class="pop_info_bottom">
+						<p>?? 29 900 ???.</p>
+					</div>
+					<a href="#"><img src="img/turkey.png"></a>
+				</li>
+			</ul>
+		</div>
+		<div class="row">
+			<ul>
+				<li>
+					<div class="pop_info">
+						<a href="#">???????, ??????</a>
+
+						<p><a href="#">Bond Sand Beach</a></p>
+					</div>
+					<div class="pop_info_bottom">
+						<p>?? 30 100 ???.</p>
+					</div>
+					<a href="#"><img src="img/egypt.jpg"></a>
+				</li>
+				<li>
+					<div class="pop_info">
+						<a href="#">??????, ???????</a>
+
+						<p><a href="#">Alibaba Resort</a></p>
+					</div>
+					<div class="pop_info_bottom">
+						<p>?? 18 500 ???.</p>
+					</div>
+					<a href="#"><img src="img/thailand.jpg"></a>
+				</li>
+				<li>
+					<div class="pop_info">
+						<a href="#">??????????, ????? ????</a>
+
+						<p><a href="#">Caribe Resort</a></p>
+					</div>
+					<div class="pop_info_bottom">
+						<p>?? 36 900 ???.</p>
+					</div>
+					<a href="#"><img src="img/turkey.jpg"></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
 </div>
 
 
-
 <footer role="contentinfo">
-    <div class="footer_top">
-        <div class="container">
-            <ul class="footer_menu">
-                <li class="menu_item">
-                    <a href="#" class="menu_item_top">Страны
-                    </a>
-                    <ul>
-                        <li><a href="#">Турция</a>
-                        </li>
-                        <li><a href="#">Египет</a>
-                        </li>
-                        <li><a href="#">Тайланд</a>
-                        </li>
-                        <li><a href="#">Кипр</a>
-                        </li>
-                        <li><a href="#">Все страны</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="menu_item">
-                <a href="#" class="menu_item_top">Так же
-                    </a>
-                    <ul>
-                        <li><a href="#">О нас</a>
-                        </li>
-                        <li><a href="#">Как купить</a>
-                        </li>
-                        <li><a href="#">Памятка туристу</a>
-                        </li>
-                        <li><a href="#">Впоросы и ответы</a>
-                        </li>
-                        <li><a href="#">Напишите нас</a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-    </div>
+	<div class="footer_top">
+		<div class="container">
+			<ul class="footer_menu">
+				<li class="menu_item">
+					<a href="#" class="menu_item_top">Страны
+					</a>
+					<ul>
+						<li><a href="#">Турция</a>
+						</li>
+						<li><a href="#">Египет</a>
+						</li>
+						<li><a href="#">Тайланд</a>
+						</li>
+						<li><a href="#">Кипр</a>
+						</li>
+						<li><a href="#">Все страны</a>
+						</li>
+					</ul>
+				</li>
+				<li class="menu_item">
+					<a href="#" class="menu_item_top">Так же
+					</a>
+					<ul>
+						<li><a href="#">О нас</a>
+						</li>
+						<li><a href="#">Как купить</a>
+						</li>
+						<li><a href="#">Памятка туристу</a>
+						</li>
+						<li><a href="#">Впоросы и ответы</a>
+						</li>
+						<li><a href="#">Напишите нас</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
 
-    <div class="footer_bottom">
-        <div class="container">
-            <a class="footer_logo" href="#">
-                <img src="img/footer/logofooter.png" alt="">
-                <span>World Service Tour</span>
-            </a>
-            <ul class="footer_submenu">
-                <li>
-                    <a href="#">О проекте</a>
-                </li>
-                <li>
-                    <a href="#">Правовая информация</a>
-                </li>
-                <li>
-                    <a href="#">Помощь</a>
-                </li>
-                <li>
-                    <a href="#">Реклама</a>
-                </li>
-                <li>
-                    <a href="#">Вакансии</a>
-                </li>
-            </ul>
-            <div class="footer_copyright">
-            © LightSoft Research, 2002-2012
-            </div>
-        </div>
-    </div>
+	<div class="footer_bottom">
+		<div class="container">
+			<a class="footer_logo" href="#">
+				<img src="img/footer/logofooter.png" alt="">
+				<span>World Service Tour</span>
+			</a>
+			<ul class="footer_submenu">
+				<li>
+					<a href="#">О проекте</a>
+				</li>
+				<li>
+					<a href="#">Правовая информация</a>
+				</li>
+				<li>
+					<a href="#">Помощь</a>
+				</li>
+				<li>
+					<a href="#">Реклама</a>
+				</li>
+				<li>
+					<a href="#">Вакансии</a>
+				</li>
+			</ul>
+			<div class="footer_copyright">
+				© LightSoft Research, 2002-2012
+			</div>
+		</div>
+	</div>
 </footer>
-    <div class="overlay">
-        <div class="container">
-            <div id="form_auth" class="enter2_modal_block">
+<div class="overlay">
+<div class="container">
+<div id="form_auth" class="enter2_modal_block">
 	<div class="enter2_modal_title">
 		<span>Войти</span>
+
 		<div class="enter2_modal_close"><a href="#"></a></div>
 	</div>
 	<div class="enter2_modal_container">
-		<form action="/search" method="post">			<div class="enter2_input_item">
+		<form action="/search" method="post">
+			<div class="enter2_input_item">
 				<span class="enter2_attention"> - неправильно заполнено поле!</span>
 				<label><label for="User_email">E-mail</label>:<sup>*</sup>
-                    <input class="enter2_imput" name="User[email]" id="User_email" type="text" />				</label>
+					<input class="enter2_imput" name="User[email]" id="User_email" type="text"/> </label>
 			</div>
 			<div class="enter2_input_item">
 				<span class="enter2_attention"> - неправильно заполнено поле!</span>
 				<label><label for="User_phone">Телефон</label>:
 					<div class="numphone">
 						<span class="enter2_country_code">+7</span>
-                        <input class="enter2_phone_code enter2_imput" name="User[phone_code]" id="User_phone_code" type="text" />                        <input class="enter2_phone_number enter2_imput" name="User[phone]" id="User_phone" type="text" />					</div>
+						<input class="enter2_phone_code enter2_imput" name="User[phone_code]" id="User_phone_code"
+						       type="text"/> <input class="enter2_phone_number enter2_imput" name="User[phone]"
+						                            id="User_phone" type="text"/></div>
 				</label>
 			</div>
 			<div class="enter2_input_item">
 				<span class="enter2_attention"> - неправильно заполнено поле!</span>
 				<label><label for="User_password">Пароль</label>:<sup>*</sup>
-                    <input class="enter2_imput" name="User[password]" id="User_password" type="password" />				</label>
+					<input class="enter2_imput" name="User[password]" id="User_password" type="password"/> </label>
 			</div>
 			<div class="enter2_remember_pass">
 				<label>
-					<input class="custom_check" type="checkbox" value="1" name="User[saveAuth]" id="User_saveAuth" /> Запомнить
+					<input class="custom_check" type="checkbox" value="1" name="User[saveAuth]" id="User_saveAuth"/>
+					Запомнить
 				</label>
 				<a href="#">Напомнить пароль?</a>
 			</div>
@@ -750,105 +962,113 @@
 				<span class="right_gbtn_bg">Войти</span>
 				<span class="green_btn_arrow"></span>
 				<span class="enter_hover"></span>
-                <input type="hidden" name="authSubmit" value="1"/>
-                <input type="submit" id="initiateAuth"/>
-                			</div>
-		</form>	</div>
+				<input type="hidden" name="authSubmit" value="1"/>
+				<input type="submit" id="initiateAuth"/>
+			</div>
+		</form>
+	</div>
 </div>
 
 <script type="text/javascript">
-    $(document).ready(function(){
-        $('#initiateAuth').on('click', function(){
-            $.ajax('/auth/go',
-                {
-                    data: getFormData($('#form_auth form')),
-                    type: 'POST',
-                    success: function(response){
-                        var data = $.parseJSON(response);
-                        console.log(data);
-                        $('.enter2_input_item').removeClass('incorrect');
-                        if (typeof data.errors !== 'undefined') {
-                            // set errors on form
-                            var form = $('#form_auth');
-                            if (typeof data.errors.fields !== 'undefined') {
-                                //find field by name
-                                for (var i in data.errors.fields) {
-                                    form.find('input[name="'+data.errors.fields[i]+'"]')
-                                        .closest('.enter2_input_item').addClass('incorrect');
-                                }
-                            }
+	$(document).ready(function () {
+		$('#initiateAuth').on('click', function () {
+			$.ajax('/auth/go',
+					{
+						data: getFormData($('#form_auth form')),
+						type: 'POST',
+						success: function (response) {
+							var data = $.parseJSON(response);
+							console.log(data);
+							$('.enter2_input_item').removeClass('incorrect');
+							if (typeof data.errors !== 'undefined') {
+								// set errors on form
+								var form = $('#form_auth');
+								if (typeof data.errors.fields !== 'undefined') {
+									//find field by name
+									for (var i in data.errors.fields) {
+										form.find('input[name="' + data.errors.fields[i] + '"]')
+												.closest('.enter2_input_item').addClass('incorrect');
+									}
+								}
 
-                            var fields = ['email','phone','phone_code'];
+								var fields = ['email', 'phone', 'phone_code'];
 
-                            for (var k in fields) {
-                                if (typeof data.errors[fields[k]] !== 'undefined') {
-                                    var inputBlock = form.find('input[name="User['+fields[k]+']"]')
-                                        .closest('.enter2_input_item').addClass('incorrect');
-                                    if (typeof data.errors[fields[k]] !== 'undefined') {
-                                        inputBlock.find('.enter2_attention').html(' - ' + data.errors[fields[k]][0]);
-                                    }
-                                }
-                            }
-                        }
+								for (var k in fields) {
+									if (typeof data.errors[fields[k]] !== 'undefined') {
+										var inputBlock = form.find('input[name="User[' + fields[k] + ']"]')
+												.closest('.enter2_input_item').addClass('incorrect');
+										if (typeof data.errors[fields[k]] !== 'undefined') {
+											inputBlock.find('.enter2_attention').html(' - ' + data.errors[fields[k]][0]);
+										}
+									}
+								}
+							}
 
-                        // need this?
-                        if (typeof data.redirect !== 'undefined'){
-                            document.location.href = data.redirect;
-                        }
-                    }
-                }
-            );
+							// need this?
+							if (typeof data.redirect !== 'undefined') {
+								document.location.href = data.redirect;
+							}
+						}
+					}
+			);
 
-            return false;
-        });
-    });
-</script>                        <div class="popup_remember popop_restore_input">
+			return false;
+		});
+	});
+</script>
+<div class="popup_remember popop_restore_input">
 	<div class="enter2_modal_title"><span>Восстановление пароля</span>
+
 		<div class="enter2_modal_close">
 			<a href="#"></a>
 		</div>
 	</div>
 	<div class="enter2_modal_container">
 		<div class="remember_about">
-			Введите адрес электронной почты, указанный при регистрации. Ссылка для создания нового пароля будет выслана на ваш e-mail.
+			Введите адрес электронной почты, указанный при регистрации. Ссылка для создания нового пароля будет выслана
+			на ваш e-mail.
 		</div>
-		<form action="/search" method="post">			<div class="enter2_input_item">
+		<form action="/search" method="post">
+			<div class="enter2_input_item">
 				<span class="enter2_attention"></span>
 				<label>
 					Введите свой e-mail: <sup>*</sup>
-                    <input class="enter2_imput" name="User[email]" id="User_email" type="text" />                </label>
+					<input class="enter2_imput" name="User[email]" id="User_email" type="text"/> </label>
 			</div>
 			<a class="enter2_green_btn" href="#">
 				<span class="left_gbtn_bg"></span>
 				<span class="right_gbtn_bg">Продолжить</span>
 				<span class="green_btn_arrow"></span>
-                <input type="hidden" name="restoreSubmit" value="1"/>
-                <input type="submit" name="yt0" value="submit" id="yt0" />			</a>
-		</form>	</div>
+				<input type="hidden" name="restoreSubmit" value="1"/>
+				<input type="submit" name="yt0" value="submit" id="yt0"/> </a>
+		</form>
+	</div>
 </div>
 
 <script type="text/javascript">
-    function onRestoreSent(response) {
-        response = $.parseJSON(response);
+	function onRestoreSent(response) {
+		response = $.parseJSON(response);
 
-        var target = $('.popup_remember');
-        if (typeof response.errors !== 'undefined') {
-            target.find('input[type="text"]').closest('div')
-                .addClass('incorrect')
-                .find('.enter2_attention').html(' - ' + response.errors);
-        } else {
-            var popupSend = $('.popup_pass_send');
-            if (typeof response.email !== 'undefined') {
-                popupSend.find('#mail_sent_to').html(response.email);
-            }
+		var target = $('.popup_remember');
+		if (typeof response.errors !== 'undefined') {
+			target.find('input[type="text"]').closest('div')
+					.addClass('incorrect')
+					.find('.enter2_attention').html(' - ' + response.errors);
+		} else {
+			var popupSend = $('.popup_pass_send');
+			if (typeof response.email !== 'undefined') {
+				popupSend.find('#mail_sent_to').html(response.email);
+			}
 
-            target.fadeOut(200, function(){
-                popupSend.fadeIn(200);
-            });
-        }
-    }
-</script>                        <div class="popup_pass_send">
+			target.fadeOut(200, function () {
+				popupSend.fadeIn(200);
+			});
+		}
+	}
+</script>
+<div class="popup_pass_send">
 	<div class="enter2_modal_title"><span>Восстановление пароля</span>
+
 		<div class="enter2_modal_close">
 			<a href="#"></a>
 		</div>
@@ -856,18 +1076,22 @@
 	<p>
 		На ваш адрес <span id="mail_sent_to"></span> отправлено письмо со ссылкой, на смену пароля.
 	</p>
-</div>                        <div class="popup_send">
+</div>
+<div class="popup_send">
 	<div class="enter2_modal_title"><span>Регистрация</span>
+
 		<div class="enter2_modal_close">
 			<a href="#"></a>
 		</div>
 	</div>
 	<p>
 		На ваш адрес <span id="registered_email"></span> отправлено письмо со ссылкой.
-Перейдите по ней для продолжения регистрации.
+		Перейдите по ней для продолжения регистрации.
 	</p>
-</div>                         <div class="popup_remember popup_new_pass">
+</div>
+<div class="popup_remember popup_new_pass">
 	<div class="enter2_modal_title"><span>Восстановление пароля</span>
+
 		<div class="enter2_modal_close">
 			<a href="#"></a>
 		</div>
@@ -876,49 +1100,52 @@
 		<div class="remember_about">
 			Введите новый пароль для Вашего аккаунта
 		</div>
-		<form action="/search" method="post">			<div class="enter2_input_item">
+		<form action="/search" method="post">
+			<div class="enter2_input_item">
 				<span class="enter2_attention"></span>
 				<label>
 					Введите пароль: <sup>*</sup>
-                    <input type="password" name="password" class="enter2_imput"/>
-                </label>
+					<input type="password" name="password" class="enter2_imput"/>
+				</label>
 			</div>
 
-            <input type="hidden" name="userId" value="0"/>
-            <input type="hidden" name="secret" value=""/>
+			<input type="hidden" name="userId" value="0"/>
+			<input type="hidden" name="secret" value=""/>
 
 			<a class="enter2_green_btn" href="#">
 				<span class="left_gbtn_bg"></span>
 				<span class="right_gbtn_bg">Восстановить</span>
 				<span class="green_btn_arrow"></span>
-                <input type="hidden" name="newPassSubmit" value="1"/>
-                <input type="submit" name="yt1" value="submit" id="yt1" />			</a>
-		</form>	</div>
+				<input type="hidden" name="newPassSubmit" value="1"/>
+				<input type="submit" name="yt1" value="submit" id="yt1"/> </a>
+		</form>
+	</div>
 </div>
 
 <script type="text/javascript">
-    function onNewPassSet(response) {
-        response = $.parseJSON(response);
-        console.log(response);
+	function onNewPassSet(response) {
+		response = $.parseJSON(response);
+		console.log(response);
 
-        var target = $('.popup_new_pass');
-        if (typeof response.errors !== 'undefined') {
-            target.find('input[type="password"]').closest('div')
-                .addClass('incorrect')
-                .find('.enter2_attention').html(' - ' + response.errors);
-        } else if (typeof response.redirect !== 'undefined') {
-            document.location.href = response.redirect;
-        }
-    }
+		var target = $('.popup_new_pass');
+		if (typeof response.errors !== 'undefined') {
+			target.find('input[type="password"]').closest('div')
+					.addClass('incorrect')
+					.find('.enter2_attention').html(' - ' + response.errors);
+		} else if (typeof response.redirect !== 'undefined') {
+			document.location.href = response.redirect;
+		}
+	}
 </script>
-                    <div class="why_popup">
+<div class="why_popup">
 	<div class="enter2_modal_title">
-                    <span>Зачем нужна регистрация?</span>
-            <a class="registerbutton" href="#"><span class="leftregisterbtn">Регистрация</span></a>
-                <div class="enter2_modal_close">
-            <a href="#"></a>
-        </div>
-    </div>
+		<span>Зачем нужна регистрация?</span>
+		<a class="registerbutton" href="#"><span class="leftregisterbtn">Регистрация</span></a>
+
+		<div class="enter2_modal_close">
+			<a href="#"></a>
+		</div>
+	</div>
 	<ul class="why_register_menu">
 		<li class="active">
 			<a href="#">Ваш избранный контент</a>
@@ -964,12 +1191,14 @@
 		<li>
 			<ul class="why_reasons_item">
 				<li class="why_request_accept">
-					<div class="why_reasons_h">Отправляя заявку на тур или бронируя номер в отеле, будьте уверены, что ваша заявка ушла в агенство!
+					<div class="why_reasons_h">Отправляя заявку на тур или бронируя номер в отеле, будьте уверены, что
+						ваша заявка ушла в агенство!
 					</div>
 					<p>Мы сохраняем все наши отправленные заявки</p>
 				</li>
 				<li class="why_request_control">
-					<div class="why_reasons_h">И вы всегда можете проконтролировать правильность отправленных данных или уточнить контакты агенства.
+					<div class="why_reasons_h">И вы всегда можете проконтролировать правильность отправленных данных или
+						уточнить контакты агенства.
 					</div>
 				</li>
 			</ul>
@@ -978,160 +1207,171 @@
 </div>
 
 
+<script type="text/javascript" src="/js/search_popup.js"></script>
+</div>
+</div>
 
-<script type="text/javascript" src="/js/search_popup.js"></script>                </div>
-            </div>
-
-                    </div>
-    <script type="text/javascript">
-/*<![CDATA[*/
-jQuery(function($) {
-$('body').on('click','#yt0',function(){jQuery.ajax({'success':function(response){onRestoreSent(response);},'type':'POST','url':'/auth/restore','cache':false,'data':jQuery(this).parents("form").serialize()});return false;});
-$('body').on('click','#yt1',function(){jQuery.ajax({'success':function(response){onNewPassSet(response);},'type':'POST','url':'/auth/newPassword','cache':false,'data':jQuery(this).parents("form").serialize()});return false;});
-});
-/*]]>*/
+</div>
+<script type="text/javascript">
+	/*<![CDATA[*/
+	jQuery(function ($) {
+		$('body').on('click', '#yt0', function () {
+			jQuery.ajax({'success': function (response) {
+				onRestoreSent(response);
+			}, 'type': 'POST', 'url': '/auth/restore', 'cache': false, 'data': jQuery(this).parents("form").serialize()});
+			return false;
+		});
+		$('body').on('click', '#yt1', function () {
+			jQuery.ajax({'success': function (response) {
+				onNewPassSet(response);
+			}, 'type': 'POST', 'url': '/auth/newPassword', 'cache': false, 'data': jQuery(this).parents("form").serialize()});
+			return false;
+		});
+	});
+	/*]]>*/
 </script>
 <script type="text/javascript">
-    $(document).ready(function(){
-        $('.extra_search_results').css('display', 'none');
-        $('.extra_search_results_toggle').toggle(function(){
-            $('.extra_search_results').fadeIn();
-            $('.extra_search_results_toggle').text('Закрыть');
-        }, function() {
-            $('.extra_search_results').css('display', 'none');
-            $('.extra_search_results_toggle').text('Еще 2 тура');
-        });
-        $('.selectpicker').selectpicker();
-        $('#departure').datepick({dateFormat: 'dd MM', rangeSelect: true, monthsToShow: 2, changeMonth: false });
-        $('#departure2').datepick({dateFormat: 'dd MM', rangeSelect: true, monthsToShow: 2, changeMonth: false });
+	$(document).ready(function () {
+		$('.extra_search_results').css('display', 'none');
+		$('.extra_search_results_toggle').toggle(function () {
+			$('.extra_search_results').fadeIn();
+			$('.extra_search_results_toggle').text('Закрыть');
+		}, function () {
+			$('.extra_search_results').css('display', 'none');
+			$('.extra_search_results_toggle').text('Еще 2 тура');
+		});
+		$('.selectpicker').selectpicker();
+		$('#departure').datepick({dateFormat: 'dd MM', rangeSelect: true, monthsToShow: 2, changeMonth: false });
+		$('#departure2').datepick({dateFormat: 'dd MM', rangeSelect: true, monthsToShow: 2, changeMonth: false });
 
 
-        var cities = ["Москва", "Мурманск", "Мариополь", "Самара", "Севастополь", "Санкт-Петербург", "Воронеж", "Владивосток", "Воркута", "Хельсинки", "Калининград", "Клин", "Архангельск", "Астрахань","Ижевск", "Клин"];
-        $('#from').typeahead({source: cities, minLength: 0});
+		var cities = ["Москва", "Мурманск", "Мариополь", "Самара", "Севастополь", "Санкт-Петербург", "Воронеж", "Владивосток", "Воркута", "Хельсинки", "Калининград", "Клин", "Архангельск", "Астрахань", "Ижевск", "Клин"];
+		$('#from').typeahead({source: cities, minLength: 0});
 
 
-
-        var countries = ["Египет", "Тайланд", "Мальдивы", "Австралия", "Гоа", "Турция", "Азербайджан", "США", "ЮАР", "ОАЭ", "Индонезия", "Новая Зеландия", "Италия", "Греция","Испания", "Португалия"];
-        $('#to').typeahead({source: countries, minLength: 0});
-
+		var countries = ["Египет", "Тайланд", "Мальдивы", "Австралия", "Гоа", "Турция", "Азербайджан", "США", "ЮАР", "ОАЭ", "Индонезия", "Новая Зеландия", "Италия", "Греция", "Испания", "Португалия"];
+		$('#to').typeahead({source: countries, minLength: 0});
 
 
-        $('.show_all_resorts a').click(function() {
-            $('.show_all_resorts').remove();
-            $('.resorts_list').fadeIn();
-        });
-        $('.show_price_range a').click(function() {
-            $('.show_price_range').remove();
-            $('.price_range').fadeIn();
-        });
+		$('.show_all_resorts a').click(function () {
+			$('.show_all_resorts').remove();
+			$('.resorts_list').fadeIn();
+		});
+		$('.show_price_range a').click(function () {
+			$('.show_price_range').remove();
+			$('.price_range').fadeIn();
+		});
 
 
-        $('.kids select').change(function(){
-            if($('.kids select option:selected').hasClass('kids_amount') && $('.kids select option:selected').hasClass('one')) {
-                $('.add').remove();
-                var one_child = '<span class="float_right add"><label>Возраст</label><select class="selectpicker show-tick age_choice" data-width="47px" title="1"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select></span>';
-                $('.travelers').append(one_child);
-                $('.age_choice').selectpicker('refresh');
-            }
-            else if($('.kids select option:selected').hasClass('kids_amount') && $('.kids select option:selected').hasClass('two')) {
-                $('.add').remove();
-                var one_child = '<span class="float_right add"><label>Возраст</label><select class="selectpicker show-tick age_choice" data-width="47px" title="1" multiple><optgroup label="1-й ребенок"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></optgroup><optgroup label="2-й ребенок"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></optgroup></select></span>';
-                $('.travelers').append(one_child);
-                $('.age_choice').selectpicker('refresh');
-            }
-            else if($('.kids select option:selected').hasClass('kids_amount') && $('.kids select option:selected').hasClass('three')) {
-                $('.add').remove();
-                var one_child = '<span class="float_right add"><label>Возраст</label><select class="selectpicker show-tick age_choice" data-width="47px" title="1" multiple><optgroup label="1-й ребенок"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></optgroup><optgroup label="2-й ребенок"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></optgroup><optgroup label="3-й ребенок"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></optgroup></select></span>';
-                $('.travelers').append(one_child);
-                $('.age_choice').selectpicker('refresh');
-            }
-            else if($('.kids select option:selected').hasClass('kids_amount') && $('.kids select option:selected').hasClass('four')) {
-                $('.add').remove();
-                var one_child = '<span class="float_right add"><label>Возраст</label><select class="selectpicker show-tick age_choice" data-width="47px" title="1" multiple><optgroup label="1-й ребенок"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></optgroup><optgroup label="2-й ребенок"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></optgroup><optgroup label="3-й ребенок"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></optgroup><optgroup label="4-й ребенок"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></optgroup></select></span>';
-                $('.travelers').append(one_child);
-                $('.age_choice').selectpicker('refresh');
-            }
-            else {
-                $('.add').remove();
-                var one_child = '<span class="float_right add"><label>Возраст</label><select class="selectpicker show-tick age_choice" data-width="47px"><option>0</option><option>1</option><option>2</option><option>3</option><option>4</option></select></span>';
-                $('.travelers').append(one_child);
-                $('.age_choice').prop('disabled',true);
-                $('.age_choice').selectpicker('refresh');
-            }
-        });
+		$('.kids select').change(function () {
+			if ($('.kids select option:selected').hasClass('kids_amount') && $('.kids select option:selected').hasClass('one')) {
+				$('.add').remove();
+				var one_child = '<span class="float_right add"><label>Возраст</label><select class="selectpicker show-tick age_choice" data-width="47px" title="1"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select></span>';
+				$('.travelers').append(one_child);
+				$('.age_choice').selectpicker('refresh');
+			}
+			else if ($('.kids select option:selected').hasClass('kids_amount') && $('.kids select option:selected').hasClass('two')) {
+				$('.add').remove();
+				var one_child = '<span class="float_right add"><label>Возраст</label><select class="selectpicker show-tick age_choice" data-width="47px" title="1" multiple><optgroup label="1-й ребенок"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></optgroup><optgroup label="2-й ребенок"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></optgroup></select></span>';
+				$('.travelers').append(one_child);
+				$('.age_choice').selectpicker('refresh');
+			}
+			else if ($('.kids select option:selected').hasClass('kids_amount') && $('.kids select option:selected').hasClass('three')) {
+				$('.add').remove();
+				var one_child = '<span class="float_right add"><label>Возраст</label><select class="selectpicker show-tick age_choice" data-width="47px" title="1" multiple><optgroup label="1-й ребенок"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></optgroup><optgroup label="2-й ребенок"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></optgroup><optgroup label="3-й ребенок"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></optgroup></select></span>';
+				$('.travelers').append(one_child);
+				$('.age_choice').selectpicker('refresh');
+			}
+			else if ($('.kids select option:selected').hasClass('kids_amount') && $('.kids select option:selected').hasClass('four')) {
+				$('.add').remove();
+				var one_child = '<span class="float_right add"><label>Возраст</label><select class="selectpicker show-tick age_choice" data-width="47px" title="1" multiple><optgroup label="1-й ребенок"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></optgroup><optgroup label="2-й ребенок"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></optgroup><optgroup label="3-й ребенок"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></optgroup><optgroup label="4-й ребенок"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></optgroup></select></span>';
+				$('.travelers').append(one_child);
+				$('.age_choice').selectpicker('refresh');
+			}
+			else {
+				$('.add').remove();
+				var one_child = '<span class="float_right add"><label>Возраст</label><select class="selectpicker show-tick age_choice" data-width="47px"><option>0</option><option>1</option><option>2</option><option>3</option><option>4</option></select></span>';
+				$('.travelers').append(one_child);
+				$('.age_choice').prop('disabled', true);
+				$('.age_choice').selectpicker('refresh');
+			}
+		});
 
 
-        $('.toggle_country_list').click(function(){
-            $('.country_list').fadeIn();
-        });
-        $('.country_list .btn').click(function(){
-            $('.country_list').fadeOut();
-        });
+		$('.toggle_country_list').click(function () {
+			$('.country_list').fadeIn();
+		});
+		$('.country_list .btn').click(function () {
+			$('.country_list').fadeOut();
+		});
 
 
-        $('.c_checkbox').change(function(){
-            var numSelected = $("input.c_checkbox:checked").length;
-            $('.toggle_country_list a').remove();
-            if (numSelected >= 5) {
-                $('.toggle_country_list').append('<a>Вы выбрали ' + numSelected +  ' стран</a>');
-                }
-            else if (numSelected == 1) {
-                $('.toggle_country_list').append('<a>Вы выбрали ' + numSelected +  ' страну</a>');
-            }
-            else if (numSelected < 1) {
-                $('.toggle_country_list').append('<a>Выберите 2-4 страны</a>');
-            }
-            else {
-                $('.toggle_country_list').append('<a>Вы выбрали ' + numSelected +  ' страны</a>');
-            }
-        });
+		$('.c_checkbox').change(function () {
+			var numSelected = $("input.c_checkbox:checked").length;
+			$('.toggle_country_list a').remove();
+			if (numSelected >= 5) {
+				$('.toggle_country_list').append('<a>Вы выбрали ' + numSelected + ' стран</a>');
+			}
+			else if (numSelected == 1) {
+				$('.toggle_country_list').append('<a>Вы выбрали ' + numSelected + ' страну</a>');
+			}
+			else if (numSelected < 1) {
+				$('.toggle_country_list').append('<a>Выберите 2-4 страны</a>');
+			}
+			else {
+				$('.toggle_country_list').append('<a>Вы выбрали ' + numSelected + ' страны</a>');
+			}
+		});
 
-        $('.special_request .btn').click(function(){
-            $('.request_form').fadeIn();
-            $('.screen_fill').fadeIn();
-        });
-        $('.open_notify_form').click(function(){
-            $('.notify_form').fadeIn();
-            $('.screen_fill').fadeIn();
-        });
+		$('.special_request .btn').click(function () {
+			$('.request_form').fadeIn();
+			$('.screen_fill').fadeIn();
+		});
+		$('.open_notify_form').click(function () {
+			$('.notify_form').fadeIn();
+			$('.screen_fill').fadeIn();
+		});
 
-        $(".request_form #close_form").mousedown(function(){
-              $(this).addClass('mousedown');
-            }).mouseup(function(){
-              $(this).removeClass('mousedown');
-        });
-        $(".notify_form #close_form").mousedown(function(){
-          $(this).addClass('mousedown');
-        }).mouseup(function(){
-          $(this).removeClass('mousedown');
-        });
+		$(".request_form #close_form").mousedown(function () {
+			$(this).addClass('mousedown');
+		}).mouseup(function () {
+					$(this).removeClass('mousedown');
+				});
+		$(".notify_form #close_form").mousedown(function () {
+			$(this).addClass('mousedown');
+		}).mouseup(function () {
+					$(this).removeClass('mousedown');
+				});
 
-        $(".request_form #close_form").click(function(){
-            $('.screen_fill').fadeOut();
-            $('.request_form').fadeOut();
-        });
+		$(".request_form #close_form").click(function () {
+			$('.screen_fill').fadeOut();
+			$('.request_form').fadeOut();
+		});
 
-        $(".notify_form #close_form").click(function(){
-            $('.screen_fill').fadeOut();
-            $('.notify_form').fadeOut();
-        });
+		$(".notify_form #close_form").click(function () {
+			$('.screen_fill').fadeOut();
+			$('.notify_form').fadeOut();
+		});
 
-        $('#email, #email2').bind('keyup',function(){
-           $(this).val($(this).val().replace(/[^a-z ]/i, ""));
-        });
+		$('#email, #email2').bind('keyup', function () {
+			$(this).val($(this).val().replace(/[^a-z ]/i, ""));
+		});
 
-        $('span').tooltip();
+		$('span').tooltip();
+		if($("select.multi").length){
+			$("select.multi").multiselect();
+		}
 
+		$('select').selectmenu({});
 
-
-    });
+	});
 </script>
 <script type="text/javascript">
-  jQuery(function($){
-   $("#phone_number, #phone_number2").mask("+7 (999)-999-99-99",{placeholder:" "});
-   $("#price_start, #price_start2").mask("?9999999",{placeholder:" "});
-   $("#price_end, #price_end2").mask("?9999999",{placeholder:" "});
-  });
+	jQuery(function ($) {
+		$("#phone_number, #phone_number2").mask("+7 (999)-999-99-99", {placeholder: " "});
+		$("#price_start, #price_start2").mask("?9999999", {placeholder: " "});
+		$("#price_end, #price_end2").mask("?9999999", {placeholder: " "});
+	});
 </script>
 </body>
 </html>

@@ -102,7 +102,7 @@
 /* ---------------- START ------------------ */
 .fline {
 	color: #222;
-	margin-bottom: 11px;
+	margin-bottom: 8px;
 }
 
 .fline.no-margin,
@@ -357,18 +357,11 @@ textarea {
 input.date {
 	display: inline-block;
 	position: relative;
-	width: 126px;
-	margin-right: 8px;
-	background: #fff url(../img/icon/icon-calendar.gif) 106px 5px no-repeat;
+	width: 140px;
+	height:30px;
+	background: url("images/icon-calendar.gif") no-repeat scroll 95% 5px #FFFFFF;
+	padding-right:30px;
 }
-
-.inline-area {
-	text-align: justify;
-	padding: 6px 0 19px;
-	height: 28px;
-	overflow: hidden;
-}
-
 .text-area {
 	margin-bottom: 12px;
 }
@@ -434,7 +427,7 @@ input.date {
 .ui-slider-horizontal .ui-slider-handle:focus {
 	outline: 0;
 }
-.flag > i {
+.flag:after {
 	width: 16px;
 	height: 16px;
 	position: absolute;
@@ -903,3 +896,116 @@ option{
 }
 
 /*--------------END--------------------------*/
+
+.resortContainer .ui-selectmenu {
+	display:none;
+}
+
+.icn-star {
+    background: url("images/icon-star.png") repeat scroll -2px 0 rgba(0, 0, 0, 0);
+    height: 15px;
+    position: relative;
+    top: -2px;
+    width: 16px;
+	display:inline-block;
+	vertical-align: middle;
+}
+.icn-star.stars5 {
+    width: 98px;
+}
+.icn-star.stars4 {
+    width: 78px;
+}
+.icn-star.stars3 {
+    width: 58px;
+}
+#to_country-button:after {
+	display:none;
+}
+.flag:after {
+	background-image: url(images/sprite.png);
+	background-position: 0 -16px;
+	background-repeat: no-repeat;
+	content:"";
+	height: 16px;
+	left: 6px;
+	position: absolute;
+	top: 2px;
+	width: 16px;
+}
+.andorra,.flag_4:after{ background-position: 0 0; }
+.austria,.flag_3:after{ background-position: -17px 0;}
+.bulgaria,.flag_13:after{ background-position: -34px 0;}
+.china,.flag_44:after{ background-position: -51px 0;}
+.croatia,.flag_101:after{ background-position: -68px 0;}
+.cuba,.flag_48:after { background-position: -85px 0;}
+.cyprus,.flag_43:after { background-position: -102px 0;}
+.czech-Republic,.flag_105:after { background-position: -119px 0;}
+.dominican-Republic,.flag_28:after { background-position: -136px 0;}
+.egypt,.flag_29:after { background-position: -153px 0;}
+.france,.flag_99:after { background-position: -170px 0;}
+.greece,.flag_26:after { background-position: -187px 0;}
+.hungary,.flag_20:after { background-position: -204px 0;}
+.india,.flag_33:after { background-position: -221px 0;}
+.indonesia,.flag_34:after { background-position: -238px 0;}
+.israel,.flag_32:after { background-position: -255px 0;}
+.italy,.flag_39:after { background-position: -272px 0;}
+.maldives,.flag_56:after { background-position: -289px 0;}
+.mexico,.flag_60:after { background-position: -306px 0;}
+.morocco,.flag_59:after { background-position: -323px 0;}
+.spain,.flag_38:after { background-position: -340px 0;}
+.thailand,.flag_87:after { background-position: -357px 0;}
+.tunisia,.flag_91:after { background-position: -374px 0;}
+.turkey,.flag_92:after { background-position: -391px 0;}
+.united-Arab-Emirates,.flag_68:after { background-position: -408px 0;}
+.vietnam,.flag_22:after { background-position: -425px 0;}
+.malta,.flag_57:after { background-position: -442px 0;}
+.portugal,.flag_75:after { background-position: -459px 0;}
+.russia,.flag_76:after { background-position: -476px 0;}
+.montenegro,.flag_104:after { background-position: -493px 0;}
+.jordan,.flag_35:after { background-position: -510px 0;}
+.sri-lanka,.flag_110:after { background-position: -527px 0;}
+.finland,.flag_98:after { background-position: -544px 0;}
+
+
+.tour-duration-from {
+	width:55px;
+}
+.tour-duration-to {
+	width:55px;
+}
+.search h4 {
+    border-bottom: 1px solid #DDDDDD;
+    color: #222222;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 14px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.side-additional-options {
+    border-bottom: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+    margin: 13px 0;
+}
+
+.side-additional-options-open {
+    color: #2D7FA5;
+    display: block;
+    font-size: 9px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 15px;
+    padding: 11px 0;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.cf:after {
+	display:table;
+	clear:both;
+	content:"";
+}

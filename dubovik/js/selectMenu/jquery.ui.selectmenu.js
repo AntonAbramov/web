@@ -183,7 +183,6 @@ $.widget("ui.selectmenu", {
 		if (!o.width) {
 			o.width = this.element.outerWidth();
 		}
-		
 		// set menu button width
 		this.newelement.width(o.width);
 
@@ -323,7 +322,6 @@ $.widget("ui.selectmenu", {
 						$(this).parent().mouseout();
 					});
 				var thisLi = $('<li/>', thisLiAttr)
-					.append('<i></i>')
 					.append(thisA)
 					.data('index', i)
 					.addClass(selectOptionData[i].classes)

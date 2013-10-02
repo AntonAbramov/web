@@ -265,6 +265,8 @@ h6 {
 	font-size: 2.2em;
 	font-weight: 600;
 	text-align: center;
+	position: relative;
+	top:-10px;
 }
 
 .container .row ul li {
@@ -277,11 +279,11 @@ h6 {
 .pop_info_bottom {
 	position: absolute;
 	background-color: rgba(100, 100, 100, 0.4);
-	width: 308.6px;
+	width: 100%;
 }
 
 .pop_info_bottom {
-	margin-top: 157px;
+	bottom:0;
 }
 
 .pop_info_bottom p {
@@ -318,12 +320,6 @@ h6 {
 	height: 100%;
 }
 
-footer {
-	position: relative;
-	margin-top: -1em;
-	height: 1em;
-	width: 100%;
-}
 
 footer .container {
 	position: relative;
@@ -2426,7 +2422,7 @@ footer {
 	/*	margin-top: -1em;  */
 
 	bottom: 0;
-	height: 328px;
+	height: 180px;
 	width: 100%;
 }
 
@@ -2435,17 +2431,20 @@ footer .container {
 }
 
 .search {
-	background: url('../img/decor/serch_bord.png') repeat-x 0 100% #f3f2ee;
+
 	width:25%;
 	float:left;
+	margin-top:60px;
 }
 .search > div:first-child {
 	padding:20px;
+	background: url('../img/decor/serch_bord.png') repeat-x 0 100% #f3f2ee;
 }
 .popular {
 	width:75%;
 	float:left;
 }
+
 .popular > div:first-child {
 	padding:20px;
 }
@@ -4253,9 +4252,12 @@ li.soc_face a {
 }
 
 .menu_item li {
-	margin-bottom: 4px;
+	line-height: 14px;
+    margin-bottom: 6px;
 }
-
+.menu_item li a:hover, .menu_item li a:focus {
+	text-decoration: underline;
+}
 .menu_item a.menu_item_top {
 	font-size: 15px;
 	line-height: 17px;
@@ -4264,26 +4266,21 @@ li.soc_face a {
 }
 
 .menu_item > ul {
-	margin-top: 14px;
+	margin-top: 10px;
 }
 
 .footer_logo {
-	position: absolute;
-	top: 38px;
-	left: 0;
-	width: 390px;
-	height: 70px;
-	background-color: transparent;
-}
-
-.footer_logo span {
-	position: absolute;
-	left: -99999px;
+	display:inline-block;
+	margin-right:20px;
+	margin-top:40px;
 }
 
 .footer_menu {
-	width: 240px;
-	margin: 20px auto;
+	vertical-align: top;
+	width: 140px;
+	display:inline-block;
+	margin:20px 10px;
+	text-align: left;
 }
 
 .footer_submenu {
@@ -4329,8 +4326,11 @@ li.soc_face a {
 
 .footer_top {
 	background: url('../img/footer/footertopwhite.png') repeat-x;
-	height: 181px;
+	height: 180px;
 	background-color: #784c78;
+	text-align:center;
+	position: relative;
+	vertical-align: top;
 }
 
 .footer_bottom {

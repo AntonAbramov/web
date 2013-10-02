@@ -272,4 +272,84 @@ jQuery(document).ready(function () {
 		jQuery(this).val(jQuery(this).val().replace(/[^a-z ]/i, ""));
 	});
 
+
+	jQuery('#hotel-stars-all').change(function(){
+        if(jQuery(this).attr('checked')) {
+            jQuery('.hotelStars').attr('checked', 'checked');
+            // jQuery('.hotelStars').attr('disabled', 'disabled');
+        } else {
+            jQuery('.hotelStars').removeAttr('checked');
+            // jQuery('.hotelStars').removeAttr('disabled');
+        }
+    });
+
+    jQuery('.hotelStars').change(function(){
+        jQuery('#hotel-stars-all').removeAttr('checked');
+    });
+
+    jQuery('.resortType').change(function(){
+        jQuery('#resort-type-all').removeAttr('checked');
+    });
+
+
+    jQuery('#resort-type-all').change(function(){
+        if(jQuery(this).attr('checked')) {
+            jQuery('.resortType').attr('checked', 'checked');
+            // jQuery('.resortType').attr('disabled', 'disabled');
+        } else {
+            // jQuery('.resortType').removeAttr('disabled');
+            jQuery('.resortType').removeAttr('checked');
+
+        }
+    });
+
+	 jQuery('.mealType').on('change', function(){
+        jQuery('#meal-type-all').removeAttr('checked');
+    });
+
+
+    jQuery('#meal-type-all').on('change', function(){
+        if(jQuery(this).attr('checked')) {
+            jQuery('.mealType').attr('checked', 'checked');
+        } else {
+            jQuery('.mealType').removeAttr('checked');
+        }
+    });
+
+
+
+	/* change the number of children + display age */
+	jQuery('#nb_children').live('change', function(){
+		if(jQuery(this).val() == 0){
+			jQuery('#budgetForTour').text('бюджет на ' +jQuery('select[name=adults]').val()+ ' взрослых');
+			jQuery('.kid1, .kid2, .kid3').addClass('hidden');
+			jQuery('#age_children_1, #age_children_2, #age_children_3').val('').selectmenu();
+		} else {
+			jQuery('#budgetForTour').text('бюджет на '+ jQuery('select[name=adults]').val() +' взрослых и '+ jQuery('#nb_children').val() +' детей');
+		}
+		if(jQuery(this).val() == 1){
+			jQuery('.kid1').removeClass('hidden');
+			jQuery('.kid2, .kid3').addClass('hidden');
+			jQuery('#age_children_2, #age_children_3').val('').selectmenu();
+		}
+		if(jQuery(this).val() == 2){
+			jQuery('.kid1, .kid2').removeClass('hidden');
+			jQuery('.kid3').addClass('hidden');
+			jQuery('#age_children_3').val('').selectmenu();
+		}
+		if(jQuery(this).val() == 3){
+			jQuery('.kid1, .kid2, .kid3').removeClass('hidden');
+		}
+	});
+
+	jQuery('select[name=adults]').change(function(){
+		if(jQuery('#nb_children').val() == 0){
+			jQuery('#budgetForTour').text('бюджет на ' +jQuery('select[name=adults]').val()+ ' взрослых');
+		} else {
+			jQuery('#budgetForTour').text('бюджет на '+ jQuery('select[name=adults]').val() +' взрослых и '+ jQuery('#nb_children').val() +' детей');
+		}
+	});
+
+
+
 });

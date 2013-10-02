@@ -1,107 +1,126 @@
 jQuery(document).ready(function () {
 	jQuery.datepicker.regional[ "ru" ] = {
-			closeText: 'Закрыть',
-			prevText: '&#x3c;Пред',
-			nextText: 'След&#x3e;',
-			currentText: 'Сегодня',
-			monthNames: ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь',
-				'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'],
-			monthNamesShort: ['Янв', 'Фев', 'Мар', 'Апр', 'Май', 'Июн',
-				'Июл', 'Авг', 'Сен', 'Окт', 'Ноя', 'Дек'],
-			dayNames: ['воскресенье', 'понедельник', 'вторник', 'среда', 'четверг', 'пятница', 'суббота'],
-			dayNamesShort: ['вск', 'пнд', 'втр', 'срд', 'чтв', 'птн', 'сбт'],
-			dayNamesMin: ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'],
-			dateFormat: 'dd.mm.yy',
-			firstDay: 1,
-			isRTL: false
-		};
-		jQuery.datepicker.setDefaults(jQuery.datepicker.regional[ "ru" ]);
+		closeText: 'Закрыть',
+		prevText: '&#x3c;Пред',
+		nextText: 'След&#x3e;',
+		currentText: 'Сегодня',
+		monthNames: ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь',
+			'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'],
+		monthNamesShort: ['Янв', 'Фев', 'Мар', 'Апр', 'Май', 'Июн',
+			'Июл', 'Авг', 'Сен', 'Окт', 'Ноя', 'Дек'],
+		dayNames: ['воскресенье', 'понедельник', 'вторник', 'среда', 'четверг', 'пятница', 'суббота'],
+		dayNamesShort: ['вск', 'пнд', 'втр', 'срд', 'чтв', 'птн', 'сбт'],
+		dayNamesMin: ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'],
+		dateFormat: 'dd.mm.yy',
+		firstDay: 1,
+		isRTL: false
+	};
+	jQuery.datepicker.setDefaults(jQuery.datepicker.regional[ "ru" ]);
+// check javascript
+	jQuery('html').removeClass('no-js');
+
+	// place for footer at the bottom of the page
+	jQuery('.l-mainarea').css('paddingBottom', '+=' + jQuery('.l-footer').outerHeight())
+	function currencyParser(value) {
+		var value = value + '', parts = Math.floor(value.length / 3), finalValue = ''
+		for (var i = 0; i < parts; i++) finalValue = value.substr(-i * 3 - 3, 3) + ' ' + finalValue;
+		return value.length % 3 === 0 ? finalValue : value.substr(0, value.length - parts * 3) + ' ' + finalValue
+	}
 
 
 	if (jQuery('input.date').hasClass('prev')) {
-			jQuery('input.date').datepicker({
-				maxDate: '+1d',
-				dateFormat: "dd.mm.yy",
-				hightlight: {
-					format: "dd.mm.yy",
-					holidays: holiDays,
-					settings: {}
-				}
-			});
-		} else {
-			jQuery('input.date').datepicker({
-				minDate: '+1d',
-				maxDate: '+1y',
-				defaultDate: '+14d',
-				dateFormat: "dd.mm.yy",
-				hightlight: {
-					format: "dd.mm.yy",
-					//holidays: holiDays,
-					settings: {}
-				}
-			});
-		}
-
-//	jQuery.extend(jQuery.ech.multiselect.prototype.options, {
-//			checkAllText: 'Отметить все',
-//			uncheckAllText: 'Снять отметку со всех',
-//			noneSelectedText: 'Выберите из списка',
-//			selectedText: 'Выбрано #'
-//		});
-//		jQuery.extend(jQuery.ech.multiselectfilter.prototype.options, {
-//			label: "",
-//			placeholder: "Название отеля на английском"
-//		});
-//// Multiselect with filter
-//		jQuery('select.hotel.multiselect').multiselect({
-//			noneSelectedText: 'Все отели',
-//			selectedText: 'ВыбранjQuery # отел~',
-//			classes: 'hotelsMultiselect'
-//		}).multiselectfilter();
-//		jQuery.extend(jQuery.ech.multiselectorig.prototype.options, {
-//			checkAllText: 'Выбрать все',
-//			uncheckAllText: 'Отменить все',
-//			noneSelectedText: 'Выберите из списка',
-//			selectedText: 'Выбрано #'
-//		});
-// Multiselect with filter
-//		jQuery('select[name="toCity"]').multiselectorig({
-//			noneSelectedText: 'Все курорты',
-//			selectedText: 'ВыбранjQuery # курорт~',
-//			classes: 'resortMultiselect'
-//		});
-		jQuery('.dateDurationContainer .duration').on('change', function () {
-			changeDuration(jQuery(this));
-		});
-		jQuery('.btn-send-request').on('click', function () {
-			_gaq.push(['_trackEvent', 'Leadform_Bottom', 'Submit']);
-			contactForm.submit();
-			return false;
-		});
-		jQuery('.price-range').slider({
-			range: true,
-			min: 10000,
-			max: 300000,
-			values: [ jQuery(".price-range-from").val(), jQuery(".price-range-to").val() ],
-			step: 1000,
-			slide: function (e, ui) {
-				jQuery('.price-range-from').val(ui.values[0]);
-				jQuery('.price-range-to').val(ui.values[1]);
+		jQuery('input.date').datepicker({
+			maxDate: '+1d',
+			dateFormat: "dd.mm.yy",
+			hightlight: {
+				format: "dd.mm.yy",
+				holidays: holiDays,
+				settings: {}
 			}
 		});
-		jQuery('.price-range-from,.price-range-to').on('change', function () {
-			jQuery('.price-range').slider("values", [ isNaN(parseInt(jQuery(".price-range-from").val(), 10)) ? 10000 : parseInt(jQuery(".price-range-from").val(), 10),
-				isNaN(parseInt(jQuery(".price-range-to").val(), 10)) || parseInt(jQuery(".price-range-to").val(), 10) > 300000 ? 300000 : parseInt(jQuery(".price-range-to").val(), 10) ]);
+	} else {
+		jQuery('input.date').datepicker({
+			minDate: '+1d',
+			maxDate: '+1y',
+			defaultDate: '+14d',
+			dateFormat: "dd.mm.yy",
+			hightlight: {
+				format: "dd.mm.yy",
+				//holidays: holiDays,
+				settings: {}
+			}
 		});
-	if(jQuery("select").length) {
-		jQuery('select').selectmenu();
+	}
+	jQuery('select.hotel.multiselect').multiselect({
+		noneSelectedText: 'Все отели',
+		selectedText: 'Выбрано # отеля',
+		checkAllText: 'Выбрать все',
+		uncheckAllText: ' Отменить все',
+		noneSelectedText: 'Выберите из списка'
+	}).multiselectfilter({
+			label:"",
+			placeholder: "Название отеля на английском"
+		});
+	jQuery('select[name="toCity"]').multiselect({
+		noneSelectedText: 'Все курорты',
+		selectedText: 'Выбрано # курорта',
+		checkAllText: 'Выбрать все',
+		uncheckAllText: 'Отменить все',
+		noneSelectedText: 'Выберите из списка'
+	});
+//	jQuery.extend($.ech.multiselect.prototype.options, {
+//		checkAllText: 'Отметить все',
+//		uncheckAllText: 'Снять отметку со всех',
+//		noneSelectedText: 'Выберите из списка',
+//		selectedText: 'Выбрано #'
+//	});
+//	jQuery.extend($.ech.multiselectfilter.prototype.options, {
+//		label: "",
+//		placeholder: "Название отеля на английском"
+//	});
+// Multiselect with filter
+//	jQuery('select.hotel.multiselect').multiselect({
+//		noneSelectedText: 'Все отели',
+//		selectedText: 'Выбран$ # отел~',
+//		classes: 'hotelsMultiselect'
+//	}).multiselectfilter();
+//	jQuery.extend($.ech.multiselectorig.prototype.options, {
+//		checkAllText: 'Выбрать все',
+//		uncheckAllText: 'Отменить все',
+//		noneSelectedText: 'Выберите из списка',
+//		selectedText: 'Выбрано #'
+//	});
+// Multiselect with filter
+//	jQuery('select[name="toCity"]').multiselectorig({
+//		noneSelectedText: 'Все курорты',
+//		selectedText: 'Выбран$ # курорт~',
+//		classes: 'resortMultiselect'
+//	});
+
+	jQuery('.price-range').slider({
+		range: true,
+		min: 10000,
+		max: 300000,
+		values: [ jQuery(".price-range-from").val(), jQuery(".price-range-to").val() ],
+		step: 1000,
+		slide: function (e, ui) {
+			jQuery('.price-range-from').val(ui.values[0]);
+			jQuery('.price-range-to').val(ui.values[1]);
+		}
+	});
+	jQuery('.price-range-from,.price-range-to').on('change', function () {
+		jQuery('.price-range').slider("values", [ isNaN(parseInt(jQuery(".price-range-from").val(), 10)) ? 10000 : parseInt(jQuery(".price-range-from").val(), 10),
+			isNaN(parseInt(jQuery(".price-range-to").val(), 10)) || parseInt(jQuery(".price-range-to").val(), 10) > 300000 ? 300000 : parseInt(jQuery(".price-range-to").val(), 10) ]);
+	});
+	if(jQuery(".select").length) {
+		jQuery('.select').selectmenu();
 	}
 	if(jQuery("select.multi").length){
 		//jQuery("select.multi").multiselect();
 	}
 	jQuery(".side-additional-options").on('click', function(ev){
 		ev.preventDefault();
-		jQuery(".additional_options").toggleSlide();
+		jQuery(".additional_options").slideToggle();
 	})
 
 	jQuery('#initiateAuth').on('click', function () {

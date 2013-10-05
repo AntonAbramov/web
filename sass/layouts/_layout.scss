@@ -1,4 +1,3 @@
-
 html, body {
 	min-height: 100%;
 }
@@ -83,12 +82,8 @@ html, body {
 	float: left;
 	width: 290px;
 	margin-left: -290px;
-}
-.right-side-bar {
-	position: absolute;
-	top:10px;
-	left:960px;
-	width:300px;
+	position: relative;
+	z-index: 2;
 }
 #sv-footer {
 	width:960px;

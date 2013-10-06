@@ -4,8 +4,26 @@
 
   $ = jQuery;
 
-  $(document).ready(function() {});
+  $(document).ready(function() {
+    if ($(".tabs").length) {
+      $(".tabs-header").find("a").on('click', function(event) {
+        var idx, that;
+        event.preventDefault();
+        that = $(this);
+        if (!(that.hasClass('active'))) {
+          idx = that.index() - 1;
+          $(".tabs-header").find("a").removeClass("active");
+          that.addClass("active");
+          return $(".tabs-content").find(".tab").hide().eq(idx).show();
+        }
+      });
+    }
+  });
 
-  jQuery(window).load(function() {});
+  jQuery(window).load(function() {
+    if ($(".tabs").length) {
+      $(".tabs-header").find("a").first().click();
+    }
+  });
 
 }).call(this);

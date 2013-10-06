@@ -1,0 +1,43 @@
+.nav {
+	background: #3b86bc; /* Old browsers */
+	background: -moz-linear-gradient(top,  #3b86bc 0%, #295e9f 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3b86bc), color-stop(100%,#295e9f)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #3b86bc 0%,#295e9f 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #3b86bc 0%,#295e9f 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #3b86bc 0%,#295e9f 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #3b86bc 0%,#295e9f 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b86bc', endColorstr='#295e9f',GradientType=0 ); /* IE6-9 */
+	height:45px;
+	margin:0 0 20px;
+	.inn {
+		width:960px;
+		margin:0 auto;
+		text-align:center;
+		&.bot {
+			text-align:left;
+		}
+	}
+	a {
+		font-size:14px;
+		color:#fff;
+		text-decoration: none;
+		height:45px;
+		display:inline-block;
+		line-height:43px;
+		margin:0 15px;
+		&:hover {
+			border-bottom:4px solid #fff;
+		}
+		&.active {
+			border-bottom:4px solid #fff;
+			cursor: default;
+		}
+	}
+	.footer-logo {
+		float:left;
+		margin-top:7px;
+		&:hover {
+			border:none;
+		}
+	}
+}

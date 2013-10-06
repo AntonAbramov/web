@@ -1,37 +1,53 @@
 .btn {
 	display:inline-block;
 	text-decoration: none;
+	border-radius:4px;
 	&.small {
-		line-height:28px;
+		line-height:30px;
 		height:30px;
 		padding:0 10px;
-		font-size:14px;
+		font-size:13px;
 	}
 	&.medium {
 		height:35px;
-		line-height:33px;
+		line-height:35px;
 		font-size:14px;
 		padding:0 15px;
 	}
 	&.large {
 		height:48px;
-		line-height:46px;
+		line-height:48px;
 		font-size:18px;
 		padding:0 20px;
 	}
 	&.orange {
-		background:#ff5400;
-		border:1px solid #c84200;
+		background: #dea41c; /* Old browsers */
+		background: -moz-linear-gradient(top,  #dea41c 0%, #cc7312 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dea41c), color-stop(100%,#cc7312)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #dea41c 0%,#cc7312 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #dea41c 0%,#cc7312 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #dea41c 0%,#cc7312 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  #dea41c 0%,#cc7312 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dea41c', endColorstr='#cc7312',GradientType=0 ); /* IE6-9 */
 		color:#fff;
+		&:hover {
+			background: #cc7312; /* Old browsers */
+			background: -moz-linear-gradient(top,  #cc7312 0%, #dea41c 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cc7312), color-stop(100%,#dea41c)); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top,  #cc7312 0%,#dea41c 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top,  #cc7312 0%,#dea41c 100%); /* Opera 11.10+ */
+			background: -ms-linear-gradient(top,  #cc7312 0%,#dea41c 100%); /* IE10+ */
+			background: linear-gradient(to bottom,  #cc7312 0%,#dea41c 100%); /* W3C */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc7312', endColorstr='#dea41c',GradientType=0 ); /* IE6-9 */
+
+		}
 	}
 	&.blue {
 		background:#44a4d5;
-		border:1px solid #2a85b4;
 		color:#fff;
 	}
 	&.gray {
 		background:#aeb2b4;
-		border:1px solid #aeb2b4;
 		color:#fff;
 	}
 }

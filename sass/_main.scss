@@ -1,0 +1,52 @@
+.cloud-tags {
+	margin:0 0 10px;
+	a {
+		display:inline-block;
+		margin-right:2px;
+	}
+}
+.post {
+	margin:0 0 30px;
+	.picture {
+		position: relative;
+		margin:0 0 15px;
+		img {
+			display:block;
+			max-width: 100%;
+		}
+		.title {
+			position:absolute;
+			bottom:20px;
+			left:-31px;
+			padding:10px 20px 10px 33px;
+			color:#fff;
+			text-decoration: none;
+			background: #333333;
+			font-size:14px;
+			&:hover {
+				text-decoration: underline;
+			}
+			&:after {
+				content:"";
+				left:0;
+				top:-11px;
+				width:11px;
+				height:11px;
+				background: url(../img/tpl/corner.png) no-repeat;
+				position: absolute;
+			}
+		}
+	}
+	.post-links {
+		box-shadow:0 0 0 1px #eaeaea inset;
+		border-radius:5px;
+		padding:0 30px;
+		background: url(../img/tpl/paragraph.png) no-repeat 12px 7px;
+		height:30px;
+		line-height:30px;
+		.btn {
+			margin-right:-30px;
+			float:right;
+		}
+	}
+}

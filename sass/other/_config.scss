@@ -4,14 +4,14 @@
 // fonts 'helvetica-bold', 'helvetica-medium', 'helvetica-thin', 'helvetica-light'
 //@import "icons/*.png";
 //@include all-icons-sprites(true);
-$font-size: 12px;
+$font-size: 13px;
 $line-height: 18px;
 /* 18px */
-$bg: #f7f7f7;
-$text-color: #7f7f7f;
+$bg: #e2e6e9 url(../img/tpl/bg-top.jpg) no-repeat 50% 0;
+$text-color: #7a7a7a;
 $font-family: Arial, Helvetica, sans-serif;
-$color-link: #0d75b0;
-$color-link-hover: #de4900;
+$color-link: #306dab;
+$color-link-hover: #306dab;
 $page-width: 960;
 
 @mixin transition($prp: all, $time: .3s) {
